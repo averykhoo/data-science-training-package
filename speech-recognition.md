@@ -2,10 +2,10 @@
 The Edinburgh ASR lecture slides and Kaldi practical are to be done concurrently.
 
 ##  Outline
-| S/N | Domain         | Estimated Duration |
-| --- | -------------- | ------------------ |
-| 1   | Lecture slides | 2 weeks            |
-| 2   | Kaldi          | 2 weeks            |
+| S/N | Domain             | Estimated Duration |
+| --- | ------------------ | ------------------ |
+| 1   | ASR lecture slides | 2 weeks            |
+| 2   | Kaldi              | 2 weeks            |
 
 
 ##  Edinburgh ASR lecture slides (PDF)
