@@ -20,7 +20,7 @@ To train up new PTR officers to bare minimum competency level
 
 
 ##  (Bonus) Interesting Reads
-For officers to take a break from lectures😊
+For officers to take a break from lectures ☺ 😊
 *    [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
 *    [The Codeless Code](http://www.thecodelesscode.com/contents)
 *    [Some AI Koans](http://catb.org/jargon/html/koans.html)
@@ -33,7 +33,7 @@ For officers to take a break from lectures😊
 *   [DS Training Package](https://gist.github.com/shanesoh/6ec2a65187638b32448be82222a754ce)
 
 
-## To-do
+## To Do List
 *   split up the syllabus and the curriculum for this package:
     *   the syllabus notes down things that need to be learned and outcomes that should be achieved
     *   the curriculum collates and orders the material needed to cover the syllabus
