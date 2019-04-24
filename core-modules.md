@@ -31,8 +31,8 @@
 
 ### Basic Python
 *   https://developers.google.com/edu/python/
-    -   this is a python 2 tutorial, but close enough
-    -   officer to learn how to use stack overflow to solve compatibility issues
+    *   this is a python 2 tutorial, but close enough
+    *   learn to use stack overflow to solve compatibility issues
 *   https://realpython.com/python-pathlib/
 
 

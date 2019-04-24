@@ -48,7 +48,7 @@
 *   https://www.coursera.org/learn/machine-learning
 
 
-### Deep learning appreciation (optional, videos 1 and 2)
+### Deep learning appreciation (optional; videos 1 and 2)
 *   https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
 
 
@@ -74,12 +74,11 @@
 
 ### ML = Representation + Evaluation + Optimization (section 2)
 *   [A Few Useful Things to Know about Machine Learning](cacm12.pdf)
-
-**see also this image**
-![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
+*   see also this image:
+    ![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
     *   Symbolists = knowledge-based systems
     *   Connectionists = neural nets
-    *   Evolutionaries = genetic algorithms (not as relevant to data science)
+    *   Evolutionaries = genetic algorithms *(not as relevant to data science)*
     *   Bayesians = bayes nets / expert systems
     *   Analogizers = support vector machines
 
@@ -97,11 +96,11 @@
 *   https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
 
 
-### Choosing the right estimator (for information)
+### Choosing the right estimator *(just for info)*
 *   https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 
 
-### Available Toolkits (for information)
+### Available Toolkits *(just for info)*
 *   Common tools
     *   scikit-learn
     *   XGBoost

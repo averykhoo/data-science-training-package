@@ -12,8 +12,8 @@
 ##  1: Lectures
 
 ### Coursera/Stanford Natural Language Processing
-*   https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html
-*   https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm
+*   [Slides (PPT/PDF)](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
+*   [Videos (YouTube)](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm)
     *   Introduction (1.1)
     *   Basic Text Processing (2.1 to 2.5)
     *   Minimum Edit Distance (3.1 to 3.3)
@@ -28,10 +28,7 @@
     *   Semantics (20.1 to 20.5)
     *   Question Answering (21.1 to 21.3)
     *   Summarization (22.1)
-
-
-### Backup slides and videos
-*   https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0
+*   [Backup slides and videos](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
 
 
 ### Word vectors (TODO)
