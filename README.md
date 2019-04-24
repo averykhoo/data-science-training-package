@@ -7,14 +7,14 @@ To train up new PTR officers to bare minimum competency level
 *   Some programming background
 *   Ability and willingness to learn independently with limited guidance
 *   [Anaconda Python 3](https://www.anaconda.com/distribution/#download-section)
-*   [Jupyter Notebook Extensions (for information)](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/)
+*   [Jupyter Notebook Extensions *(optional)*](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/)
 
 
 ##  Contents
 1.  [Core Modules](core-modules.md)
-2.  [ML](machine-learning.md)
-3.  [NLP](natural-language-processing.md)
-4.  [Speech](speech.md)
+2.  [Machine Learning](machine-learning.md)
+3.  [Natural Language Processing](natural-language-processing.md)
+4.  [Speech Recognition](speech-recognition.md)
 
 
 ##  Interesting Reads
@@ -28,3 +28,4 @@ For officers to take a break from lectures 🙂
 *   https://www.dropbox.com/s/cqa6g2rrk5at6as/Trainingpackage.docx?dl=0
 *   https://www.dropbox.com/sh/id3pp9wjhasz5rx/AACzS2mVfKeuQbpWTi-TiUNIa?dl=0
 *   https://paper.dropbox.com/doc/TRAINING-PACKAGE-PROPOSED--Ab26FnQEP2M97go1v6fVlYILAg-QhAnR1gVC6rjrvFLbaD6E
+*   https://gist.github.com/shanesoh/6ec2a65187638b32448be82222a754ce
