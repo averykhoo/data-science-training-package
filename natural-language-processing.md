@@ -37,9 +37,9 @@
 ##  Tutorials
 
 ### NLTK tutorial (other guides or toolkits are acceptable, so long it covers the following 5 topics)
-*   [Stemmers & Lemmatization](https://www.nltk.org/book/ch03.html) (section 3.6)
-*   [Tokenizing & Segmentation](https://www.nltk.org/book/ch03.html) (sections 3.7 and 3.8)
-*   [POS Tagging](https://www.nltk.org/book/ch05.html) (sections 1 and 2)
+*   [Stemmers & Lemmatization (section 3.6)](https://www.nltk.org/book/ch03.html#sec-normalizing-text)
+*   [Tokenizing & Segmentation (sections 3.7 and 3.8)](https://www.nltk.org/book/ch03.html#sec-tokenization)
+*   [POS Tagging (sections 1 and 2)](https://www.nltk.org/book/ch05.html)
 
 ### scikit-learn tutorial
 *   [Working With Text Data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
