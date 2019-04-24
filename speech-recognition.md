@@ -1,4 +1,4 @@
-#   ASR Modules [1 month]
+#   ASR Modules (1 month)
 The Edinburgh ASR lecture slides and Kaldi practical are to be done concurrently.
 
 ##  Outline
@@ -8,7 +8,7 @@ The Edinburgh ASR lecture slides and Kaldi practical are to be done concurrently
 | 2   | Kaldi          | 2 weeks            |
 
 
-##  1. Edinburgh ASR lecture slides (PDF)
+##  Edinburgh ASR lecture slides (PDF)
 *   [Introduction](asr01-intro.pdf)
 *   [Speech Signal Analysis](asr02-signal-handout.pdf)
 *   [HMM & GMM](asr03-hmmgmm-handout.pdf)
@@ -20,8 +20,8 @@ The Edinburgh ASR lecture slides and Kaldi practical are to be done concurrently
 *   [Decoding, Alignment, and WFSTs](asr10-wfst.pdf)
 
 
-## 2. Kaldi
-This section is a hands-on practical that requires officers to build their own ASR model using Kaldi.
+##  Kaldi
+This section is a hands-on practical that requires officers to build their own ASR model using Kaldi, an open-source speech recognition toolkit.
 
 ### Kaldi tutorials
 *   [Kaldi for Dummies](http://kaldi-asr.org/doc/kaldi_for_dummies.html)
