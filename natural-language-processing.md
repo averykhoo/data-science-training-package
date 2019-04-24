@@ -37,12 +37,12 @@
 ##  Tutorials
 
 ### NLTK tutorial (other guides or toolkits are acceptable, so long it covers the following 5 topics)
-*   [stemming & lemmatization](https://www.nltk.org/book/ch03.html) (section 3.6)
-*   [tokenizing & segmentation](https://www.nltk.org/book/ch03.html) (sections 3.7 and 3.8)
-*   [pos tagging](https://www.nltk.org/book/ch05.html) (sections 1 and 2)
+*   [Stemmers & Lemmatization](https://www.nltk.org/book/ch03.html) (section 3.6)
+*   [Tokenizing & Segmentation](https://www.nltk.org/book/ch03.html) (sections 3.7 and 3.8)
+*   [POS Tagging](https://www.nltk.org/book/ch05.html) (sections 1 and 2)
 
 ### scikit-learn tutorial
-*   [Working with Text Data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
+*   [Working With Text Data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
 
 ### fastText tutorial and documentation
 *   https://pypi.org/project/fasttext/
