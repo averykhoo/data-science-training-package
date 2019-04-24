@@ -21,11 +21,11 @@ The Edinburgh ASR lecture slides and Kaldi practical are to be done concurrently
 
 
 ##  Kaldi
-This section is a hands-on practical that requires officers to build their own ASR model using Kaldi, an open-source speech recognition toolkit.
+This section is a hands-on practical that requires officers to build their own ASR model using Kaldi.
 
 ### Kaldi tutorials
-*   [Kaldi for Dummies](http://kaldi-asr.org/doc/kaldi_for_dummies.html)
+*   [Kaldi: Kaldi for Dummies tutorial](http://kaldi-asr.org/doc/kaldi_for_dummies.html)
 *   [Kaldi Tutorial by Eleanor Chodroff](https://eleanorchodroff.com/tutorial/kaldi/index.html)
 
 ### Kaldi documentation
-*   [Data preparation](http://kaldi-asr.org/doc/data_prep.html)
+*   [Kaldi: Data preparation](http://kaldi-asr.org/doc/data_prep.html)
