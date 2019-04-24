@@ -31,7 +31,7 @@
 *   [Backup slides and videos](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
 
 
-### Word vectors (TODO)
+### Word vectors
 *   skipgram, cbow
 *   sub-words (fasttext)
 

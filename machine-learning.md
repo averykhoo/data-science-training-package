@@ -48,10 +48,6 @@
 *   https://www.coursera.org/learn/machine-learning
 
 
-### Deep learning appreciation (optional; videos 1 and 2)
-*   https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
-
-
 ### Overview
 *   https://vas3k.com/blog/machine_learning/
 *   http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
@@ -112,9 +108,10 @@
     *   H2O
 
 
-### Deep Learning (TODO)
-*   someday we’ll add something using a GPU
-*   probably use MNIST or build word vectors with a small dataset
+### Deep learning appreciation (optional; videos 1 and 2)
+*   https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
+*   someday we’ll add real deep learning with a GPU
+    *   probably use MNIST or build word vectors with a small dataset
 
 
 
