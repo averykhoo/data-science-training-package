@@ -1,5 +1,4 @@
-
-
+# Machine Learning
 | S/N | Domain                      | Estimated Duration |
 | --- | --------------------------- | ------------------ |
 | 1   | Machine Learning (Beginner) | 1 week             |
@@ -7,10 +6,7 @@
 | 3   | Machine Learning (Advanced) | 3 weeks            |
 | 4   | Assessment                  | 2 weeks            |
 
-
-#   Intro to ML (1 week)
-
-##  Readings and Lectures
+##  Intro to ML (1 week)
 
 ### Overview
 *   http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
@@ -19,26 +15,22 @@
 ### ML algorithms (videos 1 to 6)
 *   https://www.youtube.com/playlist?list=PLEiEAq2VkUULNa6MHQAZSOBxzB6HHFXj4
 
-
-##  Tutorials
 ### Data exploration and visualisation (topics 1 and 2)
 *   https://mlcourse.ai/
 
 
+##  Practical (1 week)
 
-#   Practical (1 week)
-
-##  Kaggle Titanic
+### Kaggle Titanic
 *   https://www.kaggle.com/c/titanic
 
-##  Tips, tools, and guided explanation (PDF below)
+### Tips, tools, and guided explanation (PDF below)
 *   https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html
 *   [backup pdf](ahmedbesbes-titanic.pdf)
 
 
-#   Machine Learning (3 weeks)
+##  Machine Learning (3 weeks)
 
-##  Lectures and Quizzes
 ### IBM Machine Learning with Python (weeks 1 to 5)
 *   https://www.coursera.org/learn/machine-learning-with-python
 
@@ -48,7 +40,6 @@
 ### Deep learning appreciation (optional, videos 1 and 2)
 *   https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
 
-##  Readings
 ### Overview
 *   https://vas3k.com/blog/machine_learning/
 *   http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
@@ -82,7 +73,6 @@
 *   http://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/
 *   http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/
 
-##  Tutorials
 ### Introduction to ML with scikit-learn
 *   https://scikit-learn.org/stable/tutorial/basic/tutorial.html
 
@@ -110,5 +100,5 @@
 *   probably use MNIST or build word vectors with a small dataset
 
 
-#   Practical (2 weeks)
+##  Assessment (2 weeks)
 *   Officer to improve on the Kaggle Titanic codes given in the guided explanation

@@ -1,10 +1,9 @@
+#   Foundation Modules
 | S/N | Domain                      | Estimated Duration |
 | --- | --------------------------- | ------------------ |
 | 1   | Math                        | 1 week             |
 | 2   | Programming                 | 1 week             |
 
-
-#   Foundation (1 week)
 
 ##  Mathematics
 
