@@ -67,5 +67,5 @@
 *   http://blog.kaggle.com/2016/08/31/avito-duplicate-ads-detection-winners-interview-2nd-place-team-the-quants-mikel-peter-marios-sonny/
 
 
-### Vaex: Out-of-Core Dataframes for Python and Fast Visualisation *(alternative to Pandas if it is too slow)*
+### Vaex: Out-of-Core Dataframes for Python *(alternative to Pandas if it's too slow)*
 *   https://github.com/vaexio/vaex
