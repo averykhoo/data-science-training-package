@@ -62,14 +62,7 @@ Decoding, Alignment, and WFSTs: https://www.dropbox.com/s/94qbirqwkihwyc6/asr10-
 
 # Interesting Reads
 
-For officers to take a break from lectures 🙂 
-
+For officers to take a break from lectures :) <br>
 - The Tao of Programming: http://www.mit.edu/~xela/tao.html
 - The Codeless Code: http://www.thecodelesscode.com/contents
 - Some AI Koans: http://catb.org/jargon/html/koans.html
-# Original Training Packages
-https://www.dropbox.com/s/cqa6g2rrk5at6as/Trainingpackage.docx?dl=0
-
-
-https://www.dropbox.com/sh/id3pp9wjhasz5rx/AACzS2mVfKeuQbpWTi-TiUNIa?dl=0
-
