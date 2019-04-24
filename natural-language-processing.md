@@ -1,15 +1,18 @@
-# NLP Modules
+#   NLP Modules
 
-| S/N | Domain                      | Estimated Duration |
-| --- | --------------------------- | ------------------ |
-| 1   | Natural Language Processing | 2 weeks            |
-| 2   | Assessment                  | 2 weeks            |
+##  0: Contents
+| S/N | Domain     | Estimated Duration |
+| --- | ---------- | ------------------ |
+| 1   | Lectures   | 1 week             |
+| 2   | Tutorials  | 1 week             |
+| 3   | Assessment | 2 weeks            |
 
 
 
-##  Lectures
+##  1: Lectures
+
 ### Coursera/Stanford Natural Language Processing
-*   https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html 
+*   https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html
 *   https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm
     *   Introduction (1.1)
     *   Basic Text Processing (2.1 to 2.5)
@@ -25,43 +28,48 @@
     *   Semantics (20.1 to 20.5)
     *   Question Answering (21.1 to 21.3)
     *   Summarization (22.1)
- 
+
+
 ### Backup slides and videos
 *   https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0
- 
-### Word vectors
- 
+
+
+### Word vectors (TODO)
 *   skipgram, cbow
 *   sub-words (fasttext)
-*   
- 
-##  Tutorials
- NLTK tutorial (other guides or toolkits are acceptable, so long it covers the following 5 topics)
- 
-*   stemmers & lemmatization: https://www.nltk.org/book/ch03.html (section 3.6)
+
+
+##  2: Tutorials
+
+### NLTK tutorial (other guides or toolkits are acceptable, so long it covers the following 5 topics)
+*   stemming & lemmatization: https://www.nltk.org/book/ch03.html (section 3.6)
 *   tokenizing & segmentation: https://www.nltk.org/book/ch03.html (sections 3.7 and 3.8)
 *   pos tagging: https://www.nltk.org/book/ch05.html (sections 1 and 2)
- 
+
+
 ### scikit-learn tutorial for text data
 *   https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
- 
+
+
 ### fastText tutorial and documentation
 *   https://pypi.org/project/fasttext/
- 
+
+
 ### gensim tutorial and documentation
-*   https://radimrehurek.com/gensim/tutorial.html |
+*   https://radimrehurek.com/gensim/tutorial.html
+
+
+
+##  3: Assessment
+
 ### Kaggle Avito
 *   https://www.kaggle.com/c/avito-duplicate-ads-detection
- 
+
+
 ### Recommended features and models
 *   http://blog.kaggle.com/2016/08/31/avito-duplicate-ads-detection-winners-interview-2nd-place-team-the-quants-mikel-peter-marios-sonny/
- 
+
+
 ### Vaex: Out-of-Core Dataframes for Python and Fast Visualisation
 *   https://github.com/vaexio/vaex
- 
-*   alternative to Pandas if it is too slow                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-
-
-
-
-
+*   alternative to Pandas if it is too slow
