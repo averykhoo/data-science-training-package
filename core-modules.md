@@ -27,7 +27,7 @@
 *   https://www.markdowntutorial.com/
 
 ### Basic Python tutorials
-*   [Google's Python Class](https://developers.google.com/edu/python/) *(this is a Python 2 tutorial, but close enough)
+*   [Google's Python Class](https://developers.google.com/edu/python/) *(this is a Python 2 tutorial, but close enough)*
     *   learn to use stack overflow to solve compatibility issues
 *   [Python 3's pathlib Module](https://realpython.com/python-pathlib/)
 
