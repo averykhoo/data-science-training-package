@@ -1,6 +1,6 @@
-#   NLP Modules
+#   NLP Modules (1 month)
 
-##  0: Contents
+##  Outline
 | S/N | Domain     | Estimated Duration |
 | --- | ---------- | ------------------ |
 | 1   | Lectures   | 1 week             |
@@ -8,12 +8,11 @@
 | 3   | Assessment | 2 weeks            |
 
 
-
-##  1: Lectures
+##  Lectures
 
 ### Coursera/Stanford Natural Language Processing
-*   [Slides (PPT/PDF)](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
-*   [Videos (YouTube)](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm)
+*   [Lecture slides (PPT/PDF)](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
+*   [Lecture videos (YouTube)](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm)
     *   Introduction (1.1)
     *   Basic Text Processing (2.1 to 2.5)
     *   Minimum Edit Distance (3.1 to 3.3)
@@ -31,7 +30,7 @@
 *   [Backup slides and videos](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
 
 
-### Word vectors
+### Word vectors [waiting to get resources from Ivan]
 *   skipgram, cbow
 *   sub-words (fasttext)
 
