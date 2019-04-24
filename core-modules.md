@@ -3,7 +3,7 @@
 ##  Outline
 | S/N | Domain      | Estimated Duration |
 | --- | ----------- | ------------------ |
-| 1   | Math        | 1 week             |
+| 1   | Mathematics | 1 week             |
 | 2   | Programming | 1 week             |
 
 
@@ -27,8 +27,7 @@
 *   https://www.markdowntutorial.com/
 
 ### Basic Python tutorials
-*   [Google's Python Class](https://developers.google.com/edu/python/)
-    *   this is a Python 2 tutorial, but close enough
+*   [Google's Python Class](https://developers.google.com/edu/python/) *(this is a Python 2 tutorial, but close enough)
     *   learn to use stack overflow to solve compatibility issues
 *   [Python 3's pathlib Module](https://realpython.com/python-pathlib/)
 
