@@ -29,7 +29,7 @@
     *   Summarization (22.1)
 *   [Backup slides and videos *(in case the content gets removed)*](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
 
-### Word vectors [waiting to get resources from Ivan]
+### Word vectors
 *   skipgram, cbow
 *   sub-words (fasttext)
 
