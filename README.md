@@ -20,7 +20,7 @@ To train up new PTR officers to bare minimum competency level
 
 
 ##  (Bonus) Interesting Reads
-For officers to take a break from lectures 🙂
+For officers to take a break from lectures :)
 *    [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
 *    [The Codeless Code](http://www.thecodelesscode.com/contents)
 *    [Some AI Koans](http://catb.org/jargon/html/koans.html)
