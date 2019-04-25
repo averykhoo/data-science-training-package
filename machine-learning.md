@@ -37,7 +37,7 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 
 ### Tips, tools, and guided explanation
 *   [How to score 0.8134 in Titanic Kaggle Challenge](https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html)
-*   [Backup PDF for the above guided explanation (in case the page gets removed)](ahmedbesbes-titanic.pdf)
+*   [Backup PDF for the above guided explanation *(in case the page gets removed)*](ahmedbesbes-titanic.pdf)
 
 
 ##  Advanced ML
@@ -73,18 +73,10 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 *   [Machine Learning Meets Economics](http://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/)
 *   [Machine Learning Meets Economics, Part 2](http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/)
 
-
-### Introduction to ML with scikit-learn
-*   https://scikit-learn.org/stable/tutorial/basic/tutorial.html
-
-
-### Supervised learning with scikit-learn
-*   https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
-
-
-### Choosing the right estimator *(just for info)*
-*   https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
-
+### Tutorials
+*   [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+*   [Supervised learning: predicting an output variable from high-dimensional observations](https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html)
+*   [Choosing the right estimator *(just for info)*](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
 ### Available Toolkits *(just for info)*
 *   Common tools
@@ -97,13 +89,11 @@ This section is catered to officers without any ML knowledge. Officers with a ce
     *   libFM / fastFM
     *   H2O
 
-
-### Deep learning appreciation (optional; videos 1 and 2)
-*   https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
+### Deep Learning Appreciation *(optional)*
+*   [MIT Deep Learning (videos 1 and 2)](https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
 *   someday we’ll add real deep learning with a GPU
     *   probably use MNIST or build word vectors with a small dataset
 
 
-
-##  4: Assessment (2 weeks)
+##  4: Assessment
 *   Officer to improve on the Kaggle Titanic codes given in the guided explanation
