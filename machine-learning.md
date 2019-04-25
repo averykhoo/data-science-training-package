@@ -1,28 +1,32 @@
-#   Machine Learning
+#   Machine Learning Modules (2 months)
 
-##  0: Contents
+##  Outline
 | S/N | Domain      | Estimated Duration |
 | --- | ----------- | ------------------ |
 | 1   | Intro to ML | 1 week             |
 | 2   | Practical   | 1 week             |
-| 3   | Advanced ML | 3 weeks            |
+| 3   | Advanced ML | 4 weeks            |
 | 4   | Assessment  | 2 weeks            |
 
 
-
-##  1: Intro to ML (1 week)
+##  Intro to ML
+This section is catered to officers without any ML knowledge. Officers with a certain level of ML knowledge and experience can move straight to the Advanced ML section.
 
 ### Overview
-*   http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
-*   https://elitedatascience.com/primer
+*   [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+*   [Data Science Primer](https://elitedatascience.com/primer)
 
+### Lectures
+*   [Machine Learning Algorithms (videos 1 to 6)](https://www.youtube.com/playlist?list=PLEiEAq2VkUULNa6MHQAZSOBxzB6HHFXj4)
+    *   Linear regression
+    *   Logistic regression
+    *   Decision trees
+    *   Random forest
+    *   Naive Bayes classifier
+    *   Support vector machines
 
-### ML algorithms (videos 1 to 6)
-*   https://www.youtube.com/playlist?list=PLEiEAq2VkUULNa6MHQAZSOBxzB6HHFXj4
-
-
-### Data exploration and visualisation (topics 1 and 2)
-*   https://mlcourse.ai/
+### Tutorials
+*   [Data exploration and visualisation (topics 1 and 2)](https://mlcourse.ai/)
 
 
 
