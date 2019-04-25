@@ -10,7 +10,7 @@
 
 ##  Lectures
 
-### Coursera/Stanford Natural Language Processing
+### Stanford Natural Language Processing
 *   [Lecture slides (PPT/PDF)](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
 *   [Lecture videos (YouTube)](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm)
     *   Introduction (1.1)
