@@ -30,15 +30,14 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 *   [Visual data analysis in Python](https://nbviewer.jupyter.org/github/Yorko/mlcourse_open/blob/master/jupyter_english/topic02_visual_data_analysis/topic2_visual_data_analysis.ipynb?flush_cache=true)
 
 
-##  2: Practical (1 week)
+##  Practical
 
 ### Kaggle Titanic
 *   https://www.kaggle.com/c/titanic
 
-
-### Tips, tools, and guided explanation (PDF below)
-*   https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html
-*   [backup pdf](ahmedbesbes-titanic.pdf)
+### Tips, tools, and guided explanation
+*   [How to score 0.8134 in Titanic Kaggle Challenge](https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html)
+*   [Backup PDF for the above guided explanation](ahmedbesbes-titanic.pdf)
 
 
 
