@@ -10,20 +10,14 @@
 
 
 ##  Intro to ML
-This section is catered to officers without any ML knowledge. Officers with a certain level of ML knowledge and experience can move straight to the Advanced ML section.
+This section caters to officers without ML knowledge. Officers with a certain level of ML knowledge and experience can move straight to Advanced ML.
 
 ### Overview
 *   [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-*   [Data Science Primer](https://elitedatascience.com/primer)
+*   [Data Science Primer by EliteDataScience](https://elitedatascience.com/primer)
 
 ### Lectures
 *   [Machine Learning Algorithms (videos 1 to 6)](https://www.youtube.com/playlist?list=PLEiEAq2VkUULNa6MHQAZSOBxzB6HHFXj4)
-    *   Linear regression
-    *   Logistic regression
-    *   Decision trees
-    *   Random forest
-    *   Naive Bayes classifier
-    *   Support vector machines
 
 ### Tutorials
 *   [Exploratory data analysis with Pandas](https://nbviewer.jupyter.org/github/Yorko/mlcourse_open/blob/master/jupyter_english/topic01_pandas_data_analysis/topic1_pandas_data_analysis.ipynb?flush_cache=true)
@@ -31,14 +25,14 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 
 
 ##  Practical
-In this section, officers are to go through the Kaggle Titanic dataset and understand the codes given in the guided explanation below to get a sense of how to tackle prediction problems.
+This section requires officers to go through the Kaggle Titanic dataset and understand the codes in the guided explanation. 
 
 ### Kaggle Titanic
 *   https://www.kaggle.com/c/titanic
 
 ### Tips, tools, and guided explanation
-*   [How to score 0.8134 in Titanic Kaggle Challenge](https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html)
-*   [Backup PDF for the above guided explanation *(in case the page gets removed)*](ahmedbesbes-titanic.pdf)
+*   [How to score 0.8134 in Titanic Kaggle Challenge by Ahmed Besbes](https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html)
+*   You can find the backup PDF of the guided explanation [here](ahmedbesbes-titanic.pdf)
 
 
 ##  Advanced ML
@@ -51,7 +45,7 @@ In this section, officers are to go through the Kaggle Titanic dataset and under
 *   [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 *   [Model Tuning and the Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
 
-### Ensemble methods
+### Ensemble Methods
 *   [Kaggle Ensembling Guide](https://mlwave.com/kaggle-ensembling-guide/)
 *   [Bagging, boosting and stacking in machine learning](https://stats.stackexchange.com/questions/18891/bagging-boosting-and-stacking-in-machine-learning)
 
@@ -60,7 +54,7 @@ In this section, officers are to go through the Kaggle Titanic dataset and under
 *   [Gradient Boosting Interactive Playground](http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html)
 *   [Gradient Boosting explained [demonstration]](http://arogozhnikov.github.io/2016/06/24/gradient_boosting_explained.html)
 
-### Practical application issues
+### Practical Application Issues
 *   [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability)
 *   [A Few Useful Things to Know about Machine Learning (section 2)](cacm12.pdf) (see also the image below)
     *   Symbolists = knowledge-based systems
@@ -79,7 +73,7 @@ In this section, officers are to go through the Kaggle Titanic dataset and under
 *   [Supervised learning: predicting an output variable from high-dimensional observations](https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html)
 *   [Choosing the right estimator *(just for info)*](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
-### Available Toolkits *(just for info)*
+### Available Toolkits
 *   Common tools
     *   scikit-learn
     *   XGBoost
@@ -97,4 +91,4 @@ In this section, officers are to go through the Kaggle Titanic dataset and under
 
 
 ##  Assessment
-For the assessment, officers are required to either improve on the Kaggle Titanic codes given in the guided explanation or to write their own codes from scratch for Kaggle Titanic.
+This section is a hands-on assessment that requires officers to attempt the Kaggle Titanic prediction competition. Officers can either improve on the codes in the guided explanation, or write their own codes from scratch. Consequently, officers have to present their codes to the GL.
