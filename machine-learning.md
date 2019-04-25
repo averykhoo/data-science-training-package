@@ -26,8 +26,8 @@ This section is catered to officers without any ML knowledge. Officers with a ce
     *   Support vector machines
 
 ### Tutorials
-*   [Data exploration and visualisation (topics 1 and 2)](https://mlcourse.ai/)
-
+*   [Exploratory data analysis with Pandas](https://nbviewer.jupyter.org/github/Yorko/mlcourse_open/blob/master/jupyter_english/topic01_pandas_data_analysis/topic1_pandas_data_analysis.ipynb?flush_cache=true)
+*   [Visual data analysis in Python](https://nbviewer.jupyter.org/github/Yorko/mlcourse_open/blob/master/jupyter_english/topic02_visual_data_analysis/topic2_visual_data_analysis.ipynb?flush_cache=true)
 
 
 ##  2: Practical (1 week)
