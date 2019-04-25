@@ -42,11 +42,9 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 
 ##  Advanced ML
 
-### IBM Machine Learning with Python (weeks 1 to 5)
-*   https://www.coursera.org/learn/machine-learning-with-python
-
-### Stanford Machine Learning (weeks 3, 6, and 8)
-*   https://www.coursera.org/learn/machine-learning
+### Lectures
+*   [IBM Machine Learning with Python (weeks 1 to 5)](https://www.coursera.org/learn/machine-learning-with-python)
+*   [Stanford Machine Learning (weeks 3, 6, and 8)](https://www.coursera.org/learn/machine-learning)
 
 ### Overview
 *   [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
@@ -63,29 +61,17 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 
 ### Practical application issues
 *   [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability)
-*   [A Few Useful Things to Know about Machine Learning](cacm12.pdf) (see also the image below)
-    ![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
+*   [A Few Useful Things to Know about Machine Learning (section 2)](cacm12.pdf) (see also the image below)
     *   Symbolists = knowledge-based systems
     *   Connectionists = neural nets
     *   Evolutionaries = genetic algorithms *(not as relevant to data science)*
     *   Bayesians = bayes nets / expert systems
     *   Analogizers = support vector machines
-
-
-### ML = Representation + Evaluation + Optimization (section 2)
-*   [A Few Useful Things to Know about Machine Learning](cacm12.pdf)
-*   see also this image:
     ![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
-    *   Symbolists = knowledge-based systems
-    *   Connectionists = neural nets
-    *   Evolutionaries = genetic algorithms *(not as relevant to data science)*
-    *   Bayesians = bayes nets / expert systems
-    *   Analogizers = support vector machines
-
 
 ### Optimising thresholds
-*   http://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/
-*   http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/
+*   [Machine Learning Meets Economics](http://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/)
+*   [Machine Learning Meets Economics, Part 2](http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/)
 
 
 ### Introduction to ML with scikit-learn
