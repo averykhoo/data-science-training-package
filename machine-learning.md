@@ -37,38 +37,39 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 
 ### Tips, tools, and guided explanation
 *   [How to score 0.8134 in Titanic Kaggle Challenge](https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html)
-*   [Backup PDF for the above guided explanation](ahmedbesbes-titanic.pdf)
+*   [Backup PDF for the above guided explanation (in case the page gets removed)](ahmedbesbes-titanic.pdf)
 
 
-
-##  3: Advanced Machine Learning (3 weeks)
+##  Advanced ML
 
 ### IBM Machine Learning with Python (weeks 1 to 5)
 *   https://www.coursera.org/learn/machine-learning-with-python
 
-
 ### Stanford Machine Learning (weeks 3, 6, and 8)
 *   https://www.coursera.org/learn/machine-learning
 
-
 ### Overview
-*   https://vas3k.com/blog/machine_learning/
-*   http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
-
+*   [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+*   [Model Tuning and the Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
 
 ### Ensemble methods
-*   https://mlwave.com/kaggle-ensembling-guide/
-*   https://stats.stackexchange.com/questions/18891/bagging-boosting-and-stacking-in-machine-learning
-
+*   [Kaggle Ensembling Guide](https://mlwave.com/kaggle-ensembling-guide/)
+*   [Bagging, boosting and stacking in machine learning](https://stats.stackexchange.com/questions/18891/bagging-boosting-and-stacking-in-machine-learning)
 
 ### Boosting
-*   https://xgboost.readthedocs.io/en/latest/tutorials/model.html
-*   http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html
-*   http://arogozhnikov.github.io/2016/06/24/gradient_boosting_explained.html
+*   [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html)
+*   [Gradient Boosting Interactive Playground](http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html)
+*   [Gradient Boosting explained [demonstration]](http://arogozhnikov.github.io/2016/06/24/gradient_boosting_explained.html)
 
-
-### ML explainability
-*   https://www.kaggle.com/learn/machine-learning-explainability
+### Practical application issues
+*   [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability)
+*   [A Few Useful Things to Know about Machine Learning](cacm12.pdf) (see also the image below)
+    ![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
+    *   Symbolists = knowledge-based systems
+    *   Connectionists = neural nets
+    *   Evolutionaries = genetic algorithms *(not as relevant to data science)*
+    *   Bayesians = bayes nets / expert systems
+    *   Analogizers = support vector machines
 
 
 ### ML = Representation + Evaluation + Optimization (section 2)
