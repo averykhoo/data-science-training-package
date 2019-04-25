@@ -27,7 +27,7 @@ This section caters to officers without ML knowledge. Officers with a certain le
 ##  Practical
 This section requires officers to go through the Kaggle Titanic dataset and understand the codes in the guided explanation. 
 
-### Kaggle Titanic
+### Kaggle Titanic: Machine Learning from Disaster
 *   https://www.kaggle.com/c/titanic
 
 ### Tips, tools, and guided explanation
