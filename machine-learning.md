@@ -31,6 +31,7 @@ This section is catered to officers without any ML knowledge. Officers with a ce
 
 
 ##  Practical
+In this section, officers are to go through the Kaggle Titanic dataset and understand the codes given in the guided explanation below to get a sense of how to tackle prediction problems.
 
 ### Kaggle Titanic
 *   https://www.kaggle.com/c/titanic
@@ -95,5 +96,5 @@ This section is catered to officers without any ML knowledge. Officers with a ce
     *   probably use MNIST or build word vectors with a small dataset
 
 
-##  4: Assessment
-*   Officer to improve on the Kaggle Titanic codes given in the guided explanation
+##  Assessment
+For the assessment, officers are required to either improve on the Kaggle Titanic codes given in the guided explanation or to write their own codes from scratch for Kaggle Titanic.
