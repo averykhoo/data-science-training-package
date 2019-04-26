@@ -91,4 +91,4 @@ This section requires officers to go through the Kaggle Titanic dataset and unde
 
 
 ##  Assessment
-This section is a hands-on assessment that requires officers to attempt the Kaggle Titanic prediction competition. Officers can either improve on the codes in the guided explanation, or write their own codes from scratch. Consequently, officers have to present their codes to the GL.
+This section is a hands-on assessment that requires officers to attempt the Kaggle Titanic prediction competition. Officers can either improve on the codes in the guided explanation, or write their own codes from scratch using ML methods. Consequently, officers have to present their codes to the GL.
