@@ -62,7 +62,7 @@ This section requires officers to go through the Kaggle Titanic dataset and unde
     *   Evolutionaries = genetic algorithms *(not as relevant to data science)*
     *   Bayesians = bayes nets / expert systems
     *   Analogizers = support vector machines
-    ![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
+    ![Representation, Evaluation, and Optimization for 5 approaches to ML](Machine%20Learning/reo.png)
 
 ### Optimising thresholds
 *   [Machine Learning Meets Economics](http://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/)
