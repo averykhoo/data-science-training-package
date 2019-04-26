@@ -56,6 +56,7 @@ This section is a hands-on assessment that requires officers to attempt the Kagg
 
 ### Recommended features and models
 *   [Avito Duplicate Ads Detection, Winners' Interview: 2nd Place, Team TheQuants](http://blog.kaggle.com/2016/08/31/avito-duplicate-ads-detection-winners-interview-2nd-place-team-the-quants-mikel-peter-marios-sonny/)
+*   You can find the backup of the article [here](thequants-avito.pdf)
 
 
 ### Vaex *(alternative to Pandas if it's too slow)*
