@@ -16,7 +16,7 @@ To train up new PTR officers to bare minimum competency level
 | 1   | [Foundation](Foundation/README.md)                                        | 2 weeks            |
 | 2   | [Machine Learning](Machine%20Learning/README.md)                          | 2 months           |
 | 3   | [Natural Language Processing](Natural%20Language%20Processing/README.md)  | 1 month            |
-| 4   | [Automatic Speech Recognition](Automatic%20Speech%20RecognitionREADME.md) | 1 month            |
+| 4   | [Automatic Speech Recognition](Automatic%20Speech%20Recognition/README.md)| 1 month            |
 
 
 ##  (Bonus) Interesting Reads
