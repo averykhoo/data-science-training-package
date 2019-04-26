@@ -32,7 +32,7 @@ This section requires officers to go through the Kaggle Titanic dataset and unde
 
 ### Tips, tools, and guided explanation
 *   [How to score 0.8134 in Titanic Kaggle Challenge by Ahmed Besbes](https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html)
-*   You can find the backup PDF of the guided explanation [here](ahmedbesbes-titanic.pdf)
+*   You can find the backup of the guided explanation [here](ahmedbesbes-titanic.pdf)
 
 
 ##  Advanced ML
