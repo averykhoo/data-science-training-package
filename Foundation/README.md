@@ -25,7 +25,7 @@ The foundation modules cater to officers without the necessary mathematical know
 
 ### Basic Python
 *   [Google's Python Class (Python 2)](https://developers.google.com/edu/python/)
-    *   learn to use Stack Overflow to solve compatibility issues between Python 2 and Python 3
+    *   learn to use stack overflow to solve compatibility issues
 *   [Python 3's pathlib Module](https://realpython.com/python-pathlib/)
 
 ### Advanced Python *(optional)*
