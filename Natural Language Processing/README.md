@@ -33,12 +33,12 @@
 ##  Tutorials
 
 ### NLTK (other guides or toolkits that cover the following 5 topics are acceptable)
-*   [Stemmers & Lemmatization (section 3.6)](https://www.nltk.org/book/ch03.html#sec-normalizing-text)
-*   [Tokenizing & Segmentation (sections 3.7 and 3.8)](https://www.nltk.org/book/ch03.html#sec-tokenization)
+*   [Stemmers and Lemmatization (section 3.6)](https://www.nltk.org/book/ch03.html#sec-normalizing-text)
+*   [Tokenizing and Segmentation (sections 3.7 and 3.8)](https://www.nltk.org/book/ch03.html#sec-tokenization)
 *   [POS Tagging (sections 1 and 2)](https://www.nltk.org/book/ch05.html)
 
 ### scikit-learn
-*   [Working With Text Data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
+*   https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
 
 ### fastText
 *   https://pypi.org/project/fasttext/
@@ -56,7 +56,7 @@ This section is a hands-on assessment that requires officers to attempt the Kagg
 
 ### Recommended features and models
 *   [Avito Duplicate Ads Detection, Winners' Interview: 2nd Place, Team TheQuants](http://blog.kaggle.com/2016/08/31/avito-duplicate-ads-detection-winners-interview-2nd-place-team-the-quants-mikel-peter-marios-sonny/)
-*   You can find the backup of the article [here](thequants-avito.pdf)
+*   You can find the backup to the article [here](thequants-avito.pdf)
 
 
 ### Vaex *(alternative to Pandas if it's too slow)*
