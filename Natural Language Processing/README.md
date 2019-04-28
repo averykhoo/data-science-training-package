@@ -27,7 +27,7 @@
     *   Semantics (20.1 to 20.5)
     *   Question Answering (21.1 to 21.3)
     *   Summarization (22.1)
-*   You can find the backup of the slides and videos [here](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
+*   You can find the backup to the slides and videos [here](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
 
 
 ##  Tutorials
