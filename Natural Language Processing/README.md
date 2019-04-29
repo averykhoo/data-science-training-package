@@ -10,9 +10,9 @@
 
 ##  Lectures
 
-### Stanford Natural Language Processing
-*   [Lecture slides (PPT/PDF)](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
-*   [Lecture videos (YouTube)](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm)
+### Natural Language Processing
+*   [Stanford Natural Language Processing Slides](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
+*   [Stanford Natural Language Processing Lectures (YouTube)](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm)
     *   Introduction (1.1)
     *   Basic Text Processing (2.1 to 2.5)
     *   Minimum Edit Distance (3.1 to 3.3)
@@ -29,22 +29,24 @@
     *   Summarization (22.1)
 *   You can find the backup to the slides and videos [here](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
 
+### Word Embeddings
+*   [deeplearning.ai Sequence Models (week 2)](https://www.coursera.org/learn/nlp-sequence-models#syllabus)
+
 
 ##  Tutorials
 
-### NLTK (other guides or toolkits that cover the following 5 topics are acceptable)
-*   [Stemmers and Lemmatization (section 3.6)](https://www.nltk.org/book/ch03.html#sec-normalizing-text)
-*   [Tokenizing and Segmentation (sections 3.7 and 3.8)](https://www.nltk.org/book/ch03.html#sec-tokenization)
+### Natural Language Processing
+*   The following are taken from the NLTK book, but other guides or toolkits that cover these topics are acceptable
+*   [Stemmers and Lemmatisation (section 3.6)](https://www.nltk.org/book/ch03.html#sec-normalizing-text)
+*   [Tokenising and Segmentation (sections 3.7 and 3.8)](https://www.nltk.org/book/ch03.html#sec-tokenization)
 *   [POS Tagging (sections 1 and 2)](https://www.nltk.org/book/ch05.html)
 
-### scikit-learn
-*   https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+### Word Embeddings
+*   [fastText](https://pypi.org/project/fasttext/)
+*   [gensim](https://radimrehurek.com/gensim/tutorial.html)
 
-### fastText
-*   https://pypi.org/project/fasttext/
-
-### gensim
-*   https://radimrehurek.com/gensim/tutorial.html
+### Practical Application
+*   [Working With Text Data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
 
 
 ##  Assessment
