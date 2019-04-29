@@ -29,8 +29,7 @@ For officers to take a break from lectures 😊
 ##  Original Training Packages
 *   [ML Training Package](https://www.dropbox.com/s/cqa6g2rrk5at6as/Trainingpackage.docx?dl=0)
 *   [ASR Training Package](https://www.dropbox.com/sh/id3pp9wjhasz5rx/AACzS2mVfKeuQbpWTi-TiUNIa?dl=0)
-*   [PTR Training Package](https://paper.dropbox.com/doc/TRAINING-PACKAGE-PROPOSED--Ab26FnQEP2M97go1v6fVlYILAg-QhAnR1gVC6rjrvFLbaD6E)
-*   [DS Training Package](https://gist.github.com/shanesoh/6ec2a65187638b32448be82222a754ce)
+*   [DA Training Package](https://gist.github.com/shanesoh/6ec2a65187638b32448be82222a754ce)
 
 
 ## Future Plans
