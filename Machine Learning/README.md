@@ -86,8 +86,8 @@ This section requires officers to go through the Kaggle Titanic dataset and unde
 
 ### Deep Learning Appreciation *(optional)*
 *   [MIT Deep Learning (videos 1 and 2)](https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
-*   Someday we’ll add real deep learning with a GPU
-    *   Probably use MNIST or build word vectors with a small dataset
+*   someday we’ll add real deep learning with a GPU
+    *   probably use MNIST or build word vectors with a small dataset
 
 
 ##  Assessment
