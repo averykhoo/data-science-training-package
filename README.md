@@ -39,3 +39,4 @@ For officers to take a break from lectures 😊
     *   makes it easy to look for better materials and make updates to the curriculum, while making sure the scope of the training package doesn’t drift too much
     *   ​​but it’s more effort than I feel is justified right now; after all we’re CSIT not MOE
 *   deep learning in the ML module
+*   maybe focus NLP tutorials on spaCy

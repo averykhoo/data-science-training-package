@@ -36,17 +36,23 @@
 ##  Tutorials
 
 ### Natural Language Processing
-*   The following are taken from the NLTK book, but other guides or toolkits that cover these topics are acceptable
+*   The following uses NLTK, but other toolkits that cover these topics are acceptable
 *   [Stemmers and Lemmatisation (section 3.6)](https://www.nltk.org/book/ch03.html#sec-normalizing-text)
 *   [Tokenising and Segmentation (sections 3.7 and 3.8)](https://www.nltk.org/book/ch03.html#sec-tokenization)
 *   [POS Tagging (sections 1 and 2)](https://www.nltk.org/book/ch05.html)
 
 ### Word Embeddings
-*   [fastText](https://pypi.org/project/fasttext/)
-*   [gensim](https://radimrehurek.com/gensim/tutorial.html)
+*   [Word Embeddings in Python with Spacy and Gensim](https://www.shanelynn.ie/word-embeddings-in-python-with-spacy-and-gensim/)
 
 ### Practical Application
 *   https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+
+### Available Toolkits
+*   NLTK
+*   scikit-learn
+*   fastText
+*   Gensim
+*   spaCy
 
 
 ##  Assessment
