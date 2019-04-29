@@ -8,7 +8,7 @@ It is recommended that the Edinburgh ASR lecture slides and Kaldi practical are 
 | 2   | Practical          | 2 weeks            |
 
 
-## Edinburgh ASR Lecture Slides (PDF)
+## Edinburgh ASR Lecture Slides
 *   [Introduction](asr01-intro.pdf)
 *   [Speech Signal Analysis](asr02-signal.pdf)
 *   [HMM & GMM](asr03-hmmgmm.pdf)
