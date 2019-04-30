@@ -27,7 +27,7 @@ For officers to take a break from lectures 😊
 
 
 ##  Original Training Packages
-*   [ML Training Package](https://www.dropbox.com/s/cqa6g2rrk5at6as/Trainingpackage.docx?dl=0)
+*   [PTR Training Package](https://www.dropbox.com/s/cqa6g2rrk5at6as/Trainingpackage.docx?dl=0)
 *   [ASR Training Package](https://www.dropbox.com/sh/id3pp9wjhasz5rx/AACzS2mVfKeuQbpWTi-TiUNIa?dl=0)
 *   [DA Training Package](https://gist.github.com/shanesoh/6ec2a65187638b32448be82222a754ce)
 
@@ -39,4 +39,3 @@ For officers to take a break from lectures 😊
     *   makes it easy to look for better materials and make updates to the curriculum, while making sure the scope of the training package doesn’t drift too much
     *   ​​but it’s more effort than I feel is justified right now; after all we’re CSIT not MOE
 *   deep learning in the ML module
-*   maybe focus NLP tutorials on spaCy
