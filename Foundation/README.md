@@ -28,10 +28,11 @@ The foundation modules cater to officers without the necessary mathematical know
 *   [Google's Python Class (Python 2)](https://developers.google.com/edu/python/)
     *   learn to use stack overflow to solve compatibility issues
 *   [Basic Python Builtins](https://treyhunner.com/2019/05/python-builtins-worth-learning/)
-*   [Python 3's `pathlib` Module](https://realpython.com/python-pathlib/)
+*   [Python's `pathlib` Builtin](https://realpython.com/python-pathlib/)
 
 ### Advanced Python *(optional)*
 *   [The Python Tutorial](https://docs.python.org/3/tutorial/)
 *   [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
-*   [Counter - Count Hashable Objects](https://pymotw.com/3/collections/counter.html)
-*   [datetime - Date and Time Value Manipulation](https://pymotw.com/3/datetime/)
+*   [Python's `Counter` Builtin](https://pymotw.com/3/collections/counter.html)
+*   [Python's `datetime` Builtin](https://pymotw.com/3/datetime/)
+*   [New useful stuff in Python 3](https://www.asmeurer.com/python3-presentation/python3-presentation.pdf)
