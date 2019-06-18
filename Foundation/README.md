@@ -16,6 +16,7 @@ The foundation modules cater to officers without the necessary mathematical know
 ### Probability Theory
 *   [Seeing Theory: A visual introduction to probability and statistics](https://seeing-theory.brown.edu/index.html)
 *   [High-speed intro to Bayes's rule](https://arbital.com/p/bayes_rule/?l=693)
+    *   [Deriving the Logistic Regression from Bayes' Theorem](https://www.countbayesie.com/blog/2019/6/12/logistic-regression-from-bayes-theorem)
 
 
 ##  Programming
