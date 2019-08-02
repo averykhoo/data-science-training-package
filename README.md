@@ -32,10 +32,14 @@ For officers to take a break from lectures 😊
 *   [DA Training Package](https://gist.github.com/shanesoh/6ec2a65187638b32448be82222a754ce)
 
 
-## Future Plans
+##  Future Plans
 *   split up the syllabus and the curriculum for this package:
     *   the syllabus notes down things that need to be learned and outcomes that should be achieved
     *   the curriculum collates and orders the material needed to cover the syllabus
     *   makes it easy to look for better materials and make updates to the curriculum, while making sure the scope of the training package doesn’t drift too much
     *   ​​but it’s more effort than I feel is justified right now; after all we’re CSIT not MOE
 *   deep learning in the ML module
+
+### added by Avery to look at someday
+*   [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
+*   [google AI education](https://ai.google/education/)
