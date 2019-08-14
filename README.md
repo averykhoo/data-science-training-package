@@ -43,3 +43,4 @@ For officers to take a break from lectures 😊
 ### added by Avery to look at someday
 *   [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
 *   [google AI education](https://ai.google/education/)
+*   [google ML crash course](https://developers.google.com/machine-learning/crash-course/ml-intro)
