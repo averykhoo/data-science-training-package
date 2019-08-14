@@ -40,7 +40,7 @@ For officers to take a break from lectures 😊
     *   ​​but it’s more effort than I feel is justified right now; after all we’re CSIT not MOE
 *   deep learning in the ML module
 
-### added by Avery to look at someday
+### added by Avery, maybe we'll look at them someday
 *   [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
 *   [google AI education](https://ai.google/education/)
     *   [google ML crash course](https://developers.google.com/machine-learning/crash-course)
@@ -55,3 +55,5 @@ For officers to take a break from lectures 😊
     *   [technical debt in ML](https://ai.google/research/pubs/pub43146)
     *   [wizard of oz models](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 *   [kaggle courses](https://www.kaggle.com/learn/overview)
+*   [see sidebar for titanic walkthroughs](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
+*   [see page 130](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf)
