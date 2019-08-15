@@ -19,14 +19,14 @@
     *   Language Modeling (4.1 to 4.6)
     *   Text Classification (6.1 to 6.9)
     *   Sentiment Analysis (7.1 to 7.5)
-    *   Information Extraction and Named Entity Recognition (9.1 to 9.3)
-    *   Relation Extraction (10.1)
+    *   ~~Information Extraction and~~ Named Entity Recognition (9.1 to 9.3)
+    *   ~~Relation Extraction (10.1)~~
     *   Part-Of-Speech Tagging (12.1 and 12.2)
     *   Information Retrieval (18.1 to 18.3)
     *   Ranked Information Retrieval (19.1 to 19.5)
-    *   Semantics (20.1 to 20.5)
-    *   Question Answering (21.1 to 21.3)
-    *   Summarization (22.1)
+    *   ~~Semantics (20.1 to 20.5)~~
+    *   ~~Question Answering (21.1 to 21.3)~~
+    *   ~~Summarization (22.1)~~
 *   You can find the backup to the slides and videos [here](https://www.dropbox.com/sh/ilgmo8y150kks8n/AABmkqU28KPnD-5fkqxeRJsHa?dl=0)
 
 ### Word Embeddings
