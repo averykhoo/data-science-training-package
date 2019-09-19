@@ -1,5 +1,4 @@
 #   ASR Modules (1 month)
-It is recommended that the Edinburgh ASR lecture slides and Kaldi practical are done concurrently.
 
 ##  Outline
 | S/N | Domain             | Estimated Duration |
@@ -8,16 +7,14 @@ It is recommended that the Edinburgh ASR lecture slides and Kaldi practical are 
 | 2   | Practical          | 2 weeks            |
 
 
-## Edinburgh ASR Lecture Slides
-*   [Introduction](asr01-intro.pdf)
-*   [Speech Signal Analysis](asr02-signal.pdf)
-*   [HMM & GMM](asr03-hmmgmm.pdf)
-*   [Context-Dependent Phone Models](asr04-cdhmm.pdf)
-*   [Introduction to Neural Networks](asr05-nnintro.pdf)
-*   [Neural Networks for Acoustic Modelling Part 1](asr06-nnspeech.pdf)
-*   [Neural Networks for Acoustic Modelling Part 2](asr07-dnn.pdf)
-*   [Lexicon and Language Model](asr08-lexlm.pdf)
-*   [Decoding, Alignment, and WFSTs](asr10-wfst.pdf)
+## ASR Lecture Slides
+*   [Introduction, ARPAbet, Articulatory Phonetics](224s.17.lec1.pdf)
+*   [ASR: HMMs, Forward, Viterbi](224s.17.lec3.pdf)
+*   [Lexicon and Language Model](asr08-lexl)
+*   [ASR: Word Error Rate, Training, Advanced Decoding](224s.17.lec4.pdf)
+*   [GMM Acoustic Modeling and Feature Extraction](224s.17.lec5.pdf)
+*   [Neural Network Acoustic Models Speech Recognition](224s.17.lec7.pdf)
+*   [End-to-End Neural Network Speech Recognition](224s.17.lec8.pdf)
 
 
 ##  Kaldi Practical
