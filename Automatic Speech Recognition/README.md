@@ -10,7 +10,7 @@
 ## ASR Lecture Slides
 *   [Introduction, ARPAbet, Articulatory Phonetics](224s.17.lec1.pdf)
 *   [ASR: HMMs, Forward, Viterbi](224s.17.lec3.pdf)
-*   [Lexicon and Language Model](asr08-lexl)
+*   [Lexicon and Language Model](asr08-lexlm.pdf)
 *   [ASR: Word Error Rate, Training, Advanced Decoding](224s.17.lec4.pdf)
 *   [GMM Acoustic Modeling and Feature Extraction](224s.17.lec5.pdf)
 *   [Neural Network Acoustic Models Speech Recognition](224s.17.lec7.pdf)
