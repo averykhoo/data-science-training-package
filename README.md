@@ -57,4 +57,7 @@ For officers to take a break from lectures 😊
 *   [kaggle courses](https://www.kaggle.com/learn/overview)
 *   [see sidebar for titanic walkthroughs](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
 *   [see page 130](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf)
-*   [intro to SQL](https://mystery.knightlab.com/walkthrough.html)
+*   [10 rules for better Jupyter notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
+*   SQL
+    *   [intro to SQL](https://mystery.knightlab.com/walkthrough.html)
+    *   [how SQL queries really work](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/)
