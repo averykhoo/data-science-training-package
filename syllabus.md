@@ -1,10 +1,13 @@
 #   Syllabus
+
 *   converted from word doc (version 2019-11-05)
-*   "appreciate existence of" means that it is sufficient to know that it exists and roughly what it does, not necessary to know how or why it works
+*   "appreciate existence of" means:
+    *   know that it exists and roughly what it does
+    *   not necessary to know how or why it works
 
 
 ##  Foundation Module (1 week)
-### Topics
+
 *   Mathematics
     *   Basic linear algebra
     *   Basic probability and statistics (including Bayes’ Theorem)
@@ -40,27 +43,25 @@
             *   Damerau-Levenshtein distance
     *   Variable-size sets
         *   Jaccard similarity (intersection over union)
-
-### NOT COVERED
-*   Advanced regex
-    *   Backreferences
-    *   Positive / negative look-ahead
-    *   Positive / negative look-behind
-    *   Non-capturing groups
-    *   Efficiency
-    *   Character classes
-*   How to install and set up Linux
-    *   How to install GPU drivers
-    *   How to setup your network config
-*   Less-common string algorithms
-    *   Longest common substring
-    *   Sequence alignment / warping
-    *   Multiple string search (e.g. Aho Corasick)
-    *   Fuzzy string matching
+*   ~~Advanced regex~~
+    *   ~~Backreferences~~
+    *   ~~Positive / negative look-ahead~~
+    *   ~~Positive / negative look-behind~~
+    *   ~~Non-capturing groups~~
+    *   ~~Efficiency~~
+    *   ~~Character classes~~
+*   ~~How to install and set up Linux~~
+    *   ~~How to install GPU drivers~~
+    *   ~~How to setup your network config~~
+*   ~~Less-common string algorithms~~
+    *   ~~Longest common substring~~
+    *   ~~Sequence alignment / warping~~
+    *   ~~Multiple string search (e.g. Aho Corasick)~~
+    *   ~~Fuzzy string matching~~
 
 
 ##  Machine Learning (1 month)
-### Topics
+
 *   Supervised Learning
     *   Regression
         *   Linear, ridge, lasso
@@ -120,40 +121,38 @@
             *   Categorical to one-hot encoding
             *   Removing highly-correlated features to reduce dimensionality
     *   Presentation to group covering process, outcome, and learning points
-
-### NOT COVERED
-*   “Advanced” regressions
-    *   Isotonic
-    *   Heteroskedastic
-    *   Kernel
-    *   Quadratic / polynomial
-    *   Robust regressions (e.g. repeated median regression)
-*   Non-linear and non-binary SVMs
-    *   Kernels
-    *   Ranking
-    *   Ordinal
-    *   Multiclass
-*   Curse of dimensionality
-    *   VC dimension
-    *   Auto-encoders
-    *   Dimensionality reduction
-    *   PCA
-*   Other ML topics
-    *   Semi-supervised learning (e.g. LLDA)
-    *   Self-organising maps (clustering)
-    *   Association rules
-    *   MLE, maxent
-    *   GANs
-    *   Expectation maximisation
-    *   Working with unbalanced data
-    *   Embeddings
-    *   Recommendation systems
-*   KL / JS divergence
-*   Time-series data
+*   ~~"Advanced" regressions~~
+    *   ~~Isotonic~~
+    *   ~~Heteroskedastic~~
+    *   ~~Kernel~~
+    *   ~~Quadratic / polynomial~~
+    *   ~~Robust regressions (e.g. repeated median regression)~~
+*   ~~Non-linear and non-binary SVMs~~
+    *   ~~Kernels~~
+    *   ~~Ranking~~
+    *   ~~Ordinal~~
+    *   ~~Multiclass~~
+*   ~~Curse of dimensionality~~
+    *   ~~VC dimension~~
+    *   ~~Auto-encoders~~
+    *   ~~Dimensionality reduction~~
+    *   ~~PCA~~
+*   ~~Other ML topics~~
+    *   ~~Semi-supervised learning (e.g. LLDA)~~
+    *   ~~Self-organising maps (clustering)~~
+    *   ~~Association rules~~
+    *   ~~MLE, maxent~~
+    *   ~~GANs~~
+    *   ~~Expectation maximisation~~
+    *   ~~Working with unbalanced data~~
+    *   ~~Embeddings~~
+    *   ~~Recommendation systems~~
+*   ~~KL / JS divergence~~
+*   ~~Time-series data~~
 
 
 ##  Natural Language Processing (1 month)
-### Topics
+
 *   Text Preprocessing (NLTK)
     *   Tokenization and segmentation (and what is an n-gram)
     *   Stemming and lemmatization
@@ -192,32 +191,29 @@
         *   MUST also use TF-IDF or edit / lev distance
         *   Images not necessary
     *   Presentation to group as usual
-
-
-### NOT COVERED
-*   Linguistics
-    *   Grammar and syntax parsing (CFGs, CYK)
-    *   Semantics
-    *   Polysemy / metonymy (word sense disambiguation)
-    *   Semiotics (e.g. emoji)
-    *   Morphology
-    *   Ontology
-*   Machine translation
-    *   IBM models
-    *   Back-translation
-    *   Syntax-based SMT
-    *   Corpus alignment / crawling / creation
-    *   Word vector alignment (e.g. Procrustes)
-*   Hyperbolic / elliptic embeddings
-*   Information extraction / relation extraction
-*   Question answering
-*   Summarization / simplification
-*   How do CRFs work (used for NER tagging)
-*   Byte pair encoding and subword tokenization (e.g. sentencepiece)
-*   Spelling / grammar correction
+*   ~~Linguistics~~
+    *   ~~Grammar and syntax parsing (CFGs, CYK)~~
+    *   ~~Semantics~~
+    *   ~~Polysemy / metonymy (word sense disambiguation)~~
+    *   ~~Semiotics (e.g. emoji)~~
+    *   ~~Morphology~~
+    *   ~~Ontology~~
+*   ~~Machine translation~~
+    *   ~~IBM models~~
+    *   ~~Back-translation~~
+    *   ~~Syntax-based SMT~~
+    *   ~~Corpus alignment / crawling / creation~~
+    *   ~~Word vector alignment (e.g. Procrustes)~~
+*   ~~Hyperbolic / elliptic embeddings~~
+*   ~~Information extraction / relation extraction~~
+*   ~~Question answering~~
+*   ~~Summarization / simplification~~
+*   ~~How do CRFs work (used for NER tagging)~~
+*   ~~Byte pair encoding and subword tokenization (e.g. sentencepiece)~~
+*   ~~Spelling / grammar correction~~
 
 ##  Automatic Speech Recognition (1 month)
-### Topics
+
 *   Fundamentals of Speech Recognition (Stanford CS224S Lecture 1)
 *   Language Modelling (Edinburgh)
     *   Lexicon and language model
