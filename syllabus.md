@@ -1,9 +1,9 @@
 #   Syllabus
 
-*   converted from word doc (version 2019-11-05)
-*   "appreciate existence of" means:
-    *   know that it exists and roughly what it does
-    *   not necessary to know how or why it works
+*   New syllabus (revised on 2019-11-05), converted from word doc
+*   "Appreciate the existence of" means:
+    *   Know that this thing exists and roughly what it does
+    *   But it's not necessary to know how or why it works
 
 
 ##  Foundation Module (1 week)
@@ -36,7 +36,7 @@
     *   Variable-length strings
         *   Edit / Levenshtein distance (longest common subsequence)
         *   BLEU score
-        *   Appreciate the existence of:
+        *   *Appreciate the existence of:*
             *   Edit distance backtracking
             *   METEOR
             *   ROUGE
@@ -99,7 +99,7 @@
         *   LDA (based on generative models)
     *   Frequent itemset mining
 *   Reinforcement Learning & Genetic Algorithms
-    *   Know that they exist and appreciate their existence
+    *   Know that they exist and *appreciate their existence*
     *   Why they are different from supervised / unsupervised
     *   And BTW we don’t use or need them (yet)
 *   Neural Networks (still work in progress)
@@ -160,7 +160,7 @@
     *   Bag of words / bag of n-grams
 *   Word Embeddings (deeplearning.ai)
     *   Word Mover’s Distance
-    *   Please appreciate the existence of:
+    *   *Please appreciate the existence of:*
         *   Sentence / document embeddings (e.g. doc2vec, Google’s USE)
         *   Cross-lingual embeddings (e.g. RCSLS, LASER)
 *   Language Modelling (Stanford NLP)
@@ -179,7 +179,7 @@
 *   Information Retrieval and Ranked IR (Stanford NLP)
     *   Inverted index
     *   TF-IDF
-    *   Appreciate the existence of:
+    *   *Appreciate the existence of:*
         *   Locality sensitive hashing (e.g. minhash vectors)
         *   Variants of TF-IDF (SMART IR system, Okapi BM25)
         *   ANNOY or FAISS (for indexing vectors)
