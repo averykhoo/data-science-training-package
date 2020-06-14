@@ -24,6 +24,7 @@
         *   How to use oracle’s XML tables
         *   Kaggle’s SQL tutorial?
         *   Use SQLite since it’s easier to play with? Or use some oracle DB?
+        *   transactions and rollback
     *   Joel Spolsky’s article on Unicode
     *   Avery’s comments on code style:
         *   Pls give important variables names that describe what they are
