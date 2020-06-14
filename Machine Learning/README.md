@@ -10,7 +10,8 @@
 
 
 ##  Intro to ML
-This section caters to officers without ML knowledge. Officers with a certain level of ML knowledge and experience can move straight to Advanced ML.
+This section caters to officers without ML knowledge.
+Officers with a certain level of ML knowledge and experience can move straight to Advanced ML.
 
 ### Overview
 *   [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
@@ -25,7 +26,7 @@ This section caters to officers without ML knowledge. Officers with a certain le
 
 
 ##  Practical
-This section requires officers to go through the Kaggle Titanic dataset and understand the codes in the guided explanation. 
+This hands-on section requires officers to go through the Kaggle Titanic dataset to understand, replicate, and tweak the code in the guided explanation. 
 
 ### Kaggle Titanic: Machine Learning from Disaster
 *   https://www.kaggle.com/c/titanic
@@ -91,4 +92,6 @@ This section requires officers to go through the Kaggle Titanic dataset and unde
 
 
 ##  Assessment
-This section is a hands-on assessment that requires officers to attempt the Kaggle Titanic prediction competition. Officers can either improve on the codes in the guided explanation, or write their own codes from scratch using ML methods. Consequently, officers have to present their codes to the GL.
+This section is a hands-on assessment that requires officers to attempt the Kaggle Titanic prediction competition.
+Officers can either improve on the codes in the guided explanation, or write their own codes from scratch using ML methods.
+Consequently, officers have to present their codes to the GL.
