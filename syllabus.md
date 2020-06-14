@@ -13,6 +13,7 @@
     *   Basic probability and statistics (including Bayes’ Theorem)
 *   Programming
     *   Markdown
+    *   Git
     *   Python 3 and regex
         *   Google’s Python Class
         *   Official Python Tutorial 1 to 8, 9.8 to 9.10 (for officers without Python knowledge)
@@ -28,6 +29,7 @@
         *   Pls give important variables names that describe what they are
         *   Pls break your code into logical chunks (ideally, reusable functions / classes)
         *   Pls use a code formatter (any formatter)
+        *   Pls provide type hints for core algorithmic functions
 *   Distance Measures
     *   Fixed-length vectors
         *   Manhattan / Euclidean distances
