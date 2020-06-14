@@ -65,3 +65,15 @@ For officers to take a break from lectures 😊
 *   [visualization walkthrough](https://github.com/TiesdeKok/LearnPythonforResearch/blob/master/3_visualizing_data.ipynb)
 *   [Binder - like colab](https://mybinder.org/)
 *   [ML in the industry](https://github.com/firmai/industry-machine-learning)
+*   algorithms?
+    *   BFS / DFS / A*
+    *   recursion, tail call elimination
+    *   binary search in a sorted list
+    *   sorting
+    *   complexity
+    *   parallelism, sync/async, locks, atomicity
+    *   dynamic programming, memoization
+*   what is the value in data?
+    *   predictive models (regressions)
+    *   descriptive models (classifications)
+    *   prescriptive models (recommendations)
