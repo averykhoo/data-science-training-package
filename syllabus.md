@@ -3,8 +3,9 @@
 *   New syllabus (revised on 2019-11-05), converted from word doc
 *   "Appreciate the existence of" means:
     *   Know that this thing exists and roughly what it does
-    *   But it's not necessary to know how or why it works
-
+    *   But it's *not* necessary to know how or why it works
+*   ~~Strikethrough~~ means:
+    *   This topic is not being covered *on purpose*, to minimize the scope of the syllabus
 
 ##  Foundation Module (1 week)
 
@@ -61,6 +62,7 @@
     *   ~~Sequence alignment / warping~~
     *   ~~Multiple string search (e.g. Aho Corasick)~~
     *   ~~Fuzzy string matching~~
+*   ~~Recursion~~
 
 
 ##  Machine Learning (1 month)
