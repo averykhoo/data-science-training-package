@@ -1,6 +1,5 @@
 #   Syllabus
 
-*   New syllabus (revised on 2019-11-05), converted from word doc
 *   "Appreciate the existence of" means:
     *   Know that this thing exists and roughly what it does
     *   But it's *not* necessary to know how or why it works
