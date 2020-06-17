@@ -57,12 +57,20 @@
 *   ~~How to install and set up Linux~~
     *   ~~How to install GPU drivers~~
     *   ~~How to setup your network config~~
-*   ~~Less-common string algorithms~~
-    *   ~~Longest common substring~~
-    *   ~~Sequence alignment / warping~~
-    *   ~~Multiple string search (e.g. Aho Corasick)~~
-    *   ~~Fuzzy string matching~~
-*   ~~Recursion~~
+*   ~~Less-common algorithms~~
+    *   ~~Strings~~
+        *   ~~Longest common substring~~
+        *   ~~Sequence alignment / warping~~
+        *   ~~Multiple string search (e.g. Aho Corasick)~~
+        *   ~~Fuzzy string matching~~
+    *   ~~Non-strings~~
+        *   ~~Recursion~~
+        *   ~~Graph algorithms (DFS/BFS, A-star, Bellman-Ford, MST, flows, cliques, etc)~~
+        *   ~~Unusual data structures (linked lists, circular buffers, tries, etc)~~
+        *   ~~Satisfiability (CSP, linear programming, etc)~~
+        *   ~~Sorting algorithms~~
+        *   ~~Searching (BST, heaps, hashing)~~
+        *   ~~FFT~~
 
 
 ##  Machine Learning (1 month)
@@ -84,7 +92,7 @@
         *   AUC & ROC curve
         *   Micro and macro averaging
         *   How to choose a threshold
-    *   Optimization
+    *   (Convex) Optimization
         *   Loss function
         *   Bias / variance trade-off
         *   What is over-fitting and under-fitting
@@ -154,6 +162,7 @@
     *   ~~Recommendation systems~~
 *   ~~KL / JS divergence~~
 *   ~~Time-series data~~
+*   ~~Non-convex optimization~~
 
 
 ##  Natural Language Processing (1 month)
