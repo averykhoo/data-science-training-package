@@ -77,3 +77,4 @@ For officers to take a break from lectures 😊
     *   predictive models (regressions)
     *   descriptive models (classifications)
     *   prescriptive models (recommendations)
+*   Joel Spolsky’s article on Unicode

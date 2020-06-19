@@ -1,8 +1,9 @@
 #   Syllabus
+90% of the bare minimum, but in 10% of the time
 
-*   "Appreciate the existence of" means:
+*   *"Appreciate the existence of"* means:
     *   Know that this thing exists and roughly what it does
-    *   But it's *not* necessary to know how or why it works
+    *   But it's _not_ necessary to know how or why it works
 *   ~~Strikethrough~~ means:
     *   This topic is not being covered *on purpose*, to minimize the scope of the syllabus
 
@@ -14,38 +15,53 @@
 *   Programming
     *   Markdown
     *   Git
-    *   Python 3 and regex
+    *   Python 3 and basic regex
         *   Google’s Python Class
-        *   Official Python Tutorial 1 to 8, 9.8 to 9.10 (for officers without Python knowledge)
+        *   Official Python Tutorial 1 to 8, 9.8 to 9.10 (if you have no Python knowledge)
         *   Do we want to give an exemplar regex cheat sheet?
     *   Unix tools and scripting
         *   CS2043 lectures 1 to 8
-    *   Basic SQL
-        *   How to use oracle’s XML tables
-        *   Kaggle’s SQL tutorial?
-        *   Use SQLite since it’s easier to play with? Or use some oracle DB?
+    *   minimal SQL
+        *   `SELECT <named columns> AS <renamed columns>`
+        *   `count(*)`
+        *   `UPDATE`
+        *   only 3 joins: `(INNER) JOIN`, `LEFT JOIN`, `LEFT OUTER JOIN`
+        *   `UNION`
+        *   `GROUP BY`
+        *   `WHERE`
+        *   dates
         *   transactions and rollback
-    *   Joel Spolsky’s article on Unicode
+        *   use Kaggle’s SQL tutorial?
     *   Avery’s comments on code style:
-        *   Pls give important variables names that describe what they are
-        *   Pls break your code into logical chunks (ideally, reusable functions / classes)
-        *   Pls use a code formatter (any formatter)
-        *   Pls provide type hints for core algorithmic functions
+        *   Pls provide a description and type hints for core algorithmic functions
+        *   Pls give important functions and variables appropriately descriptive names
+        *   Pls break your code into logical chunks
+            (and at a higher level, into reusable functions / classes)
+        *   Pls comment what that logical chunk accomplishes
+        *   Pls use a code formatter (any formatter) and static analyzer
+            *   if you don't know what static analyzers are or what they do,
+                just use an IDE like PyCharm and keep your code squiggle-free
 *   Distance Measures
-    *   Fixed-length vectors
+    *   Fixed-length vectors / sequences
         *   Manhattan / Euclidean distances
         *   Hamming distance
         *   Cosine similarity, dot product
+        *   Pearson's coefficient (aka the linreg r²), covariance
     *   Variable-length strings
         *   Edit / Levenshtein distance (longest common subsequence)
         *   BLEU score
-        *   *Appreciate the existence of:*
-            *   Edit distance backtracking
-            *   METEOR
-            *   ROUGE
-            *   Damerau-Levenshtein distance
     *   Variable-size sets
         *   Jaccard similarity (intersection over union)
+    *   *Appreciate the existence of:*
+        *   *Edit distance backtracking*
+        *   *Smoothed BLEU score*
+        *   *METEOR*
+        *   *ROUGE*
+        *   *Damerau-Levenshtein distance*
+        *   *haversine distance*
+        *   *Overlap coefficient*
+        *   *Spearman's coefficient (monotonicity)* 
+        *   *gini coefficient (for categorical sequences)*
 *   ~~Advanced regex~~
     *   ~~Backreferences~~
     *   ~~Positive / negative look-ahead~~
@@ -68,8 +84,9 @@
         *   ~~Unusual data structures (linked lists, circular buffers, tries, etc)~~
         *   ~~Satisfiability (CSP, linear programming, etc)~~
         *   ~~Sorting algorithms~~
-        *   ~~Searching (BST, heaps, hashing)~~
+        *   ~~Searching (BST, heaps, hash tables, bloom filters)~~
         *   ~~FFT~~
+*   ~~How to use oracle’s XML tables~~
 
 
 ##  Machine Learning (1 month)
@@ -80,57 +97,64 @@
         *   Logistic
     *   Classification
         *   KNN
-        *   Support vector machine (linear SVM for binary classification)
+        *   Support vector machine (just a linear SVM for binary classification)
         *   Decision trees
     *   Ensemble
-        *   Boosting (e.g. XGBoost, LightGBM)
+        *   Boosting (e.g. using `XGBoost` or `LightGBM`)
         *   Stacking
     *   Metrics
         *   Confusion matrix
         *   Recall, precision, F1 score
         *   AUC & ROC curve
-        *   Micro and macro averaging
+        *   Micro vs macro averaging
         *   How to choose a threshold
     *   (Convex) Optimization
         *   Loss function
         *   Bias / variance trade-off
         *   What is over-fitting and under-fitting
-        *   Regularization
         *   Cross-validation, hyperparameter tuning
+        *   *Appreciate the existence of:*
+            *   *Regularization*
+            *   *Bayesian optimization, e.g. the `hyperopt` library for Python*
 *   Unsupervised Learning
     *   Clustering
         *   K-means
         *   EM GMM
         *   Density
         *   Hierarchical
-    *   Anomaly detection
-        *   Parametric
-        *   Non-parametric
-    *   Topic modelling
+    *   Types of anomaly detection
+        *   Parametric (e.g. standard deviations away from mean)
+        *   Non-parametric (e.g. quartiles, box-and-whisker plot)
+    *   Types of topic modelling
         *   LSA (or NMF; these are kind of based on factorization)
         *   LDA (based on generative models)
+        *   Hierarchical / agglomerative (based on similarity measures)
     *   Frequent itemset mining
-*   Reinforcement Learning & Genetic Algorithms
-    *   Know that they exist and *appreciate their existence*
-    *   Why they are different from supervised / unsupervised
-    *   And BTW we don’t use or need them (yet)
-*   Neural Networks (still work in progress)
+*   *Appreciate the existence of*
+    *   *Reinforcement Learning*
+    *   *Genetic/evolutionary Algorithms*
+    *   *Why they are different from supervised / unsupervised*
+*   Neural Networks (this segment is still a work in progress)
     *   Backpropagation
     *   Deep neural networks
         *   Feedforward
         *   CNN, pooling, cross-entropy, softmax
         *   RNN, LSTM
         *   Dropout
-*   Tutorials Capstone Project
-    *   Pandas
-    *   Visualization (charts & graphs)
-    *   Titanic with walkthroughs
-        *   Optional for those who have done it before
+*   Tutorials / Capstone Project
+    *   use jupyter and python
+    *   learn `pandas` and how it relates to SQL
+    *   `scipy`, `numpy`, `sklearn`
+    *   Visualization (charts & graphs with `seaborn` or the more obscure `altair`)
+    *   Titanic (with mandatory walkthroughs)
+        *   if you've done this before:
+            you can choose another kaggle, or just speedrun this project
         *   Data exploration and data cleaning
             *   Dealing with missing values
             *   Finding and fixing outliers
         *   Featurization
             *   Categorical to one-hot encoding
+            *   Binning (e.g. quartiles)
             *   Removing highly-correlated features to reduce dimensionality
     *   Presentation to group covering process, outcome, and learning points
 *   ~~"Advanced" regressions~~
@@ -158,24 +182,25 @@
     *   ~~Expectation maximisation~~
     *   ~~Working with unbalanced data~~
     *   ~~Embeddings~~
-    *   ~~Recommendation systems~~
+    *   ~~Recommendation systems aside from itemset mining~~
 *   ~~KL / JS divergence~~
 *   ~~Time-series data~~
+    *   ~~ARIMA~~
 *   ~~Non-convex optimization~~
 
 
 ##  Natural Language Processing (1 month)
 
-*   Text Preprocessing (NLTK)
+*   Text Preprocessing (`NLTK`)
     *   Tokenization and segmentation (and what is an n-gram)
     *   Stemming and lemmatization
     *   POS tagging
     *   Bag of words / bag of n-grams
-*   Word Embeddings (deeplearning.ai)
+*   Word Embeddings ([deeplearning.ai](deeplearning.ai))
     *   Word Mover’s Distance
     *   *Please appreciate the existence of:*
-        *   Sentence / document embeddings (e.g. doc2vec, Google’s USE)
-        *   Cross-lingual embeddings (e.g. RCSLS, LASER)
+        *   *Sentence / document embeddings (e.g. doc2vec, Google’s USE)*
+        *   *Cross-lingual embeddings (e.g. RCSLS, LASER)*
 *   Language Modelling (Stanford NLP)
     *   HMMs
     *   N-grams
@@ -186,16 +211,18 @@
 *   Named Entity Recognition (Stanford NLP)
     *   As a sequence labelling problem
         *   Greedy
-        *   Beam
         *   Viterbi
-    *   No need to go into CRFs
+        *   Beam
+    *   *Appreciate the existence of:*
+        *   *CRFs, which are like superpowered HMMs for sequence-to-sequence*
 *   Information Retrieval and Ranked IR (Stanford NLP)
     *   Inverted index
     *   TF-IDF
     *   *Appreciate the existence of:*
-        *   Locality sensitive hashing (e.g. minhash vectors)
-        *   Variants of TF-IDF (SMART IR system, Okapi BM25)
-        *   ANNOY or FAISS (for indexing vectors)
+        *   *Locality sensitive hashing (e.g. minhash vectors)*
+        *   *Variants of TF-IDF (SMART IR system, Okapi BM25)*
+        *   *approximate nearest neighbors, e.g. `ANNOY` or `FAISS` (for indexing vectors)*
+        *   *geohashing (only for for 2d space)*
 *   Neural Networks for NLP (optional)
     *   Transformers & Muppet models
 *   Capstone Project
