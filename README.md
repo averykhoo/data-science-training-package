@@ -63,7 +63,6 @@ For officers to take a break from lectures 😊
     *   [how SQL queries really work](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/)
 *   [random nlp walkthrough](https://github.com/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb)
 *   [visualization walkthrough](https://github.com/TiesdeKok/LearnPythonforResearch/blob/master/3_visualizing_data.ipynb)
-*   [Binder - like colab](https://mybinder.org/)
 *   [ML in the industry](https://github.com/firmai/industry-machine-learning)
 *   algorithms?
     *   BFS / DFS / A*
@@ -78,3 +77,7 @@ For officers to take a break from lectures 😊
     *   descriptive models (classifications)
     *   prescriptive models (recommendations)
 *   Joel Spolsky’s article on Unicode
+*   https://madewithml.com/
+*   https://github.com/mrdbourke/machine-learning-roadmap
+*   https://sotabench.com/
+*   https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
