@@ -33,11 +33,12 @@ For officers to take a break from lectures 😊
 
 
 ##  Future Plans
-*   split up the syllabus and the curriculum for this package:
-    *   the syllabus notes down things that need to be learned and outcomes that should be achieved
-    *   the curriculum collates and orders the material needed to cover the syllabus
-    *   makes it easy to look for better materials and make updates to the curriculum, while making sure the scope of the training package doesn’t drift too much
-    *   ​​but it’s more effort than I feel is justified right now; after all we’re CSIT not MOE
+*   [x] split up the syllabus and the curriculum for this package:
+    *   [x] the syllabus notes down things that need to be learned and outcomes that should be achieved
+    *   [ ] the curriculum collates and orders the material needed to cover the syllabus
+    *   makes it easy to look for better materials and make updates to the curriculum, 
+        while making sure the scope of the training package doesn’t drift too much
+    *   but it’s more effort than I feel is justified right now; after all we’re CSIT not MOE
 *   deep learning in the ML module
 
 ### added by Avery, maybe we'll look at them someday
