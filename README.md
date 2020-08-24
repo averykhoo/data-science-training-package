@@ -81,3 +81,35 @@ For officers to take a break from lectures 😊
 *   https://github.com/mrdbourke/machine-learning-roadmap
 *   https://sotabench.com/
 *   https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
+*   data science workflow
+    *   acquisition
+    *   ETL
+    *   exploration (of a subset)
+    *   cleaning
+        *   outliers
+        *   anomalies
+        *   interpolation
+    *   baseline
+        *   linear least squares / logistic regression
+        *   xgboost
+    *   background research and data provenance
+        *   understand where the data came from
+        *   what the labels mean
+        *   any pre-processing that was done that can't be undone
+    *   featurization
+        *   categorical to numeric
+        *   text processing
+        *   binning
+        *   t-score normalization
+    *   training
+        *   feature selection
+            *   correlation and covariance
+        *   model selection
+        *   hyperparameter optimization
+        *   dimension reduction
+        *   stacking/bagging/boosting
+    *   testing
+        *   as close to real data as possible
+    *   visualization
+    *   inference and explanations
+        *   SHAP/LIME
