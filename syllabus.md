@@ -60,6 +60,7 @@
         *   *Overlap coefficient*
         *   *Spearman's coefficient (monotonicity)* 
         *   *gini coefficient (for categorical sequences)*
+*   ~~Splunk~~
 *   ~~Advanced regex~~
     *   ~~Backreferences~~
     *   ~~Positive / negative look-ahead~~

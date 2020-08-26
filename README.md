@@ -97,6 +97,7 @@ For officers to take a break from lectures 😊
     *   correlation matrix
     *   parallel coordinate plot / Andrews plot  / Kent–Kiviat radar m chart
     *   `df.describe()`
+    *   [example](https://www.kaggle.com/mervinpraison/seaborn-to-visualize-iris-data/notebook)
 4.  background research and data provenance
     *   understand where the data came from
     *   what the labels mean
