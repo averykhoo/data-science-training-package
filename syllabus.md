@@ -1,5 +1,5 @@
-#   Syllabus
-90% of the bare minimum, but in 10% of the time
+#   Data Scientist Syllabus: zero to ~~hero~~ 0.5
+50% of the bare minimum, in 5% of the time
 
 *   *"Appreciate the existence of"* means:
     *   Know that this thing exists and roughly what it does
@@ -7,7 +7,7 @@
 *   ~~Strikethrough~~ means:
     *   This topic is not being covered *on purpose*, to minimize the scope of the syllabus
 
-##  Foundation Module (1 week)
+##  [Foundation Module](./Foundation/README.md) (1 week)
 
 *   Mathematics
     *   Basic linear algebra
@@ -23,33 +23,31 @@
         *   CS2043 lectures 1 to 8
     *   minimal SQL
         *   `SELECT <named columns> AS <renamed columns>`
-        *   `count(*)`
+        *   `COUNT(*)` and `COUNT(DISTINCT column_name)`
         *   `UPDATE`
         *   only 3 joins: `(INNER) JOIN`, `LEFT JOIN`, `LEFT OUTER JOIN`
         *   `UNION`
         *   `GROUP BY`
         *   `WHERE`
-        *   dates
-        *   transactions and rollback
-        *   use Kaggle’s SQL tutorial?
+        *   `DATE('YYYY-mm-dd')` (or whatever is native to your SQL dialect)
+        *   `START TRANSACTION`, `ROLLBACK`, `COMMIT`
     *   Avery’s comments on code style:
-        *   Pls provide a description and type hints for core algorithmic functions
+        *   Pls provide type hints for core algorithmic functions (and a description, if the algo is not obvious)
         *   Pls give important functions and variables appropriately descriptive names
-        *   Pls break your code into logical chunks
-            (and at a higher level, into reusable functions / classes)
-        *   Pls comment what that logical chunk accomplishes
+        *   Pls break your code into logical chunks (and at a higher level, into reusable functions / classes)
+        *   Pls add comments to describe what each logical chunk accomplishes, if it's not immediately obvious
         *   Pls use a code formatter (any formatter) and static analyzer
             *   if you don't know what static analyzers are or what they do,
                 just use an IDE like PyCharm and keep your code squiggle-free
 *   Distance Measures
-    *   Fixed-length vectors / sequences
+    *   Equal-length vectors / sequences
         *   Manhattan / Euclidean distances
         *   Hamming distance
-        *   Cosine similarity, dot product
+        *   Cosine similarity (normalized dot product)
         *   Pearson's coefficient (aka the linreg r²), covariance
     *   Variable-length strings
         *   Edit / Levenshtein distance (longest common subsequence)
-        *   BLEU score
+        *   BLEU score (n-grams)
     *   Variable-size sets
         *   Jaccard similarity (intersection over union)
     *   *Appreciate the existence of:*
@@ -89,7 +87,7 @@
 *   ~~How to use oracle’s XML tables~~
 
 
-##  Machine Learning (1 month)
+##  [Machine Learning](./Machine Learning/README.md) (1 month)
 
 *   Supervised Learning
     *   Regression
@@ -189,14 +187,14 @@
 *   ~~Non-convex optimization~~
 
 
-##  Natural Language Processing (1 month)
+##  [Natural Language Processing](./Natural Language Processing/README.md) (1 month)
 
 *   Text Preprocessing (`NLTK`)
     *   Tokenization and segmentation (and what is an n-gram)
     *   Stemming and lemmatization
     *   POS tagging
     *   Bag of words / bag of n-grams
-*   Word Embeddings ([deeplearning.ai](deeplearning.ai))
+*   Word Embeddings
     *   Word Mover’s Distance
     *   *Please appreciate the existence of:*
         *   *Sentence / document embeddings (e.g. doc2vec, Google’s USE)*
@@ -252,7 +250,7 @@
 *   ~~Byte pair encoding and subword tokenization (e.g. sentencepiece)~~
 *   ~~Spelling / grammar correction~~
 
-##  Automatic Speech Recognition (1 month)
+##  [Automatic Speech Recognition](./Automatic Speech Recognition/README.md) (1 month)
 
 *   Fundamentals of Speech Recognition (Stanford CS224S Lecture 1)
 *   Language Modelling (Edinburgh)

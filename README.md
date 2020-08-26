@@ -82,35 +82,49 @@ For officers to take a break from lectures 😊
 *   https://github.com/mrdbourke/machine-learning-roadmap
 *   https://sotabench.com/
 *   https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
-*   data science workflow
-    *   acquisition
-    *   ETL
-    *   exploration (of a subset)
-    *   cleaning
-        *   outliers
-        *   anomalies
-        *   interpolation
-    *   baseline
-        *   linear least squares / logistic regression
-        *   xgboost
-    *   background research and data provenance
-        *   understand where the data came from
-        *   what the labels mean
-        *   any pre-processing that was done that can't be undone
-    *   featurization
-        *   categorical to numeric
-        *   text processing
-        *   binning
-        *   t-score normalization
-    *   training
-        *   feature selection
-            *   correlation and covariance
-        *   model selection
-        *   hyperparameter optimization
-        *   dimension reduction
-        *   stacking/bagging/boosting
-    *   testing
-        *   as close to real data as possible
-    *   visualization
-    *   inference and explanations
-        *   SHAP/LIME
+*   use Kaggle’s SQL tutorial?
+
+
+### data science workflow
+1.  data acquisition
+    *   if you're new, then maybe 'just getting data' doesn't seem ike it warrants a mention
+    *   trust me, it does
+2.  ETL
+    *   transforming data between formats (csv, json, html/xml, pipe-delimited, ...)
+    *   fixing broken formats (such as unquoted csv ಠ_ಠ)
+3.  exploration
+    *   just look at a subset if your dataset can't fit in RAM, but make sure it's not a biased subset
+    *   correlation matrix
+    *   parallel coordinate plot / Andrews plot  / Kent–Kiviat radar m chart
+    *   `df.describe()`
+4.  background research and data provenance
+    *   understand where the data came from
+    *   what the labels mean
+    *   any pre-processing that was done that can't be undone
+5.  cleaning
+    *   outliers / anomalies
+    *   missing
+    *   `ftfy.fix_text()`, detwingle unicode, decode html entities (possibly recursively), etc
+6.  baseline / POC
+    *   linear least squares / logistic regression
+    *   xgboost
+    *   if you're getting abysmal performance, maybe the data is still borked
+7.  featurization *(NLP usually happens here)*
+    *   categorical to numeric
+    *   text processing
+    *   binning
+    *   t-score normalization
+8.  training *(ML usually happens here)*
+    *   feature selection
+        *   correlation and covariance
+    *   model selection
+    *   hyperparameter optimization
+    *   dimension reduction
+    *   stacking/bagging/boosting
+9.  testing
+    *   as close to real data as possible
+10. visualization (of results)
+    *   seaborn
+11. inference and explanations
+    *   if you've gotten this far, congrats
+    *   SHAP/LIME
