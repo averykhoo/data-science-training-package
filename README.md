@@ -86,7 +86,8 @@ For officers to take a break from lectures 😊
 *   more advanced sql tricks:
     *   https://hakibenita.com/sql-tricks-application-dba
     *   also look into materialized views
-
+*   should have a part on asking the right questions
+    *   and how not to find the wrong answers
 
 ### data science workflow
 1.  data acquisition
