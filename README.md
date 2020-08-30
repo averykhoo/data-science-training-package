@@ -83,6 +83,9 @@ For officers to take a break from lectures 😊
 *   https://sotabench.com/
 *   https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
 *   use Kaggle’s SQL tutorial?
+*   more advanced sql tricks:
+    *   https://hakibenita.com/sql-tricks-application-dba
+    *   also look into materialized views
 
 
 ### data science workflow
