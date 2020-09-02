@@ -89,7 +89,7 @@ For officers to take a break from lectures 😊
 *   should have a part on asking the right questions
     *   and how not to find the wrong answers
 
-### data science workflow
+### ML workflow
 1.  data acquisition
     *   if you're new, then maybe 'just getting data' doesn't seem ike it warrants a mention
     *   trust me, it does
@@ -98,17 +98,19 @@ For officers to take a break from lectures 😊
     *   fixing broken formats (such as unquoted csv ಠ_ಠ)
 3.  exploration
     *   just look at a subset if your dataset can't fit in RAM, but make sure it's not a biased subset
-    *   correlation matrix
-    *   parallel coordinate plot / Andrews plot  / Kent–Kiviat radar m chart
     *   `df.describe()`
-    *   [example](https://www.kaggle.com/mervinpraison/seaborn-to-visualize-iris-data/notebook)
+    *   it is [important](https://www.autodeskresearch.com/publications/samestats) to visualize your data
+        *   parallel coordinate plot / Andrews plot  / Kent–Kiviat radar m chart
+        *   correlation matrix
+        *   [example](https://www.kaggle.com/mervinpraison/seaborn-to-visualize-iris-data/notebook)
 4.  background research and data provenance
     *   understand where the data came from
     *   what the labels mean
     *   any pre-processing that was done that can't be undone
 5.  cleaning
-    *   outliers / anomalies
-    *   missing
+    *   outliers / anomalies (eg huge spike in data)
+    *   impute missing values
+    *   remove noise?
     *   `ftfy.fix_text()`, detwingle unicode, decode html entities (possibly recursively), etc
 6.  baseline / POC
     *   linear least squares / logistic regression
