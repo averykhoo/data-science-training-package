@@ -78,6 +78,10 @@ For officers to take a break from lectures 😊
     *   descriptive models (classifications)
     *   prescriptive models (recommendations)
 *   Joel Spolsky’s article on Unicode
+    *   see also [grapheme](https://github.com/alvinlindstam/grapheme), 
+        which is a library for working with what you probably think are unicode characters
+    *   see also [wcswidth](https://github.com/jquast/wcwidth),
+        which gives you the length of a string, double-counting CJK characters since those are double-wide
 *   https://madewithml.com/
 *   https://github.com/mrdbourke/machine-learning-roadmap
 *   https://sotabench.com/
@@ -123,7 +127,8 @@ For officers to take a break from lectures 😊
     *   t-score normalization
 8.  training *(ML usually happens here)*
     *   feature selection
-        *   correlation and covariance
+        *   duplicate features: high correlation / covariance
+        *   useless features: low / no variance
     *   model selection
     *   hyperparameter optimization
     *   dimension reduction
