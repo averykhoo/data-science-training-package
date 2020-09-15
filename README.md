@@ -42,6 +42,7 @@ For officers to take a break from lectures 😊
 *   deep learning in the ML module
 
 ### added by Avery, maybe we'll look at them someday
+*   [the gold standard for documentation](https://www.divio.com/blog/documentation/)
 *   [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
 *   [google AI education](https://ai.google/education/)
     *   [google ML crash course](https://developers.google.com/machine-learning/crash-course)
@@ -142,3 +143,15 @@ For officers to take a break from lectures 😊
 11. inference and explanations
     *   if you've gotten this far, congrats
     *   SHAP/LIME
+12. building an API
+    *   just use [`fastapi`](https://fastapi.tiangolo.com/)
+    *   [best practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+13. building a UI
+    *   UX is more of an art than a science,
+        many books have been written,
+        none of them can claim to be comprehensive
+    *   TL;DR version: 
+        the user wants to get their thing done as fast as possible, 
+        with minimal interaction and thinking,
+        and ideally no instruction-reading
+        (also, don't make it ugly or irritating)

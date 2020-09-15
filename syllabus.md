@@ -142,7 +142,7 @@
         *   Dropout
 *   Tutorials / Capstone Project
     *   use jupyter and python
-    *   learn `pandas` and how it relates to SQL
+    *   learn and use `pandas` (and maybe how it relates to SQL?)
     *   `scipy`, `numpy`, `sklearn`
     *   Visualization (charts & graphs with `seaborn` or the more obscure `altair`)
     *   Titanic (with mandatory walkthroughs)
