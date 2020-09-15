@@ -129,6 +129,8 @@ For officers to take a break from lectures 😊
     *   feature selection
         *   duplicate features: high correlation / covariance
         *   useless features: low / no variance
+        *   null features: mostly missing values, with only a small percent of real data
+        *   xgboost feature importance
     *   model selection
     *   hyperparameter optimization
     *   dimension reduction
