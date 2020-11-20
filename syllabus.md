@@ -10,15 +10,15 @@
 ##  [Foundation Module](./Foundation/README.md) (1 week)
 
 *   Mathematics
-    *   Basic linear algebra
+    *   Basic linear algebra (vectors and matrices)
     *   Basic probability and statistics (including Bayes’ Theorem)
 *   Programming
     *   Markdown
-    *   Git
     *   Python 3 and basic regex
         *   Google’s Python Class
         *   Official Python Tutorial 1 to 8, 9.8 to 9.10 (if you have no Python knowledge)
         *   Do we want to give an exemplar regex cheat sheet?
+    *   Git
     *   Unix tools and scripting
         *   CS2043 lectures 1 to 8
     *   minimal SQL
@@ -31,7 +31,7 @@
         *   `WHERE`
         *   `DATE('YYYY-mm-dd')` (or whatever is native to your SQL dialect)
         *   `START TRANSACTION`, `ROLLBACK`, `COMMIT`
-    *   Avery’s comments on code style:
+    *   **Avery’s comments on code style:**
         *   Pls provide type hints for core algorithmic functions (and a description, if the algo is not obvious)
         *   Pls give important functions and variables appropriately descriptive names
         *   Pls break your code into logical chunks (and at a higher level, into reusable functions / classes)

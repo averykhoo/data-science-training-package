@@ -1,14 +1,15 @@
 #   Foundation Modules (2 weeks) 
 The foundation modules cater to officers without the necessary mathematical knowledge and/or experience in Markdown and Python programming. Officers with the relevant knowledge and/or experience can skip the respective portions of the foundation modules.
 
+
 ##  Outline
 | S/N | Domain      | Estimated Duration |
 | --- | ----------- | ------------------ |
-| 1   | Mathematics | 1 week             |
-| 2   | Programming | 1 week             |
+| 1   | Mathematics | 1 day              |
+| 2   | Programming | 4 days             |
 
 
-##  Mathematics
+##  Mathematics (refresher)
 
 ### Linear Algebra
 *   [Essence of linear algebra (videos 1 to 4)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
@@ -16,23 +17,33 @@ The foundation modules cater to officers without the necessary mathematical know
 ### Probability Theory
 *   [Seeing Theory: A visual introduction to probability and statistics](https://seeing-theory.brown.edu/index.html)
 *   [High-speed intro to Bayes's rule](https://arbital.com/p/bayes_rule/?l=693)
-    *   [Deriving the Logistic Regression from Bayes' Theorem](https://www.countbayesie.com/blog/2019/6/12/logistic-regression-from-bayes-theorem)
 
 
 ##  Programming
 
-### Markdown
-*   https://www.markdowntutorial.com/
+### Basic Markdown
+*   (If you prefer to read a guide) https://www.markdownguide.org/basic-syntax/
+*   (If you prefer to learn by doing) https://www.markdowntutorial.com/
 
-### Basic Python
-*   [Google's Python Class (Python 2)](https://developers.google.com/edu/python/)
-    *   learn to use stack overflow to solve compatibility issues
-*   [Basic Python Builtins](https://treyhunner.com/2019/05/python-builtins-worth-learning/)
-*   [Python's `pathlib` Builtin](https://realpython.com/python-pathlib/)
+### Basic Python (and basic regex)
+*   [Google's Python Class (Python 2 and regex)](https://developers.google.com/edu/python/)
+    *   take this opportunity to learn to use stack overflow to solve compatibility issues
+*   [Useful Python Builtins](https://treyhunner.com/2019/05/python-builtins-worth-learning/)
 
-### Advanced Python *(optional)*
+### Basic Knowledge
+*   [Git](https://guides.github.com/introduction/git-handbook/)
+*   [Shell](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+    *   *(Optional)* [Advanced Linux-ing](https://cs2043-sp16.github.io/schedule.html)
+*   [SQL](https://mystery.knightlab.com/walkthrough.html)
+
+
+##  *(Optional)* Advanced Python
 *   [The Python Tutorial](https://docs.python.org/3/tutorial/)
+*   [Type Hinting (via `typing` builtin)](https://realpython.com/python-type-checking/)
+*   [Python's `collections.Counter` builtin](https://pymotw.com/3/collections/counter.html)
+*   [Python's `datetime` builtin](https://pymotw.com/3/datetime/)
+    *   [Working with Time Zones](https://www.youtube.com/watch?v=rz3D8VG_2TY)
+*   [Python's `pathlib` builtin](https://realpython.com/python-pathlib/)
+*   [Python's `functools.lru_cache` builtin](https://docs.python.org/3/library/functools.html#functools.lru_cache)
+*   [Python's `bisect` builtin](https://docs.python.org/3/library/bisect.html)
 *   [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
-*   [Python's `Counter` Builtin](https://pymotw.com/3/collections/counter.html)
-*   [Python's `datetime` Builtin](https://pymotw.com/3/datetime/)
-*   [New useful stuff in Python 3](https://www.asmeurer.com/python3-presentation/python3-presentation.pdf)
