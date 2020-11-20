@@ -33,17 +33,19 @@ The foundation modules cater to officers without the necessary mathematical know
 ### Basic Knowledge
 *   [Git](https://guides.github.com/introduction/git-handbook/)
 *   [Shell](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-    *   *(Optional)* [Advanced Linux-ing](https://cs2043-sp16.github.io/schedule.html)
 *   [SQL](https://mystery.knightlab.com/walkthrough.html)
 
 
-##  *(Optional)* Advanced Python
-*   [The Python Tutorial](https://docs.python.org/3/tutorial/)
-*   [Type Hinting (via `typing` builtin)](https://realpython.com/python-type-checking/)
-*   [Python's `collections.Counter` builtin](https://pymotw.com/3/collections/counter.html)
-*   [Python's `datetime` builtin](https://pymotw.com/3/datetime/)
-    *   [Working with Time Zones](https://www.youtube.com/watch?v=rz3D8VG_2TY)
-*   [Python's `pathlib` builtin](https://realpython.com/python-pathlib/)
-*   [Python's `functools.lru_cache` builtin](https://docs.python.org/3/library/functools.html#functools.lru_cache)
-*   [Python's `bisect` builtin](https://docs.python.org/3/library/bisect.html)
-*   [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
+##  *(Optional)* Advanced Stuff
+*   [Advanced Linux-ing](https://cs2043-sp16.github.io/schedule.html)
+*   [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
+*   Advanced Python
+    *   [Type Hinting (via `typing` builtin)](https://realpython.com/python-type-checking/)
+    *   [Python's `collections.Counter` builtin](https://pymotw.com/3/collections/counter.html)
+    *   [Python's `datetime` builtin](https://pymotw.com/3/datetime/)
+        *   [Working with Time Zones](https://www.youtube.com/watch?v=rz3D8VG_2TY)
+    *   [Python's `pathlib` builtin](https://realpython.com/python-pathlib/)
+    *   [Python's `functools.lru_cache` builtin](https://docs.python.org/3/library/functools.html#functools.lru_cache)
+    *   [Python's `bisect` builtin](https://docs.python.org/3/library/bisect.html)
+    *   [The Full Python Tutorial](https://docs.python.org/3/tutorial/)
+    *   [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
