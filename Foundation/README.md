@@ -1,4 +1,4 @@
-#   Foundation Modules (2 weeks) 
+#   Foundation Modules (1 week) 
 The foundation modules cater to officers without the necessary mathematical knowledge and/or experience in Markdown and Python programming. Officers with the relevant knowledge and/or experience can skip the respective portions of the foundation modules.
 
 

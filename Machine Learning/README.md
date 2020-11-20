@@ -1,12 +1,12 @@
-#   Machine Learning Modules (2 months)
+#   Machine Learning Modules (1 month)
 
 ##  Outline
 | S/N | Domain      | Estimated Duration |
 | --- | ----------- | ------------------ |
-| 1   | Intro to ML | 1 week             |
-| 2   | Practical   | 1 week             |
-| 3   | Advanced ML | 4 weeks            |
-| 4   | Assessment  | 2 weeks            |
+| 1   | Intro to ML | 1-2 days           |
+| 2   | Practical   | 3-4 days           |
+| 3   | Advanced ML | 2 weeks            |
+| 4   | Assessment  | 1 week             |
 
 
 ##  Intro to ML
@@ -26,7 +26,8 @@ Officers with a certain level of ML knowledge and experience can move straight t
 
 
 ##  Practical
-This hands-on section requires officers to go through the Kaggle Titanic dataset to understand, replicate, and tweak the code in the guided explanation. 
+This hands-on section requires officers to go through the Kaggle Titanic dataset 
+in order to understand, replicate, and tweak the code in the guided explanation. 
 
 ### Kaggle Titanic: Machine Learning from Disaster
 *   https://www.kaggle.com/c/titanic
@@ -53,21 +54,17 @@ This hands-on section requires officers to go through the Kaggle Titanic dataset
 ### Boosting
 *   [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html)
 *   [Gradient Boosting Interactive Playground](http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html)
-*   [Gradient Boosting explained [demonstration]](http://arogozhnikov.github.io/2016/06/24/gradient_boosting_explained.html)
+*   [Gradient Boosting explained (demonstration)](http://arogozhnikov.github.io/2016/06/24/gradient_boosting_explained.html)
 
 ### Practical Application Issues
 *   [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability)
-*   [A Few Useful Things to Know about Machine Learning (section 2)](cacm12.pdf) (see also the image below)
+*   *(Optional)* [A Few Useful Things to Know about Machine Learning (section 2)](cacm12.pdf) (see also the image below)
     *   Symbolists = knowledge-based systems
     *   Connectionists = neural nets
     *   Evolutionaries = genetic algorithms *(not as relevant to data science)*
     *   Bayesians = bayes nets / expert systems
     *   Analogizers = support vector machines
     ![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
-
-### Optimising thresholds
-*   [Machine Learning Meets Economics](http://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/)
-*   [Machine Learning Meets Economics, Part 2](http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/)
 
 ### Tutorials
 *   [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
@@ -85,13 +82,17 @@ This hands-on section requires officers to go through the Kaggle Titanic dataset
     *   libFM / fastFM
     *   H2O
 
-### Deep Learning Appreciation *(optional)*
+### *(Optional)* Optimising thresholds
+*   [Machine Learning Meets Economics](http://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/)
+*   [Machine Learning Meets Economics, Part 2](http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/)
+
+### *(Optional)* Deep Learning Appreciation
 *   [MIT Deep Learning (videos 1 and 2)](https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
 *   someday we’ll add real deep learning with a GPU
     *   probably use MNIST or build word vectors with a small dataset
 
 
 ##  Assessment
-This section is a hands-on assessment that requires officers to attempt the Kaggle Titanic prediction competition.
-Officers can either improve on the codes in the guided explanation, or write their own codes from scratch using ML methods.
-Consequently, officers have to present their codes to the GL.
+You will be attempting the Kaggle Titanic prediction competition
+You can either improve on the code in any of the guided explanations, or you can write your own ML code from scratch
+Finally, you will present your code / notebooks to the R&D group and explain your choices and reasoning
