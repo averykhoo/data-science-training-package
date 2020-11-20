@@ -42,66 +42,37 @@ For officers to take a break from lectures 😊
 *   deep learning in the ML module
 
 ### added by Avery, maybe we'll look at them someday
-*   [the gold standard for documentation](https://www.divio.com/blog/documentation/)
 *   [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
-*   [google AI education](https://ai.google/education/)
-    *   [google ML crash course](https://developers.google.com/machine-learning/crash-course)
-    *   [glossary](https://developers.google.com/machine-learning/glossary/)
-    *   [rules for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/)
-    *   [Data Preparation and Feature Engineering in ML](https://developers.google.com/machine-learning/data-prep/)
-    *   [problem framing](https://developers.google.com/machine-learning/problem-framing/)
-    *   [debugging ML](https://developers.google.com/machine-learning/testing-debugging/)
-    *   [recommendation systems](https://developers.google.com/machine-learning/recommendation/)
-    *   [clustering](https://developers.google.com/machine-learning/clustering/)
-    *   [how to deal with users](https://pair.withgoogle.com/)
-    *   [technical debt in ML](https://ai.google/research/pubs/pub43146)
-    *   [wizard of oz models](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
-*   [kaggle courses](https://www.kaggle.com/learn/overview)
+*   [google ML crash course](https://developers.google.com/machine-learning/crash-course)
+*   [glossary](https://developers.google.com/machine-learning/glossary/)
+*   [rules for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/)
+*   [how to work with users](https://pair.withgoogle.com/guidebook/)
+*   [technical debt in ML](https://ai.google/research/pubs/pub43146)
+*   [wizard of oz models](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 *   [see sidebar for titanic walkthroughs](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
-*   [see page 130](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf)
 *   [10 rules for better Jupyter notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
-*   SQL
-    *   [intro to SQL](https://mystery.knightlab.com/walkthrough.html)
-    *   [how SQL queries really work](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/)
-*   [random nlp walkthrough](https://github.com/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb)
-*   [visualization walkthrough](https://github.com/TiesdeKok/LearnPythonforResearch/blob/master/3_visualizing_data.ipynb)
-*   [ML in the industry](https://github.com/firmai/industry-machine-learning)
-*   algorithms?
-    *   BFS / DFS / A*
-    *   recursion, tail call elimination
-    *   binary search in a sorted list
-    *   sorting
-    *   complexity
-    *   parallelism, sync/async, locks, atomicity
-    *   dynamic programming, memoization
-*   what is the value in data?
+*   what is the value in data? -> ML must be either actionable or informative (or both) 
     *   predictive models (regressions)
     *   descriptive models (classifications)
     *   prescriptive models (recommendations)
-*   Joel Spolsky’s article on Unicode
+    *   associative models (clustering)
+*   Unicode
+    *   [Joel Spolsky’s article on Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+    *   http://reedbeta.com/blog/programmers-intro-to-unicode/
     *   see also [grapheme](https://github.com/alvinlindstam/grapheme), 
         which is a library for working with what you probably think are unicode characters
     *   see also [wcswidth](https://github.com/jquast/wcwidth),
         which gives you the length of a string, double-counting CJK characters since those are double-wide
-*   https://madewithml.com/
-*   https://github.com/mrdbourke/machine-learning-roadmap
-*   https://sotabench.com/
-*   https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
-*   use Kaggle’s SQL tutorial?
-*   more advanced sql tricks:
-    *   https://hakibenita.com/sql-tricks-application-dba
-    *   also look into materialized views
-*   should have a part on asking the right questions
-    *   and how not to find the wrong answers
 
 ### ML workflow
+0.  [asking the right questions](https://developers.google.com/machine-learning/problem-framing)
 1.  data acquisition
     *   if you're new, then maybe 'just getting data' doesn't seem ike it warrants a mention
-    *   trust me, it does
+    *   trust me, it does (unless it's an [open source dataset](https://datasetsearch.research.google.com))
 2.  ETL
     *   transforming data between formats (csv, json, html/xml, pipe-delimited, ...)
     *   fixing broken formats (such as unquoted csv ಠ_ಠ)
-3.  exploration
+3.  [exploration](https://developers.google.com/machine-learning/guides/good-data-analysis)
     *   just look at a subset if your dataset can't fit in RAM, but make sure it's not a biased subset
     *   `df.describe()`
     *   it is [important](https://www.autodeskresearch.com/publications/samestats) to visualize your data
@@ -112,21 +83,22 @@ For officers to take a break from lectures 😊
     *   understand where the data came from
     *   what the labels mean
     *   any pre-processing that was done that can't be undone
-5.  cleaning
+5.  [cleaning](https://www.kaggle.com/learn/data-cleaning)
     *   outliers / anomalies (eg huge spike in data)
     *   impute missing values
-    *   remove noise?
-    *   `ftfy.fix_text()`, detwingle unicode, decode html entities (possibly recursively), etc
+    *   remove noise
+    *   `ftfy.fix_text()`, `bs4.UnicodeDammit.detwingle`, decode html entities (possibly recursively), etc
 6.  baseline / POC
     *   linear least squares / logistic regression
     *   xgboost
     *   if you're getting abysmal performance, maybe the data is still borked
-7.  featurization *(NLP usually happens here)*
-    *   categorical to numeric
-    *   text processing
-    *   binning
-    *   t-score normalization
+7.  [featurization](https://www.kaggle.com/learn/feature-engineering) *(NLP usually happens here)*
+    *   [categorical to numeric](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical)
+    *   [text processing](https://www.kaggle.com/learn/natural-language-processing)
+    *   [binning](https://developers.google.com/machine-learning/data-prep/transform/bucketing)
+    *   [t-score normalization](https://developers.google.com/machine-learning/data-prep/transform/normalization)
 8.  training *(ML usually happens here)*
+    *   classification/regression/clustering/recommendation/etc...
     *   feature selection
         *   duplicate features: high correlation / covariance
         *   useless features: low / no variance
@@ -134,18 +106,20 @@ For officers to take a break from lectures 😊
         *   xgboost feature importance
     *   model selection
     *   hyperparameter optimization
-    *   dimension reduction
+    *   [dimension reduction](https://en.wikipedia.org/wiki/Curse_of_dimensionality)
     *   stacking/bagging/boosting
-9.  testing
+9.  testing (measuring performance)
     *   as close to real data as possible
-10. visualization (of results)
+    *   [debugging](https://developers.google.com/machine-learning/testing-debugging)
+10. [visualization](https://www.kaggle.com/learn/data-visualization) (of results)
     *   seaborn
-11. inference and explanations
+11. inference and [explanations](https://www.kaggle.com/learn/machine-learning-explainability)
     *   if you've gotten this far, congrats
-    *   SHAP/LIME
+    *   try LIME / [SHAP](https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
 12. building an API
     *   just use [`fastapi`](https://fastapi.tiangolo.com/)
     *   [best practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+    *   [documentation](https://documentation.divio.com)
 13. building a UI
     *   UX is more of an art than a science,
         many books have been written,
@@ -155,3 +129,10 @@ For officers to take a break from lectures 😊
         with minimal interaction and thinking,
         and ideally no instruction-reading
         (also, don't make it ugly or irritating)
+14. making it faster with better algorithms (do this last, don't prematurely optimize unless it's really too slow)
+    *   time / space complexity
+    *   binary search in a sorted list (`bisect`)
+    *   dynamic programming, memoization (`lru_cache`), tail call elimination
+    *   approx nearest neighbor lookup (`annoy`)
+    *   parallelism (`multiprocessing`), sync/async, locks, atomicity
+    *   A* search (as opposed to BFS / DFS)

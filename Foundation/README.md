@@ -34,6 +34,7 @@ The foundation modules cater to officers without the necessary mathematical know
 *   [Git](https://guides.github.com/introduction/git-handbook/)
 *   [Shell](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 *   [SQL](https://mystery.knightlab.com/walkthrough.html)
+    *   https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/
 
 
 ##  *(Optional)* Advanced Stuff
