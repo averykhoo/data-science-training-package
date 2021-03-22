@@ -70,9 +70,12 @@ For officers to take a break from lectures 😊
     *   if you're new, then maybe 'just getting data' doesn't seem ike it warrants a mention
     *   trust me, it does (unless it's an [open source dataset](https://datasetsearch.research.google.com))
 2.  ETL
+    *   (part of 'wrangling' or 'munging')
     *   transforming data between formats (csv, json, html/xml, pipe-delimited, ...)
     *   fixing broken formats (such as unquoted csv ಠ_ಠ)
+    *   minimal data edits for now, at least until you understand the data
 3.  [exploration](https://developers.google.com/machine-learning/guides/good-data-analysis)
+    *   also known as 'EDA'
     *   just look at a subset if your dataset can't fit in RAM, but make sure it's not a biased subset
     *   `df.describe()`
     *   it is [important](https://www.autodeskresearch.com/publications/samestats) to visualize your data
@@ -84,6 +87,7 @@ For officers to take a break from lectures 😊
     *   what the labels mean
     *   any pre-processing that was done that can't be undone
 5.  [cleaning](https://www.kaggle.com/learn/data-cleaning)
+    *   (part of 'wrangling' or 'munging')
     *   outliers / anomalies (eg huge spike in data)
     *   impute missing values
     *   remove noise
@@ -92,6 +96,7 @@ For officers to take a break from lectures 😊
     *   linear least squares / logistic regression
     *   xgboost
     *   if you're getting abysmal performance, maybe the data is still borked
+        *   or maybe it's impossible, and you should just give up
 7.  [featurization](https://www.kaggle.com/learn/feature-engineering) *(NLP usually happens here)*
     *   [categorical to numeric](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical)
     *   [text processing](https://www.kaggle.com/learn/natural-language-processing)
@@ -112,6 +117,7 @@ For officers to take a break from lectures 😊
     *   as close to real data as possible
     *   [debugging](https://developers.google.com/machine-learning/testing-debugging)
 10. [visualization](https://www.kaggle.com/learn/data-visualization) (of results)
+    *   also known as 'storytelling'
     *   seaborn
 11. inference and [explanations](https://www.kaggle.com/learn/machine-learning-explainability)
     *   if you've gotten this far, congrats
@@ -123,16 +129,23 @@ For officers to take a break from lectures 😊
 13. building a UI
     *   UX is more of an art than a science,
         many books have been written,
-        none of them can claim to be comprehensive
-    *   TL;DR version: 
-        the user wants to get their thing done as fast as possible, 
-        with minimal interaction and thinking,
-        and ideally no instruction-reading
-        (also, don't make it ugly or irritating)
-14. making it faster with better algorithms (do this last, don't prematurely optimize unless it's really too slow)
-    *   time / space complexity
+        none of them cover everything you need to know
+    *   but here's a TL;DR for UI: 
+        let the user get their thing done as fast as possible, 
+        with the fewest possible ways to get it wrong or misunderstand what happened,
+        with minimal interaction per transaction,
+        ideally not needing to read any instructions or even think about the process,
+        and also don't make it ugly 
+        or irritating if you have to use it a thousand times (because they probably will have to) 
+14. collecting usage stats / telemetry
+    *   inevitably, management will ask how many people are using your thing
+    *   you can't really answer "no clue" and still expect to get your bonus
+15. making it faster with better algorithms (do this last, don't prematurely optimize unless it's really too slow)
+    *   think about time / space complexity
+    *   an inverted index for search
     *   binary search in a sorted list (`bisect`)
-    *   dynamic programming, memoization (`lru_cache`), tail call elimination
-    *   approx nearest neighbor lookup (`annoy`)
-    *   parallelism (`multiprocessing`), sync/async, locks, atomicity
+    *   dynamic programming, memoization (`lru_cache`), tail call elimination, loop unrolling
+    *   approx nearest-neighbor lookup (`annoy`, `scann`)
+    *   parallelism (`multiprocessing`), async, locks, atomicity
     *   A* search (as opposed to BFS / DFS)
+    *   cython / numba / pypy
