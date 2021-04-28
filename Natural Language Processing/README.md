@@ -56,7 +56,9 @@
 
 
 ##  Assessment
-This section is a hands-on assessment that requires officers to attempt the Kaggle Avito Duplicate Ads Detection prediction competition. Officers are expected to write their own codes from scratch using concepts learnt from Kaggle Titanic and NLP methods (e.g. word2vec). Consequently, officers have to present the codes to the GL.
+This section is a hands-on assessment that requires practitioners to attempt the Kaggle Avito Duplicate Ads Detection prediction competition. 
+You are expected to write your own code from scratch using concepts learnt from Kaggle Titanic and NLP methods (e.g. word2vec). 
+Consequently, you'll present your work to your mentor/supervisor.
 
 ### Kaggle Avito Duplicate Ads Detection
 *   https://www.kaggle.com/c/avito-duplicate-ads-detection

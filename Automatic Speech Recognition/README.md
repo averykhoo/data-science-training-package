@@ -17,7 +17,7 @@
 
 
 ##  Kaldi Practical
-This section is a hands-on practical that requires officers to build their own ASR model using Kaldi.
+This section is a hands-on practical that requires practitioners to build their own ASR model using Kaldi.
 
 ### Tutorials
 *   [Kaldi: Kaldi for Dummies tutorial](http://kaldi-asr.org/doc/kaldi_for_dummies.html)

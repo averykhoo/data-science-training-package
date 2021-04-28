@@ -10,8 +10,8 @@
 
 
 ##  Intro to ML
-This section caters to officers without ML knowledge.
-Officers with a certain level of ML knowledge and experience can move straight to Advanced ML.
+This section is meant to provide some background ML knowledge.
+If you already understand ML and have enough experience, you can move straight to Advanced ML.
 
 ### Overview
 *   [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
@@ -26,7 +26,7 @@ Officers with a certain level of ML knowledge and experience can move straight t
 
 
 ##  Practical
-This hands-on section requires officers to go through the Kaggle Titanic dataset 
+This hands-on section requires practitioners to go through the Kaggle Titanic dataset 
 in order to understand, replicate, and tweak the code in the guided explanation. 
 
 ### Kaggle Titanic: Machine Learning from Disaster

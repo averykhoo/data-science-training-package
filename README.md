@@ -1,5 +1,5 @@
-#   PTR Training Package
-To train up new PTR officers to bare minimum competency level
+#   Data Science Training Package
+To train up new data scientists to bare minimum competency level
 
 
 ##  Prerequisites
@@ -20,16 +20,10 @@ To train up new PTR officers to bare minimum competency level
 
 
 ##  (Bonus) Interesting Reads
-For officers to take a break from lectures 😊
+When you want to take a break from lectures 😊
 *    [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
 *    [The Codeless Code](http://www.thecodelesscode.com/contents)
 *    [Some AI Koans](http://catb.org/jargon/html/koans.html)
-
-
-##  Original Training Packages
-*   [PTR Training Package](https://www.dropbox.com/s/cqa6g2rrk5at6as/Trainingpackage.docx?dl=0)
-*   [ASR Training Package](https://www.dropbox.com/sh/id3pp9wjhasz5rx/AACzS2mVfKeuQbpWTi-TiUNIa?dl=0)
-*   [DA Training Package](https://gist.github.com/shanesoh/6ec2a65187638b32448be82222a754ce)
 
 
 ##  Future Plans
@@ -38,7 +32,7 @@ For officers to take a break from lectures 😊
     *   [ ] the curriculum collates and orders the material needed to cover the syllabus
     *   makes it easy to look for better materials and make updates to the curriculum, 
         while making sure the scope of the training package doesn’t drift too much
-    *   but it’s more effort than I feel is justified right now; after all we’re CSIT not MOE
+    *   but it’s more effort than I feel is justified right now
 *   deep learning in the ML module
 
 ### added by Avery, maybe we'll look at them someday

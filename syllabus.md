@@ -99,6 +99,7 @@
         *   Support vector machine (just a linear SVM for binary classification)
         *   Decision trees
     *   Ensemble
+        *   Bagging (e.g. random forests)
         *   Boosting (e.g. using `XGBoost` or `LightGBM`)
         *   Stacking
     *   Metrics
