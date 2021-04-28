@@ -45,6 +45,7 @@ When you want to take a break from lectures 😊
 *   [wizard of oz models](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 *   [see sidebar for titanic walkthroughs](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
 *   [10 rules for better Jupyter notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
+*   [Elements of Statistical Learning (book)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 *   what is the value in data? -> ML must be either actionable or informative (or both) 
     *   predictive models (regressions)
     *   descriptive models (classifications)

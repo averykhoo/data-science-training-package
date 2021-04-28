@@ -20,7 +20,7 @@
         *   Do we want to give an exemplar regex cheat sheet?
     *   Git
     *   Unix tools and scripting
-        *   CS2043 lectures 1 to 8
+        *   [CS2043 lectures 1 to 8](https://www.cs.cornell.edu/courses/cs2043/2014sp/)
     *   minimal SQL
         *   `SELECT <named columns> AS <renamed columns>`
         *   `COUNT(*)` and `COUNT(DISTINCT column_name)`
@@ -186,6 +186,7 @@
 *   ~~KL / JS divergence~~
 *   ~~Time-series data~~
     *   ~~ARIMA~~
+    *   [~~Facebook Prophet~~](https://facebook.github.io/prophet/)
 *   ~~Non-convex optimization~~
 
 
