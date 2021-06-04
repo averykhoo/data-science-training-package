@@ -29,3 +29,7 @@ This section is a hands-on practical that requires practitioners to build their 
 ### Resources
 *   [Kaldi ASR](https://kaldi-asr.org/)
 *   [Josh Meyer's Website](http://jrmeyer.github.io/)
+*   [A Tutorial on Hidden Markov Models](https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/tutorial%20on%20hmm%20and%20applications.pdf)
+*   [Speech Recognition with Finite State Transducers](https://cs.nyu.edu/~mohri/pub/hbka.pdf)
+*   [Purely sequence-trained neural networks for ASR based on lattice-free MMI](https://www.danielpovey.com/files/2016_interspeech_mmi.pdf), [slides](https://danielpovey.com/files/2016_interspeech_mmi_presentation.pptx) (This is the "chain" model in Kaldi)
+
