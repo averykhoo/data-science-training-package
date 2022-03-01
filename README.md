@@ -132,7 +132,7 @@ When you want to take a break from lectures 😊
         ideally not needing to read any instructions or even think about the process,
         and also don't make it ugly 
         or irritating if you have to use it a thousand times (because they probably will have to) 
-14. collecting usage stats / telemetry
+14. monitoring: collecting usage stats / telemetry
     *   inevitably, management will ask how many people are using your thing
     *   you can't really answer "no clue" and still expect to get your bonus
 15. making it faster with better algorithms (do this last, don't prematurely optimize unless it's really too slow)
@@ -144,3 +144,6 @@ When you want to take a break from lectures 😊
     *   parallelism (`multiprocessing`), async, locks, atomicity
     *   A* search (as opposed to BFS / DFS)
     *   cython / numba / pypy
+16. ml ops
+    *   retraining, model repo, metrics and push to prod, etc
+    *   TODO: fill up this bit
