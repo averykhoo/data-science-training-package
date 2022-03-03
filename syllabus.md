@@ -11,7 +11,7 @@
 
 *   Mathematics
     *   Basic linear algebra (vectors and matrices)
-    *   Basic probability and statistics (including Bayes’ Theorem)
+    *   Basic probability and statistics (including distributions and Bayes’ Theorem)
 *   Programming
     *   Markdown
     *   Python 3 and basic regex
