@@ -112,6 +112,7 @@
         *   Loss function
         *   Bias / variance trade-off
         *   What is over-fitting and under-fitting
+        *   Curse of dimensionality
         *   Cross-validation, hyperparameter tuning
         *   *Appreciate the existence of:*
             *   *Regularization*
@@ -168,10 +169,9 @@
     *   ~~Ranking~~
     *   ~~Ordinal~~
     *   ~~Multiclass~~
-*   ~~Curse of dimensionality~~
+*   ~~Dimension reduction~~
     *   ~~VC dimension~~
     *   ~~Auto-encoders~~
-    *   ~~Dimensionality reduction~~
     *   ~~PCA~~
 *   ~~Other ML topics~~
     *   ~~Semi-supervised learning (e.g. LLDA)~~
