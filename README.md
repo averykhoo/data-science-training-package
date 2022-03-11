@@ -62,6 +62,7 @@ When you want to take a break from lectures 😊
 ### ML workflow
 0.  [asking the right questions](https://developers.google.com/machine-learning/problem-framing)
     *   see also the [data literacy project scoping guide](https://go.gov.sg/project-scoping-guide)
+    *   look into elicitation of requirements or ideas from your users
 1.  data acquisition
     *   if you're new, then maybe 'just getting data' doesn't seem ike it warrants a mention
     *   trust me, it does (unless it's an [open source dataset](https://datasetsearch.research.google.com))
