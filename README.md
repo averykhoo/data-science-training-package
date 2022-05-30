@@ -46,6 +46,8 @@ When you want to take a break from lectures 😊
 *   [see sidebar for titanic walkthroughs](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
 *   [10 rules for better Jupyter notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 *   [Elements of Statistical Learning (book)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+*   [Data Science and Machine Learning: Mathematical and Statistical Methods](https://people.smp.uq.edu.au/DirkKroese/DSML/)
+    *   [with associated Python code](https://github.com/DSML-book/)
 *   what is the value in data? -> ML must be either actionable or informative (or both) 
     *   predictive models (regressions)
     *   descriptive models (classifications)
@@ -89,6 +91,7 @@ When you want to take a break from lectures 😊
     *   impute missing values
     *   remove noise
     *   `ftfy.fix_text()`, `bs4.UnicodeDammit.detwingle`, decode html entities (possibly recursively), etc
+    *   data version control, to track how the data was cleaned
 6.  baseline / POC
     *   linear least squares / logistic regression
     *   xgboost
