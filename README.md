@@ -118,15 +118,19 @@ When you want to take a break from lectures 😊
     *   [debugging](https://developers.google.com/machine-learning/testing-debugging)
 10. [visualization](https://www.kaggle.com/learn/data-visualization) (of results)
     *   also known as 'storytelling'
-    *   seaborn
+    *   seaborn![img.png](img.png)![img_1.png](img_1.png)
 11. inference and [explanations](https://www.kaggle.com/learn/machine-learning-explainability)
     *   if you've gotten this far, congrats
     *   try LIME / [SHAP](https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
-12. building an API
-    *   just use [`fastapi`](https://fastapi.tiangolo.com/)
+12. deploying / sharing your model
+    *   [`fastapi`](https://fastapi.tiangolo.com/)
+    *   [`streamlit`](https://streamlit.io)
+    *   or just share the Jupyter notebook with all your above steps (but clean it up and add explanations first!)
+13. developing a clean API
     *   [best practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
     *   [documentation](https://documentation.divio.com)
-13. building a UI
+    *   linting and type-checking your code (e.g. `flake8` and maybe `mypy`)
+14. building a UI
     *   UX is more of an art than a science,
         many books have been written,
         none of them cover everything you need to know
@@ -137,10 +141,10 @@ When you want to take a break from lectures 😊
         ideally not needing to read any instructions or even think about the process,
         and also don't make it ugly 
         or irritating if you have to use it a thousand times (because they probably will have to) 
-14. monitoring: collecting usage stats / telemetry
+15. monitoring: collecting usage stats / telemetry
     *   inevitably, management will ask how many people are using your thing
     *   you can't really answer "no clue" and still expect to get your bonus
-15. making it faster with better algorithms (do this last, don't prematurely optimize unless it's really too slow)
+16. making it faster with better algorithms (do this last, don't prematurely optimize unless it's really too slow)
     *   think about time / space complexity
     *   an inverted index for search
     *   binary search in a sorted list (`bisect`)
@@ -149,6 +153,8 @@ When you want to take a break from lectures 😊
     *   parallelism (`multiprocessing`), async, locks, atomicity
     *   A* search (as opposed to BFS / DFS)
     *   cython / numba / pypy
-16. ml ops
-    *   retraining, model repo, metrics and push to prod, etc
+17. ml ops
+    *   CI/CD (e.g. to push to prod)
+    *   version control of models and data
+    *   quality metrics, detecting drift, auto retraining
     *   TODO: fill up this bit
