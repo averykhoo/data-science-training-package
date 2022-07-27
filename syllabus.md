@@ -88,7 +88,7 @@
 *   ~~How to use oracle’s XML tables~~
 
 
-##  [Machine Learning](./Machine Learning/README.md) (1 month)
+##  [Machine Learning](./Machine%20Learning/README.md) (1 month)
 
 *   Supervised Learning
     *   Regression
