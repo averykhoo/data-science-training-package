@@ -190,7 +190,7 @@
 *   ~~Non-convex optimization~~
 
 
-##  [Natural Language Processing](./Natural Language Processing/README.md) (1 month)
+##  [Natural Language Processing](./Natural%20Language%20Processing/README.md) (1 month)
 
 *   Text Preprocessing (`NLTK`)
     *   Tokenization and segmentation (and what is an n-gram)
@@ -253,7 +253,7 @@
 *   ~~Byte pair encoding and subword tokenization (e.g. sentencepiece)~~
 *   ~~Spelling / grammar correction~~
 
-##  [Automatic Speech Recognition](./Automatic Speech Recognition/README.md) (1 month)
+##  [Automatic Speech Recognition](./Automatic%20Speech%20Recognition/README.md) (1 month)
 
 *   Fundamentals of Speech Recognition (Stanford CS224S Lecture 1)
 *   Language Modelling (Edinburgh)
