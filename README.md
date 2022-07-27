@@ -83,7 +83,7 @@ When you want to take a break from lectures 😊
         *   [example](https://www.kaggle.com/mervinpraison/seaborn-to-visualize-iris-data/notebook)
 4.  background research and data provenance
     *   understand where the data came from
-    *   what the labels mean
+    *   what the labels mean, and how accurate they are
     *   any pre-processing that was done that can't be undone
 5.  [cleaning](https://www.kaggle.com/learn/data-cleaning)
     *   (part of 'wrangling' or 'munging')
