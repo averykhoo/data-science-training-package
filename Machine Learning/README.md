@@ -26,15 +26,18 @@ If you already understand ML and have enough experience, you can move straight t
 
 
 ##  Practical
-This hands-on section requires practitioners to go through the Kaggle Titanic dataset 
-in order to understand, replicate, and tweak the code in the guided explanation. 
+This hands-on section requires practitioners to go through the Kaggle Titanic dataset
+in order to understand, replicate, and tweak the code in the guided explanation.
+This is not an examination, so feel free to Google for walkthroughs, but do cite your sources
+and explain your reasoning when you share your methodology and results with your mentor/group.
 
 ### Kaggle Titanic: Machine Learning from Disaster
 *   https://www.kaggle.com/c/titanic
 
 ### Tips, tools, and guided explanation
 *   [How to score 0.8134 in Titanic Kaggle Challenge by Ahmed Besbes](https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html)
-*   You can find the backup to the guided explanation [here](ahmedbesbes-titanic.pdf)
+*   You can find a backup pdf [here](ahmedbesbes-titanic.pdf) if the link is down
+*   Search for a few more guides on your own, don't just rely on this one
 
 
 ##  Advanced ML
