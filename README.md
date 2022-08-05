@@ -26,47 +26,12 @@ When you want to take a break from lectures 😊
 *    [Some AI Koans](http://catb.org/jargon/html/koans.html)
 
 
-##  Future Plans
-*   [x] split up the syllabus and the curriculum for this package:
-    *   [x] the syllabus notes down things that need to be learned and outcomes that should be achieved
-    *   [ ] the curriculum collates and orders the material needed to cover the syllabus
-    *   makes it easy to look for better materials and make updates to the curriculum, 
-        while making sure the scope of the training package doesn’t drift too much
-    *   but it’s more effort than I feel is justified right now
-*   deep learning in the ML module
-
-### added by Avery, maybe we'll look at them someday
-*   [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
-*   [google ML crash course](https://developers.google.com/machine-learning/crash-course)
-*   [glossary](https://developers.google.com/machine-learning/glossary/)
-*   [rules for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/)
-*   [how to work with users](https://pair.withgoogle.com/guidebook/)
-*   [technical debt in ML](https://ai.google/research/pubs/pub43146)
-*   [wizard of oz models](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
-*   [see sidebar for titanic walkthroughs](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
-*   [10 rules for better Jupyter notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
-*   [Elements of Statistical Learning (book)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
-*   [Data Science and Machine Learning: Mathematical and Statistical Methods](https://people.smp.uq.edu.au/DirkKroese/DSML/)
-    *   [with associated Python code](https://github.com/DSML-book/)
-*   what is the value in data? -> ML must be either actionable or informative (or both) 
-    *   predictive models (regressions)
-    *   descriptive models (classifications)
-    *   prescriptive models (recommendations)
-    *   associative models (clustering)
-*   Unicode
-    *   [Joel Spolsky’s article on Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-    *   http://reedbeta.com/blog/programmers-intro-to-unicode/
-    *   see also [grapheme](https://github.com/alvinlindstam/grapheme), 
-        which is a library for working with what you probably think are unicode characters
-    *   see also [wcswidth](https://github.com/jquast/wcwidth),
-        which gives you the length of a string, double-counting CJK characters since those are double-wide
-
 ### ML workflow
 0.  [asking the right questions](https://developers.google.com/machine-learning/problem-framing)
     *   see also the [data literacy project scoping guide](https://go.gov.sg/project-scoping-guide)
     *   look into elicitation of requirements or ideas from your users
 1.  data acquisition
-    *   if you're new, then maybe 'just getting data' doesn't seem ike it warrants a mention
+    *   maybe 'just get some labelled training data' doesn't seem like it even warrants a mention
     *   trust me, it does (unless it's an [open source dataset](https://datasetsearch.research.google.com))
 2.  ETL
     *   (part of 'wrangling' or 'munging')
@@ -83,27 +48,41 @@ When you want to take a break from lectures 😊
         *   [example](https://www.kaggle.com/mervinpraison/seaborn-to-visualize-iris-data/notebook)
 4.  background research and data provenance
     *   understand where the data came from
-    *   what the labels mean, and how accurate they are
+    *   what the labels mean, and how accurate they are, whether there's class imbalance
     *   any pre-processing that was done that can't be undone
 5.  [cleaning](https://www.kaggle.com/learn/data-cleaning)
     *   (part of 'wrangling' or 'munging')
     *   outliers / anomalies (eg huge spike in data)
     *   impute missing values
     *   remove noise
-    *   `ftfy.fix_text()`, `bs4.UnicodeDammit.detwingle`, decode html entities (possibly recursively), etc
+    *   handle Unicode
+        *   [`ftfy.fix_text`](https://pypi.org/project/ftfy)
+        *   [`bs4.UnicodeDammit.detwingle`](https://pypi.org/project/beautifulsoup4)
+            (you can also use bs4 to decode html entities (possibly recursively))
+        *   [`grapheme`](https://pypi.org/project/grapheme)
+            or the `\X` pattern in [`regex`](https://pypi.org/project/beautifulsoup4)
     *   data version control, to track how the data was cleaned
 6.  baseline / POC
     *   linear least squares / logistic regression
     *   xgboost
     *   if you're getting abysmal performance, maybe the data is still borked
         *   or maybe it's impossible, and you should just give up
+    *   if you're getting suspiciously good performance (especially if you get 100%) something is probably wrong
+        *   somehow leaking your label, maybe via an *extremely* correlated variable 
+        *   you've effectively split a timeseries into top and bottom halves and are using one to predict the other
+        *   or maybe your problem is too easy, and you just need some rules or heuristics 
 7.  [featurization](https://www.kaggle.com/learn/feature-engineering) *(NLP usually happens here)*
     *   [categorical to numeric](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical)
     *   [text processing](https://www.kaggle.com/learn/natural-language-processing)
     *   [binning](https://developers.google.com/machine-learning/data-prep/transform/bucketing)
     *   [t-score normalization](https://developers.google.com/machine-learning/data-prep/transform/normalization)
 8.  training *(ML usually happens here)*
-    *   classification/regression/clustering/recommendation/etc...
+    *   what is the value in your data? -> ML must be either actionable or informative (or both)
+        *   predictive models (regressions)
+        *   descriptive models (classifications)
+        *   prescriptive models (recommendations)
+        *   associative models (clustering)
+        *   (this list is not comprehensive - e.g. there are also generative models)
     *   feature selection
         *   duplicate features: high correlation / covariance
         *   useless features: low / no variance
