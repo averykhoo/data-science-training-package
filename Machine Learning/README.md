@@ -58,10 +58,12 @@ in order to understand, replicate, and tweak the code in the guided explanation.
 
 ### Practical Application Issues
 *   [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability)
-*   *(Optional)* [A Few Useful Things to Know about Machine Learning (section 2)](cacm12.pdf) (see also the image below)
+*   *(Optional)* [A Few Useful Things to Know about Machine Learning (section 2)](cacm12.pdf) (see also the image below,
+    which describes a few ways to conceptually approach ML - the naming this person came up with is a little cheesy, but
+    it's good to know there are usually multiple approaches to solving your ML problem)
     *   Symbolists = knowledge-based systems
     *   Connectionists = neural nets
-    *   Evolutionaries = genetic algorithms *(not as relevant to data science)*
+    *   Evolutionaries = genetic algorithms *(nearly unheard of in data science nowadays)*
     *   Bayesians = bayes nets / expert systems
     *   Analogizers = support vector machines
     ![Representation, Evaluation, and Optimization for 5 approaches to ML](reo.png)
