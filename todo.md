@@ -22,13 +22,28 @@
 * evaluating your results "by eye"
   * is the accuracy weird
     * is it too good? (98-100%, but 95+ is were you'd get suspicious)-> leaking labels, easy problems
-    * is it too bad? -> low quality labels and test set?  
+    * is it too bad? -> low quality labels and test set?
   * rules of thumb
     * would the opposite finding be surprising?
     * if you were told that some other model predicted the opposite (or a different) result, would it be believable?
     * if you were instructed to come up with the opposite result (given your current data), would you be able to do so
       easily?
-*
+* more notes on labels, featurization, etc
+  * proxy variables / unique labels / categories with insanely high cardinality
+  * feature importance (shap, permutation)
+  * one-hot encoding
+    * or use -1 and 1, and 0 for missing values
+  * ordinal encoding for things like likert scales
+    * but be warned that how these are interpreted vary from person to person, so their survey responses may not be
+      comparable - only the differences between responses to questions may be valid
+    * see also 'words of estimative probability' for an example of how categories may be only semi-ordinal
+  * imputation
+    * you can sometimes guess from other variables, e.g. name -> gender
+  * discretization/binning (equal-frequency, equal-width, clustering, handmade lookup table, etc)
+  * normalization (z-score, min-max)
+  * constructed features (e.g. "is this guest a noble" or "is this guest a domestic helper" for titanic)
+  * negative effects of strongly-correlated features
+  * accidentally introducing time via sequential ids (or shadows in labeled images of tanks)
 
 ### Excessively long list of resources we can consider for inclusion
 
