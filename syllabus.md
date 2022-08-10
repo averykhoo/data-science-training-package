@@ -153,10 +153,11 @@
         *   Data exploration and data cleaning
             *   Dealing with missing values
             *   Finding and fixing outliers
-        *   Featurization
+        *   Featurization, feature importance, feature selection
             *   Categorical to one-hot encoding
             *   Binning (e.g. quartiles)
             *   Removing highly-correlated features to reduce dimensionality
+                *   PCA is not a measure of feature importance
     *   Presentation to group covering process, outcome, and learning points
 *   ~~"Advanced" regressions~~
     *   ~~Isotonic~~
