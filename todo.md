@@ -2,11 +2,30 @@
 
 (split off from main readme to reduce clutter)
 
+## add to ml workflow:
+
+* featurization
+  * proxy variables / unique labels / categories with insanely high cardinality
+  * feature importance (shap, permutation)
+  * one-hot encoding for categories of reasonably low cardinality
+    * or use -1 and 1, and 0 for missing values
+  * ordinal encoding for things like likert scales
+    * but be warned that how these are interpreted sometimes vary from person to person, so their survey responses may
+      not be comparable - only the differences between responses to questions may be valid
+    * see also 'words of estimative probability' for an example of how categories may be only semi-ordinal
+  * imputation
+    * you can sometimes guess from other variables, e.g. name -> gender
+  * discretization/quantization/binning (equal-frequency, equal-width, clustering, handmade lookup table, etc.)
+  * z-score standardization, l2 normalization, min-max scaling
+  * constructed features (e.g. "is this guest a noble" or "is this guest a domestic helper" for titanic)
+  * negative effects of having strongly-correlated features (in some models)
+  * accidentally introducing time via sequential ids (or shadows in labeled images of tanks)
+
 ## Future Plans
 
 * [x] split up the syllabus and the curriculum for this package (this makes it easier to look for new and better
   materials, and to make updates to the curriculum, while at the same time making sure the scope of the training package
-  doesn’t drift too much as stuff is added or removed)
+  doesn't drift too much as stuff is added or removed)
   * [x] the [syllabus](syllabus.md) notes down things that need to be learned and outcomes that should be achieved
   * the curriculum collates and orders the material needed to cover the syllabus
 * cover deep learning in the ML module in a bot more depth
@@ -21,31 +40,15 @@
   * remember that near-100% results are suspicious
 * evaluating your results "by eye"
   * is the accuracy weird
-    * is it too good? (98-100%, but 95+ is were you'd get suspicious)-> leaking labels, easy problems
+    * is it too good? (98-100%, but 95+ is where you'd get suspicious)-> leaking labels, easy problems
     * is it too bad? -> low quality labels and test set?
   * rules of thumb
     * would the opposite finding be surprising?
     * if you were told that some other model predicted the opposite (or a different) result, would it be believable?
     * if you were instructed to come up with the opposite result (given your current data), would you be able to do so
       easily?
-* more notes on labels, featurization, etc
-  * proxy variables / unique labels / categories with insanely high cardinality
-  * feature importance (shap, permutation)
-  * one-hot encoding
-    * or use -1 and 1, and 0 for missing values
-  * ordinal encoding for things like likert scales
-    * but be warned that how these are interpreted vary from person to person, so their survey responses may not be
-      comparable - only the differences between responses to questions may be valid
-    * see also 'words of estimative probability' for an example of how categories may be only semi-ordinal
-  * imputation
-    * you can sometimes guess from other variables, e.g. name -> gender
-  * discretization/binning (equal-frequency, equal-width, clustering, handmade lookup table, etc)
-  * normalization (z-score, min-max)
-  * constructed features (e.g. "is this guest a noble" or "is this guest a domestic helper" for titanic)
-  * negative effects of strongly-correlated features
-  * accidentally introducing time via sequential ids (or shadows in labeled images of tanks)
 
-### Excessively long list of resources we can consider for inclusion
+## Excessively long list of resources we can consider for inclusion
 
 * [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
 * [google ML crash course](https://developers.google.com/machine-learning/crash-course)
@@ -58,7 +61,7 @@
 * [how to work with users](https://pair.withgoogle.com/guidebook/)
 * [technical debt in ML](https://ai.google/research/pubs/pub43146)
 * [wizard of oz models](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
-* [see sidebar for titanic walkthroughs](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
+* [see sidebar for titanic walkthrough](https://techdevguide.withgoogle.com/paths/machine-learning/sequence-2/kaggle-competition-titanic/#!)
 * [10 rules for better Jupyter notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 * [Elements of Statistical Learning (book)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 * [Data Science and Machine Learning: Mathematical and Statistical Methods](https://people.smp.uq.edu.au/DirkKroese/DSML/)
@@ -66,7 +69,7 @@
 * Unicode
   * [Joel Spolsky’s article on Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
   * http://reedbeta.com/blog/programmers-intro-to-unicode/
-  * see also [grapheme](https://github.com/alvinlindstam/grapheme), which is a library for working with what you
+  * see also `[grapheme`](https://github.com/alvinlindstam/grapheme), which is a library for working with what you
     probably think are unicode characters
-  * see also [wcswidth](https://github.com/jquast/wcwidth), which gives you the length of a string, double-counting CJK
+  * see also [`wcswidth`](https://github.com/jquast/wcwidth), which gives you the length of a string, double-counting CJK
     characters since those are double-wide

@@ -22,8 +22,8 @@
     *   Unix tools and scripting
         *   [CS2043 lectures 1 to 8](https://www.cs.cornell.edu/courses/cs2043/2014sp/)
     *   minimal SQL
-        *   `SELECT <named columns> AS <renamed columns>`
-        *   `COUNT(*)` and `COUNT(DISTINCT column_name)`
+        *   `SELECT <named column> AS <renamed column>`
+        *   `COUNT(*)` and `COUNT(DISTINCT <column_name>)`
         *   `UPDATE`
         *   only 3 joins: `(INNER) JOIN`, `LEFT JOIN`, `LEFT OUTER JOIN`
         *   `UNION`
