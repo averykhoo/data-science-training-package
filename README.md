@@ -95,6 +95,7 @@ When you want to take a break from lectures 😊
 9.  testing (measuring performance)
     *   as close to real data as possible
     *   [debugging](https://developers.google.com/machine-learning/testing-debugging)
+    *   try to find edge cases / figure out where your model / algorithm breaks down
 10. [visualization](https://www.kaggle.com/learn/data-visualization) (of results)
     *   also known as 'storytelling'
     *   seaborn![img.png](img.png)![img_1.png](img_1.png)
