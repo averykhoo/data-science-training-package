@@ -5,21 +5,26 @@
 ## add to ml workflow:
 
 * featurization
-  * proxy variables / unique labels / categories with insanely high cardinality
-  * feature importance (shap, permutation)
-  * one-hot encoding for categories of reasonably low cardinality
-    * or use -1 and 1, and 0 for missing values
-  * ordinal encoding for things like likert scales
-    * but be warned that how these are interpreted sometimes vary from person to person, so their survey responses may
-      not be comparable - only the differences between responses to questions may be valid
-    * see also 'words of estimative probability' for an example of how categories may be only semi-ordinal
-  * imputation
+  * handling different tyles of data
+    * encoding categorical features
+      * unique labels / categories with insanely high cardinality
+      * one-hot encoding for categories of reasonably low cardinality
+        * or use -1 and 1, and 0 for missing values
+      * ordinal encoding for things like likert scales
+        * but be warned that how these are interpreted sometimes vary from person to person, so their survey responses may
+          not be comparable - only the differences between responses to questions may be valid
+        * see also 'words of estimative probability' for an example of how categories may be only semi-ordinal
+    * simplifying numerical features
+      * discretization/quantization/binning (equal-frequency, equal-width, clustering, handmade lookup table, etc)
+      * z-score standardization, l2 normalization, min-max scaling
+    * constructed features (e.g. "is this guest a noble" or "is this guest a domestic helper" for titanic)
+      * using proxy variables too
+  * imputation of null values
     * you can sometimes guess from other variables, e.g. name -> gender
-  * discretization/quantization/binning (equal-frequency, equal-width, clustering, handmade lookup table, etc.)
-  * z-score standardization, l2 normalization, min-max scaling
-  * constructed features (e.g. "is this guest a noble" or "is this guest a domestic helper" for titanic)
-  * negative effects of having strongly-correlated features (in some models)
-  * accidentally introducing time via sequential ids (or shadows in labeled images of tanks)
+  * feature importance and selection (shap, permutation)
+  * gotchas to avoid
+    * negative effects of having strongly-correlated features (in some models)
+    * accidentally introducing time via sequential ids (or shadows in labeled images of tanks)
 
 ## Future Plans
 
