@@ -164,7 +164,7 @@
     *   use jupyter and python
     *   learn and use `pandas` (and maybe how it relates to SQL?)
     *   `scipy`, `numpy`, `sklearn`
-    *   Visualization (charts & graphs with `seaborn` or the more obscure `altair`)
+    *   Visualization (charts & graphs with `seaborn`)
     *   Titanic (with mandatory walkthroughs)
         *   if you've done this before:
             you can choose another kaggle, or just speedrun this project

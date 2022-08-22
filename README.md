@@ -11,12 +11,12 @@ To train up new data scientists to bare minimum competency level
 
 
 ##  Contents
-| S/N | Domain                                                                    | Estimated Duration |
-| --- | ------------------------------------------------------------------------- | ------------------ |
-| 1   | [Foundation](Foundation/README.md)                                        | 2 weeks            |
-| 2   | [Machine Learning](Machine%20Learning/README.md)                          | 2 months           |
-| 3   | [Natural Language Processing](Natural%20Language%20Processing/README.md)  | 1 month            |
-| 4   | [Automatic Speech Recognition](Automatic%20Speech%20Recognition/README.md)| 1 month            |
+| S/N | Domain                                                                     | Estimated Duration |
+|-----|----------------------------------------------------------------------------|--------------------|
+| 1   | [Foundation](Foundation/README.md)                                         | 2 weeks            |
+| 2   | [Machine Learning](Machine%20Learning/README.md)                           | 2 months           |
+| 3   | [Natural Language Processing](Natural%20Language%20Processing/README.md)   | 1 month            |
+| 4   | [Automatic Speech Recognition](Automatic%20Speech%20Recognition/README.md) | 1 month            |
 
 
 ##  (Bonus) Interesting Reads
@@ -100,7 +100,7 @@ When you want to take a break from lectures 😊
     *   try to find edge cases / figure out where your model / algorithm breaks down
 10. [visualization](https://www.kaggle.com/learn/data-visualization) (of results)
     *   also known as 'storytelling'
-    *   seaborn![img.png](img.png)![img_1.png](img_1.png)
+    *   `seaborn` or even the most basic `matplotlib.pyplot`
 11. inference and [explanations](https://www.kaggle.com/learn/machine-learning-explainability)
     *   if you've gotten this far, congrats
     *   try LIME / [SHAP](https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
