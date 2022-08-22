@@ -46,10 +46,12 @@ When you want to take a break from lectures 😊
         *   parallel coordinate plot / Andrews plot  / Kent–Kiviat radar m chart
         *   correlation matrix
         *   [example](https://www.kaggle.com/mervinpraison/seaborn-to-visualize-iris-data/notebook)
-4.  background research and data provenance
+4.  data provenance, background research, and literature review 
     *   understand where the data came from
     *   what the labels mean, and how accurate they are, whether there's class imbalance
     *   any pre-processing that was done that can't be undone
+    *   find out what has been tried before that did or didn't work
+    *   make a list of things you think might work for your dataset
 5.  [cleaning](https://www.kaggle.com/learn/data-cleaning)
     *   (part of 'wrangling' or 'munging')
     *   outliers / anomalies (eg huge spike in data)
