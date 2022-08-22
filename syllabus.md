@@ -70,7 +70,7 @@
     *   ~~Character classes~~
 *   ~~How to install and set up Linux~~
     *   ~~How to install GPU drivers~~
-    *   ~~How to setup your network config~~
+    *   ~~How to set up your network config~~
 *   ~~Less-common algorithms~~
     *   ~~Strings~~
         *   ~~Longest common substring~~
@@ -90,6 +90,24 @@
 
 ##  [Machine Learning](./Machine%20Learning/README.md) (1 month)
 
+*   *(WIP) Featurization*
+    *   Handling data types
+        *   Categorical features - usually encoded
+            *   Unique labels / categories with insanely high cardinality are usually dropped
+            *   One-hot encoding (for categories of reasonably low cardinality - or use -1 and 1, and 0 for missing values)
+            *   Ordinal encoding for things like likert scales (but be warned that how these are interpreted sometimes vary from person to person, so their survey responses may not be comparable - only the differences between responses to questions may be valid)
+        *   Numerical features - sometimes quantized or normalized
+            *   Discretization/quantization/binning (equal-frequency, equal-width, clustering, handmade lookup table, etc.)
+            *   *Appreciate the existence of: z-score standardization, l2 normalization, min-max scaling*
+            *   ~~Log-linearizing~~
+        *   Constructed features - when the base features can be made sense of in more ways
+            *   E.g. "is this guest a noble" or "is this guest a domestic helper" for titanic
+            *   *Appreciate the existence of: using proxy variables when "true" values are unavailable*
+    *   Imputation of null values
+    *   Feature importance and selection (SHAP, permutation)
+    *   gotchas to avoid
+        *   negative effects of having strongly-correlated features (in some models)
+        *   accidentally introducing time (e.g. via sequential ids, or shadows in labeled images of tanks)
 *   Supervised Learning
     *   Regression
         *   Linear, ridge, lasso
@@ -216,7 +234,7 @@
         *   Viterbi
         *   Beam
     *   *Appreciate the existence of:*
-        *   *CRFs, which are like superpowered HMMs for sequence-to-sequence*
+        *   *CRFs, which are like super-powered HMMs for sequence-to-sequence*
 *   Information Retrieval and Ranked IR (Stanford NLP)
     *   Inverted index
     *   TF-IDF
@@ -224,7 +242,7 @@
         *   *Locality sensitive hashing (e.g. minhash vectors)*
         *   *Variants of TF-IDF (SMART IR system, Okapi BM25)*
         *   *approximate nearest neighbors, e.g. `ANNOY` or `FAISS` (for indexing vectors)*
-        *   *geohashing (only for for 2d space)*
+        *   *geohashing (only for 2d space)*
 *   Neural Networks for NLP (optional)
     *   Transformers & Muppet models
 *   Capstone Project
