@@ -69,9 +69,10 @@
 
 * Coding
     * Write code in appropriate programming languages and frameworks
-    * Write clean, maintainable, reusable, and understandable code
-    * Write efficient and scalable code
-    * Write documentation and tests
+    * Write maintainable, reusable, and understandable code
+    * Write correct, efficient, and scalable code
+    * Write clean, idiomatic, and well-formatted code
+    * Write comments, documentation, and tests
     * Competencies in this category may include:
         * Proficiency in one or more programming languages, such as Python, R, Java, or C++
         * Experience with different types of software development processes, such as agile or waterfall
