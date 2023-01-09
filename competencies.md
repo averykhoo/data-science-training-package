@@ -45,7 +45,7 @@
         * Creating presentations and tailoring them to the needs and preferences of each audience
         * Aligning the data story with operational constraints and goals
 
-* Natural Language Processing (NLP) and Speech Processing
+* Natural Language Processing (NLP) and Speech Processing (ASR)
     * Process and analyze text data, e.g. NER, language identification, and sentiment analysis
     * Process and analyze speech data, e.g. speech recognition, speaker identification, and speaker diarization
     * Competencies in text and speech processing include:
