@@ -33,6 +33,7 @@
 ## Excessively long list of resources we can consider for inclusion
 
 * https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
+* https://www.scribbr.com/methodology/research-design/
 * [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
 * [google ML crash course](https://developers.google.com/machine-learning/crash-course)
 * [microsoft ML course](https://microsoft.github.io/ML-For-Beginners/#/)
