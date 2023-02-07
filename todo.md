@@ -4,6 +4,7 @@
 
 ## Future Plans
 
+* fully integrate with the functional competency map, and replace this syllabus with that when it is ready
 * [x] split up the syllabus and the curriculum for this package (this makes it easier to look for new and better
   materials, and to make updates to the curriculum, while at the same time making sure the scope of the training package
   doesn't drift too much as stuff is added or removed)
@@ -31,6 +32,7 @@
 
 ## Excessively long list of resources we can consider for inclusion
 
+* https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
 * [deep learning specialization course](https://www.deeplearning.ai/deep-learning-specialization/) (free to audit)
 * [google ML crash course](https://developers.google.com/machine-learning/crash-course)
 * [microsoft ML course](https://microsoft.github.io/ML-For-Beginners/#/)
