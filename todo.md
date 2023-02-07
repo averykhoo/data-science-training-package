@@ -58,3 +58,17 @@
   * see also [`wcswidth`](https://github.com/jquast/wcwidth), which gives you the length of a string, double-counting CJK
     characters since those are double-wide
 * see also 'words of estimative probability' for an example of how categories may be only semi-ordinal
+
+## data viz gallery
+
+* https://www.rawgraphs.io/gallery
+* https://flourish.studio/examples/
+  * https://flourish.studio/blog/six-ways-to-visualize-elections/
+* https://www.storytellingwithdata.com/chart-guide
+* https://seaborn.pydata.org/examples/index.html
+* https://plotly.com/python/plotly-fundamentals/
+* https://www.reddit.com/r/dataisbeautiful/top/?t=all
+* https://www.reddit.com/r/Infographics/top/?t=all
+* https://informationisbeautiful.net/
+* https://design.google/library/exploring-color-google-maps/
+* https://blog.datawrapper.de/colors-for-data-vis-style-guides/
