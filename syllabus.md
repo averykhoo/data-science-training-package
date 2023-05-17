@@ -192,7 +192,7 @@
     *   ~~VC dimension~~
     *   ~~Auto-encoders~~
     *   ~~PCA~~
-    *   ~~UMAP~~
+    *   ~~UMAP/PaCMAP~~
 *   ~~Other ML topics~~
     *   ~~Semi-supervised learning (e.g. LLDA)~~
     *   ~~Self-organising maps (clustering)~~
