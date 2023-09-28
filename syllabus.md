@@ -206,7 +206,7 @@
 *   ~~KL / JS divergence~~
 *   ~~Time-series data~~
     *   ~~ARIMA~~
-    *   [~~Facebook Prophet~~](https://facebook.github.io/prophet/)
+    *   [~~Facebook Prophet~~](https://facebook.github.io/prophet/) *([update](https://medium.com/@cuongduong_35162/facebook-prophet-in-2023-and-beyond-c5086151c138): use [statsforecast](https://nixtla.github.io/statsforecast/) or [neuralprophet](https://neuralprophet.com/) instead)*
 *   ~~Non-convex optimization~~
 
 
