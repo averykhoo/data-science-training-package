@@ -212,6 +212,9 @@
 
 ##  [Natural Language Processing](./Natural%20Language%20Processing/README.md) (1 month)
 
+*   Unicode
+    *   https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+    *   https://tonsky.me/blog/unicode/
 *   Text Preprocessing (`NLTK`)
     *   Tokenization and segmentation (and what is an n-gram)
     *   Stemming and lemmatization
