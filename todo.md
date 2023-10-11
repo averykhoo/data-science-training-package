@@ -50,10 +50,9 @@
 * [Elements of Statistical Learning (book)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 * [Data Science and Machine Learning: Mathematical and Statistical Methods](https://people.smp.uq.edu.au/DirkKroese/DSML/)
   * [with associated Python code](https://github.com/DSML-book/)
-* Unicode
-  * [Joel Spolsky’s article on Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+* More Unicode
   * http://reedbeta.com/blog/programmers-intro-to-unicode/
-  * see also `[grapheme`](https://github.com/alvinlindstam/grapheme), which is a library for working with what you
+  * see also [`grapheme`](https://github.com/alvinlindstam/grapheme), which is a library for working with what you
     probably think are unicode characters
   * see also [`wcswidth`](https://github.com/jquast/wcwidth), which gives you the length of a string, double-counting CJK
     characters since those are double-wide
