@@ -70,11 +70,12 @@ When you want to take a break from lectures 😊
     *   train/test split (+ optional cross-validation)
     *   linear least squares / logistic regression
     *   xgboost
-    *   if you're getting abysmal performance, maybe the data is still borked
+    *   if you're getting abysmal performance, maybe the data is still borked - garbage in, garbage out
         *   or maybe it's impossible, and you should just give up
     *   if you're getting suspiciously good performance (especially if you get 100%) something is probably wrong
         *   somehow leaking your label, maybe via an *extremely* correlated variable 
-        *   you've effectively split a timeseries into top and bottom halves and are using one to predict the other
+            *   e.g. you've randomly split a timeseries into train/test sets that overlap in time
+                (as opposed to training and test sets that are respectively before and after some date)
         *   or maybe your problem is too easy, and you just need some rules or heuristics 
 7.  [featurization](https://www.kaggle.com/learn/feature-engineering) *(NLP usually happens here)*
     *   [categorical to numeric](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical)
