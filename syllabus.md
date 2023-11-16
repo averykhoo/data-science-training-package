@@ -90,6 +90,7 @@
 
 ##  [Machine Learning](./Machine%20Learning/README.md) (1 month)
 
+*   Splitting data into a training/validation set and a "sacred" test set, avoiding leakage
 *   *(WIP) Featurization*
     *   Handling data types
         *   Categorical features - usually encoded

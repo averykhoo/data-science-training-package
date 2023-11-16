@@ -65,6 +65,7 @@ When you want to take a break from lectures 😊
             or the `\X` pattern in [`regex`](https://pypi.org/project/beautifulsoup4)
     *   data version control, to track how the data was cleaned
 6.  baseline / POC
+    *   train/test split (+ optional cross-validation)
     *   linear least squares / logistic regression
     *   xgboost
     *   if you're getting abysmal performance, maybe the data is still borked
