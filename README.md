@@ -30,6 +30,7 @@ When you want to take a break from lectures 😊
 0.  [asking the right questions](https://developers.google.com/machine-learning/problem-framing)
     *   see also the [data literacy project scoping guide](https://go.gov.sg/project-scoping-guide)
     *   look into elicitation of requirements or ideas from your users
+    *   find ways to convert business information needs into data questions
 1.  data acquisition
     *   maybe 'just get some labelled training data' doesn't seem like it even warrants a mention
     *   trust me, it does (unless it's an [open source dataset](https://datasetsearch.research.google.com))
@@ -47,6 +48,7 @@ When you want to take a break from lectures 😊
         *   correlation matrix
         *   [example](https://www.kaggle.com/mervinpraison/seaborn-to-visualize-iris-data/notebook)
 4.  data provenance, background research, and literature review 
+    *   *this often happens concurrently with EDA*
     *   understand where the data came from
     *   what the labels mean, and how accurate they are, whether there's class imbalance
     *   any pre-processing that was done that can't be undone
@@ -133,7 +135,7 @@ When you want to take a break from lectures 😊
     *   using `collections.deque` (or a circular buffer) instead of `list.pop(0)`
     *   binary search in a sorted list (e.g. built-in `bisect`)
     *   dynamic programming, memoization (e.g. built-in `functools.lru_cache`), tail call elimination, loop unrolling
-    *   approx nearest-neighbor lookup (`annoy`, `scann`, [Milvus](https://milvus.io))
+    *   approx nearest-neighbor lookup (`annoy`, `faiss`, [Milvus](https://milvus.io))
     *   parallelism (`multiprocessing`), async, locks, atomicity
     *   A* or Dijkstra (as opposed to BFS / DFS)
     *   cython / numba / pypy
