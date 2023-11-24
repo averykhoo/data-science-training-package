@@ -107,7 +107,7 @@ When you want to take a break from lectures 😊
     *   `seaborn` or even the most basic `matplotlib.pyplot`
 11. inference and [explanations](https://www.kaggle.com/learn/machine-learning-explainability)
     *   if you've gotten this far, congrats
-    *   try something like [SHAP](https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models
+    *   try something like [SHAP](https://github.com/slundberg/shap#tree-ensemble-example-with-treeexplainer-xgboostlightgbmcatboostscikit-learnpyspark-models)
 12. deploying / sharing your model
     *   [`fastapi`](https://fastapi.tiangolo.com/)
     *   [`streamlit`](https://streamlit.io)
