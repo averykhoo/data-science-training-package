@@ -2,22 +2,23 @@
 
 ## Possible materials for the curriculum
 
+Video lectures:
+
+* [Udemy: Python Bootcamp](https://www.udemy.com/course/complete-python-bootcamp/)
+  (free [via learn.gov.sg](https://learncsc.udemy.com/course/complete-python-bootcamp/))
+  (course materials are `ipynb`s on GitHub: https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
+* [Udemy: Python for DS/ML](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
+  (free [via learn.gov.sg](https://learncsc.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/))
+  (course materials are `ipynb`s, with a companion book [here](https://www.statlearning.com))
+* [Python for Everyone](https://www.py4e.com)
+* [Talks by Raymond Hettinger](https://youtube.com/playlist?list=PLRVdut2KPAguz3xcd22i_o_onnmDKj3MA)
+
 Text-only:
 
 * [Official Python Tutorial](https://docs.python.org/3/tutorial/)
 * [Pydon'ts](https://mathspp.gumroad.com/l/pydonts)
 * [Fluent Python (Second Edition)](https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/)
 * https://realpython.com/learning-paths/writing-pythonic-code/
-
-Video lectures:
-
-* [Some Udemy course](https://www.udemy.com/course/complete-python-bootcamp/)
-  (free [via learn.gov.sg](https://learncsc.udemy.com/course/complete-python-bootcamp/))
-  (course materials are `ipynb`s: https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
-* [Another Udemy course](https://www.udemy.com/course/master-python-programming-complete-python-bootcamp)
-  (free [via learn.gov.sg](https://learncsc.udemy.com/course/master-python-programming-complete-python-bootcamp/))
-* [Python for Everyone](https://www.py4e.com)
-* [Talks by Raymond Hettinger](https://youtube.com/playlist?list=PLRVdut2KPAguz3xcd22i_o_onnmDKj3MA)
 
 Interactive (write code):
 
@@ -108,6 +109,8 @@ Exception handling and context managers:
 * assertions (`assert maximum >= minimum`)
 * `with`
     * `__enter__`, `__exit__`
+* also, warnings and suppressing them
+* ~~exception groups (new in 3.11)~~
 
 ### Other stuff
 
@@ -115,6 +118,7 @@ Exception handling and context managers:
     * type declarations and type checking
     * duck typing and gradual typing
     * (optional?) type definitions (new in Python 3.12: `type Point = tuple[float, float]`)
+* pass by value, reference, and shallow vs deep copies
 * modules and imports
 * `global`, `nonlocal`, circular imports
 * working with containers (and generators):
@@ -136,6 +140,8 @@ Exception handling and context managers:
 * (optional?) algorithms and complexity
     * python's builtin sort is much faster than you may expect
     * the `in` operator for substring search is also surprisingly well-optimized
+* (optional) metaprogramming
+* CRUD apps and HTTP methods
 
 #### Ecosystem
 
@@ -147,10 +153,10 @@ Testing: `pytest` (and doctests), `hypothesis`
 
 Tooling:
 
-* pip
-* idle
-* jupyter
+* `pip`
+* `jupyter`
 * `twine`/`flit`
+* vs code / pycharm / idle / spyder
 
 #### Code Style
 
