@@ -56,7 +56,7 @@ Interactive (write code):
 
 * `datetime`, `time`
 * `re` (also please go learn regex)
-* `enum`, `dataclasses`
+* `enum`, `dataclasses`, `abc`, `collections.abc`
 * `typing`, `unittest`
 * `os`, `pathlib`
 * `json`, `base64`, `pickle`, `csv`
