@@ -145,11 +145,11 @@ Exception handling and context managers:
 
 #### Ecosystem
 
-Libraries: `requests` (optionally also `bs4`), `pyyaml`
-Libraries (data science): `pandas`, `numpy`/`scipy`, `nltk`, `scikit-learn`, `xgboost`, `shap`
-Frameworks: `fastapi` (or `django`/`flask`/`tornado`/`starlette`/...), `pydantic`, `sqlalchemy`, `sqlmodel`
-Linting: `flake8`/`ruff` (and go learn about cyclomatic complexity), `mypy`/`pyright`, optionally `yapf`/`black`
-Testing: `pytest` (and doctests), `hypothesis`
+* Libraries: `requests` (optionally also `bs4`), `pyyaml`
+* Libraries (data science): `pandas`, `numpy`/`scipy`, `nltk`, `scikit-learn`, `xgboost`, `shap`
+* Frameworks: `fastapi` (or `django`/`flask`/`tornado`/`starlette`/...), `pydantic`, `sqlalchemy`, `sqlmodel`
+* Linting: `flake8`/`ruff` (and go learn about cyclomatic complexity), `mypy`/`pyright`, optionally `yapf`/`black`
+* Testing: `pytest` (and doctests), `hypothesis`
 
 Tooling:
 
