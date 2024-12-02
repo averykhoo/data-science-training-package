@@ -3,8 +3,8 @@
 
 # Data Science Project Scoping Guide - Data Science and Public Policy
 
-**Resources in this post:
-** [Blank Project Scoping Worksheet](./ProjectScopingWorksheetBlank.pdf), [Scoping Presentation](./scopingslides.pdf),
+**Resources in this post:**
+[Blank Project Scoping Worksheet](./ProjectScopingWorksheetBlank.pdf), [Scoping Presentation](./scopingslides.pdf),
 Sample Curriculum for a Scoping Workshop
 
 ***How to use this guide:*** _This Scoping Guide supplements the Project Scoping Worksheet. For a brief walkthrough,
@@ -320,9 +320,9 @@ sources we may need to get access to.
 You first want to make a list of data sources that are available inside the organization. This is an iterative process,
 since many organizations may not have a comprehensive list of their data sources. Sometimes, (if you're lucky) data may
 be in a central, integrated data warehouse, but even then you may find individuals or departments who have additional
-data or different versions of the data warehouse. Check out our [**Data Maturity Framework
-**](https://datasciencepublicpolicy.org/home/resources/datamaturity/) to assess your organization's readiness for a data
-science project.
+data or different versions of the data warehouse. Check out our
+[**Data Maturity Framework**](https://datasciencepublicpolicy.org/home/resources/datamaturity/) 
+to assess your organization's readiness for a data science project.
 
 It is good practice to collect detailed information on each data source. For example, you will want to know its:
 
