@@ -91,7 +91,9 @@
 * ~~Excel, pivot tables, charts, solver~~
 * ~~Tableau / plotly / streamlit~~
 
-## [Machine Learning](./Machine%20Learning/README.md) (1 month)
+[//]: # (TODO: experimental design?)
+
+## Data Wrangling, EDA, Visualization, Cleaning
 
 * Splitting data into a training/validation set and a "sacred" test set, avoiding leakage
 * *(WIP) Featurization*
@@ -116,6 +118,19 @@
     * gotchas to avoid
         * negative effects of having strongly-correlated features (in some models)
         * accidentally introducing time (e.g., via sequential ids, or shadows in labeled images of tanks)
+* ~~Dimension reduction~~
+    * ~~VC dimension~~
+    * ~~Auto-encoders~~
+    * ~~PCA~~
+    * ~~UMAP/PaCMAP~~
+
+* *WIP: data viz*
+* *WIP: data cleaning, dvc*
+* *WIP: ETL, pipelines*
+* *WIP: data format wrangling? move unicode here?*
+
+## [Machine Learning](./Machine%20Learning/README.md) (1 month)
+
 * Supervised Learning
     * Regression
         * Linear, ridge, lasso
@@ -196,11 +211,6 @@
     * ~~Ranking~~
     * ~~Ordinal~~
     * ~~Multiclass~~
-* ~~Dimension reduction~~
-    * ~~VC dimension~~
-    * ~~Auto-encoders~~
-    * ~~PCA~~
-    * ~~UMAP/PaCMAP~~
 * ~~Other ML topics~~
     * ~~Semi-supervised learning (e.g., LLDA)~~
     * ~~Self-organising maps (clustering)~~
@@ -306,3 +316,7 @@
 * End-to-End Neural Network Speech Recognition (Stanford CS224S Lecture 8) (optional)
 * Kaldi Tutorial
 * SAGE Tutorial (this will be imported into Confluence because it can't be put on GitHub)
+
+## Storytelling
+
+*WIP*
