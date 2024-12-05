@@ -11,11 +11,11 @@
 
 *   Mathematics
     *   Basic linear algebra (vectors and matrices)
-    *   Basic probability and statistics (including distributions and Bayes’ Theorem)
+    *   Basic probability and statistics (including distributions and Bayes' Theorem)
 *   Programming
     *   Markdown
-    *   Python 3 and basic regex
-        *   Google’s Python Class
+    *   Python 3, (basic) regex, pandas, pydantic, fastapi
+        *   Google's Python Class
         *   Official Python Tutorial 1 to 8, 9.8 to 9.10 (if you have no Python knowledge)
         *   Do we want to give an exemplar regex cheat sheet?
     *   Git
@@ -31,7 +31,7 @@
         *   `WHERE`
         *   `DATE('YYYY-mm-dd')` (or whatever is native to your SQL dialect)
         *   `START TRANSACTION`, `ROLLBACK`, `COMMIT`
-    *   **Avery’s comments on code style:**
+    *   **Avery's comments on code style:**
         *   Pls provide type hints for core algorithmic functions (and a description, if the algo is not obvious)
         *   Pls give important functions and variables appropriately descriptive names
         *   Pls break your code into logical chunks (and at a higher level, into reusable functions / classes)
@@ -60,6 +60,7 @@
         *   *Overlap coefficient*
         *   *Spearman's coefficient (monotonicity)* 
         *   *gini coefficient (for categorical sequences)*
+*   ~~how HTML/CSS works (usually to help with crawling)~~
 *   ~~Splunk~~
 *   ~~Advanced regex~~
     *   ~~Backreferences~~
@@ -75,17 +76,19 @@
     *   ~~Strings~~
         *   ~~Longest common substring~~
         *   ~~Sequence alignment / warping~~
-        *   ~~Multiple string search (e.g. Aho Corasick)~~
+        *   ~~Multiple string search (e.g., Aho Corasick)~~
         *   ~~Fuzzy string matching~~
     *   ~~Non-strings~~
         *   ~~Recursion~~
-        *   ~~Graph algorithms (DFS/BFS, A-star, Bellman-Ford, MST, flows, cliques, etc)~~
-        *   ~~Unusual data structures (linked lists, circular buffers, tries, etc)~~
-        *   ~~Satisfiability (CSP, linear programming, etc)~~
+        *   ~~Graph algorithms (DFS/BFS, A-star, Bellman-Ford, MST, flows, cliques, etc.)~~
+        *   ~~Unusual data structures (linked lists, circular buffers, tries, etc.)~~
+        *   ~~Satisfiability (CSP, linear programming, etc.)~~
         *   ~~Sorting algorithms~~
         *   ~~Searching (BST, heaps, hash tables, bloom filters)~~
         *   ~~FFT~~
-*   ~~How to use oracle’s XML tables~~
+*   ~~How to use oracle's XML tables~~
+*   ~~Excel, pivot tables, charts, solver~~
+*   ~~Tableau / plotly / streamlit~~
 
 
 ##  [Machine Learning](./Machine%20Learning/README.md) (1 month)
@@ -102,13 +105,13 @@
             *   *Appreciate the existence of: z-score standardization, l2 normalization, min-max scaling*
             *   ~~Log-linearizing~~
         *   Constructed features - when the base features can be made sense of in more ways
-            *   E.g. "is this guest a noble" or "is this guest a domestic helper" for titanic
+            *   e.g., "is this guest a noble?" or "is this guest a domestic helper?" for titanic
             *   *Appreciate the existence of: using proxy variables when "true" values are unavailable*
     *   Imputation of null values
     *   Feature importance and selection (SHAP, permutation)
     *   gotchas to avoid
         *   negative effects of having strongly-correlated features (in some models)
-        *   accidentally introducing time (e.g. via sequential ids, or shadows in labeled images of tanks)
+        *   accidentally introducing time (e.g., via sequential ids, or shadows in labeled images of tanks)
 *   Supervised Learning
     *   Regression
         *   Linear, ridge, lasso
@@ -118,8 +121,8 @@
         *   Support vector machine (just a linear SVM for binary classification)
         *   Decision trees
     *   Ensemble
-        *   Bagging (e.g. random forests)
-        *   Boosting (e.g. using `XGBoost` or `LightGBM`)
+        *   Bagging (e.g., random forests)
+        *   Boosting (e.g., using `XGBoost` or `LightGBM`)
         *   Stacking
     *   Metrics
         *   Confusion matrix
@@ -135,7 +138,7 @@
         *   Cross-validation, hyperparameter tuning
         *   *Appreciate the existence of:*
             *   *Regularization*
-            *   *Bayesian optimization, e.g. the `hyperopt` library for Python*
+            *   *Bayesian optimization, e.g., the `hyperopt` library for Python*
 *   Unsupervised Learning
     *   Clustering
         *   K-means
@@ -143,9 +146,9 @@
         *   Density
         *   Hierarchical
     *   Types of anomaly detection
-        *   Parametric (e.g. standard deviations away from mean)
-        *   Non-parametric (e.g. quartiles, box-and-whisker plot)
-    *   Types of topic modelling
+        *   Parametric (e.g., standard deviations away from mean)
+        *   Non-parametric (e.g., quartiles, box-and-whisker plot)
+    *   Types of topic modeling
         *   LSA (or NMF; these are kind of based on factorization)
         *   LDA (based on generative models)
         *   Hierarchical / agglomerative (based on similarity measures)
@@ -174,7 +177,7 @@
             *   Finding and fixing outliers
         *   Featurization, feature importance, feature selection
             *   Categorical to one-hot encoding
-            *   Binning (e.g. quartiles)
+            *   Binning (e.g., quartiles)
             *   Removing highly-correlated features to reduce dimensionality
                 *   PCA is not a measure of feature importance
     *   Presentation to group covering process, outcome, and learning points
@@ -183,7 +186,7 @@
     *   ~~Heteroskedastic~~
     *   ~~Kernel~~
     *   ~~Quadratic / polynomial~~
-    *   ~~Robust regressions (e.g. repeated median regression)~~
+    *   ~~Robust regressions (e.g., repeated median regression)~~
 *   ~~Non-linear and non-binary SVMs~~
     *   ~~Kernels~~
     *   ~~Ranking~~
@@ -195,7 +198,7 @@
     *   ~~PCA~~
     *   ~~UMAP/PaCMAP~~
 *   ~~Other ML topics~~
-    *   ~~Semi-supervised learning (e.g. LLDA)~~
+    *   ~~Semi-supervised learning (e.g., LLDA)~~
     *   ~~Self-organising maps (clustering)~~
     *   ~~Association rules~~
     *   ~~MLE, maxent~~
@@ -224,10 +227,10 @@
     *   POS tagging
     *   Bag of words / bag of n-grams
 *   Word Embeddings
-    *   Word Mover’s Distance
+    *   Word Mover's Distance
     *   *Please appreciate the existence of:*
-        *   *Sentence / document embeddings (e.g. doc2vec, Google’s USE)*
-        *   *Cross-lingual embeddings (e.g. RCSLS, LASER)*
+        *   *Sentence / document embeddings (e.g., doc2vec, Google's USE)*
+        *   *Cross-lingual embeddings (e.g., RCSLS, LASER)*
 *   Language Modelling (Stanford NLP)
     *   HMMs
     *   N-grams
@@ -236,7 +239,7 @@
 *   Text Classification and Sentiment Analysis (Stanford NLP)
     *   Naïve Bayes classifier
 *   Named Entity Recognition (Stanford NLP)
-    *   As a sequence labelling problem
+    *   As a sequence labeling problem
         *   Greedy
         *   Viterbi
         *   Beam
@@ -246,9 +249,9 @@
     *   Inverted index
     *   TF-IDF
     *   *Appreciate the existence of:*
-        *   *Locality sensitive hashing (e.g. minhash vectors)*
+        *   *Locality sensitive hashing (e.g., minhash vectors)*
         *   *Variants of TF-IDF (SMART IR system, Okapi BM25)*
-        *   *approximate nearest neighbors, e.g. `ANNOY` or `FAISS` (for indexing vectors)*
+        *   *approximate nearest neighbors, e.g., `ANNOY` or `FAISS` (for indexing vectors)*
         *   *geohashing (only for 2d space)*
 *   Neural Networks for NLP (optional)
     *   Transformers & Muppet models
@@ -262,7 +265,7 @@
     *   ~~Grammar and syntax parsing (CFGs, CYK)~~
     *   ~~Semantics~~
     *   ~~Polysemy / metonymy (word sense disambiguation)~~
-    *   ~~Semiotics (e.g. emoji)~~
+    *   ~~Semiotics (e.g., emoji)~~
     *   ~~Morphology~~
     *   ~~Ontology~~
 *   ~~Machine translation~~
@@ -270,13 +273,13 @@
     *   ~~Back-translation~~
     *   ~~Syntax-based SMT~~
     *   ~~Corpus alignment / crawling / creation~~
-    *   ~~Word vector alignment (e.g. Procrustes)~~
+    *   ~~Word vector alignment (e.g., Procrustes)~~
 *   ~~Hyperbolic / elliptic embeddings~~
 *   ~~Information extraction / relation extraction~~
 *   ~~Question answering~~
 *   ~~Summarization / simplification~~
 *   ~~How do CRFs work (used for NER tagging)~~
-*   ~~Byte pair encoding and subword tokenization (e.g. sentencepiece)~~
+*   ~~Byte pair encoding and subword tokenization (e.g., sentencepiece)~~
 *   ~~Spelling / grammar correction~~
 
 ##  [Automatic Speech Recognition](./Automatic%20Speech%20Recognition/README.md) (1 month)
@@ -284,15 +287,15 @@
 *   Fundamentals of Speech Recognition (Stanford CS224S Lecture 1)
 *   Language Modelling (Edinburgh)
     *   Lexicon and language model
-*   Acoustic Modelling and Decoding
+*   Acoustic Modeling and Decoding
     *   HMM, forward-backward, and Viterbi (Stanford CS224S Lecture 3)
     *   Word error rate, training, and advanced decoding (Stanford CS224S Lecture 4)
         *   How to weight the AM and LM
         *   Viterbi beam decoding
-        *   Multi-pass decoding e.g. N-best lists, lattices, word graphs, meshes / confusion networks
+        *   Multi-pass decoding e.g., N-best lists, lattices, word graphs, meshes / confusion networks
         *   Finite state methods
-    *   GMM acoustic modelling and feature extraction (Stanford CS224S Lecture 5)
+    *   GMM acoustic modeling and feature extraction (Stanford CS224S Lecture 5)
     *   Neural network acoustic models in speech recognition (Stanford CS224S Lecture 7)
 *   End-to-End Neural Network Speech Recognition (Stanford CS224S Lecture 8) (optional)
 *   Kaldi Tutorial
-*   SAGE Tutorial (this will be imported into Confluence because it can’t be put on GitHub)
+*   SAGE Tutorial (this will be imported into Confluence because it can't be put on GitHub)
