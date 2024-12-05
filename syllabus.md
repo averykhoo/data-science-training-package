@@ -146,10 +146,11 @@
     * Metrics
         * Confusion matrix
         * Recall, precision, F1 score
-        * AUC & ROC curve
+        * ROC curve, AUC, [AUPRC](https://arxiv.org/html/2401.06091v1)
         * Micro vs macro averaging
         * How to choose a threshold
-    * (Convex) Optimization
+        * *Appreciate the existence of: MRR, MAP, NDCG*
+    * (Convex, single-objective) Optimization
         * Loss function
         * Bias / variance trade-off
         * What is over-fitting and under-fitting
@@ -239,16 +240,14 @@
       pattern [`\X`](https://github.com/mrabarnett/mrab-regex#matching-a-single-grapheme-x)
     * Fixing [mojibake](https://en.wikipedia.org/wiki/Mojibake)
 * Text Preprocessing (`NLTK`)
+    * Language identification
     * Tokenization and segmentation (and what is an n-gram)
     * Stemming and lemmatization
     * POS tagging
     * Bag of words / bag of n-grams
-* Word Embeddings
-    * Word Mover's Distance
-    * *Please appreciate the existence of:*
-        * *Sentence / document embeddings (e.g., doc2vec, Google's USE)*
-        * *Cross-lingual embeddings (e.g., RCSLS, LASER)*
-* Language Modelling (Stanford NLP)
+    * Byte pair encoding and subword tokenization (e.g., sentencepiece, tiktoken)
+    * Multilingual text embeddings
+* (Small) Language Models (Stanford NLP)
     * HMMs
     * N-grams
     * OOV and simple smoothing methods
@@ -265,10 +264,10 @@
 * Information Retrieval and Ranked IR (Stanford NLP)
     * Inverted index
     * TF-IDF
+    * Approximate nearest neighbors, e.g., `FAISS` (for indexing vectors)
     * *Appreciate the existence of:*
         * *Locality sensitive hashing (e.g., minhash vectors)*
         * *Variants of TF-IDF (SMART IR system, Okapi BM25)*
-        * *approximate nearest neighbors, e.g., `ANNOY` or `FAISS` (for indexing vectors)*
         * *geohashing (only for 2d space)*
 * Neural Networks for NLP (optional)
     * Transformers & Muppet models
@@ -276,7 +275,7 @@
     * Kaggle Avito (or new project?)
         * MUST use word vectors
         * MUST also use TF-IDF or edit / lev distance
-        * Images not necessary
+        * ~~Images not necessary~~
     * Presentation to group as usual
 * ~~Linguistics~~
     * ~~Grammar and syntax parsing (CFGs, CYK)~~
@@ -291,15 +290,18 @@
     * ~~Syntax-based SMT~~
     * ~~Corpus alignment / crawling / creation~~
     * ~~Word vector alignment (e.g., Procrustes)~~
-* ~~Hyperbolic / elliptic embeddings~~
 * ~~Information extraction / relation extraction~~
 * ~~Question answering~~
 * ~~Summarization / simplification~~
 * ~~How do CRFs work (used for NER tagging)~~
-* ~~Byte pair encoding and subword tokenization (e.g., sentencepiece)~~
 * ~~Spelling / grammar correction~~
 
 ## [Automatic Speech Recognition](./Automatic%20Speech%20Recognition/README.md) (1 month)
+
+> ⚠
+> 
+> This is very outdated!
+> Instead, you probably need to learn conformers, transformers, transducers, and maybe CTCs.
 
 * Fundamentals of Speech Recognition (Stanford CS224S Lecture 1)
 * Language Modelling (Edinburgh)
