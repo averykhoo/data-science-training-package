@@ -129,6 +129,10 @@
 * *WIP: ETL, pipelines*
 * *WIP: data format wrangling? move unicode here?*
 
+## Statistical Analysis
+
+*WIP*
+
 ## [Machine Learning](./Machine%20Learning/README.md) (1 month)
 
 * Supervised Learning
@@ -159,6 +163,7 @@
         * *Appreciate the existence of:*
             * *Regularization*
             * *Bayesian optimization, e.g., the `hyperopt` library for Python*
+    * AutoML: AutoGluon, FLAML, LightAutoML
 * Unsupervised Learning
     * Clustering
         * K-means
@@ -319,6 +324,6 @@
 * Kaldi Tutorial
 * SAGE Tutorial (this will be imported into Confluence because it can't be put on GitHub)
 
-## Storytelling
+## Storytelling, Visualization Part 2
 
 *WIP*
