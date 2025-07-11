@@ -21,20 +21,20 @@ competency map.
 
 ## Proficiency Level Definitions
 
-| Proficiency Level | Meaning                                                                                                 |
-|:------------------|:--------------------------------------------------------------------------------------------------------|
-| **PL0**           | not observed                                                                                            |
-| **PL1**           | remember and apply basic skills in order to complete routine tasks                                      |
-| **PL2**           | understand and apply concepts in order to solve well-defined problems                                   |
-| **PL3**           | analyze assumptions and evaluate multiple approaches in order to diagnose and solve open-ended problems |
-| **PL4**           | create novel solutions and foresee and forestall problems                                               |
+| Proficiency Level | Meaning                                                                                                               |
+|:------------------|:----------------------------------------------------------------------------------------------------------------------|
+| **PL0**           | not observed                                                                                                          |
+| **PL1**           | <u>remember and apply basic skills</u> in order to <u>complete routine tasks</u>                                      |
+| **PL2**           | <u>understand and apply concepts</u> in order to <u>solve well-defined problems</u>                                   |
+| **PL3**           | <u>analyze assumptions and evaluate multiple approaches</u> in order to <u>diagnose and solve open-ended problems</u> |
+| **PL4**           | <u>create novel solutions</u> and <u>foresee and forestall problems</u>                                               |
 
 ## Community Building Definitions
 
 | Proficiency Level | Meaning                                                                     |
 |:------------------|:----------------------------------------------------------------------------|
 | **PL0**           | not observed                                                                |
-| **PL1**           | onboard new officers or interns                                             |
+| **PL1**           | onboard new data scientists or interns                                      |
 | **PL2**           | assist and guide within the team, participate in the community              |
 | **PL3**           | coach/mentor and facilitate within the section, contribute to the community |
 | **PL4**           | advise and provide oversight within the dept, lead in the community         |

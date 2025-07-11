@@ -44,7 +44,7 @@ effort to limit the number of competencies to not more than eight (8).
 
 ---
 
-## How functional competencies map to DSAI Tier Levels
+## DSAI Proficiency Level Requirements
 
 |   | **Competency**                      | **L1** | **L2 (Consultant)** | **L3 (STS)** | **L4 (LTS)** |
 |:--|:------------------------------------|:-------|:--------------------|:-------------|:-------------|
