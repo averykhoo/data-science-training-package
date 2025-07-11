@@ -205,7 +205,7 @@ graph LR
 
 ### Other tips – General
 
-* Don't feel limited by this template - you can cover future work, deployment, user testing (maybe skip the endless ops
+* Don't feel limited by this template - you can cover future work, deployment, user testing (maybe skip the endless user
   trials with no conclusions), and whatever else you feel like that's reasonably pertinent
 * Your tech stack (if any) need not look like a stack, but you can refer to the SEA slides for inspiration if you want
   it that way
