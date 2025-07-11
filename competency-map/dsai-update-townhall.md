@@ -521,7 +521,7 @@ correct names should be to optimize our recruitment and hiring
 
 * **Now:**
     * ✅ New competency framework approved
-    * ✅ Published to HCD site (confluence link removed)
+    * ✅ Published to HR site
     * ✅ Email announcement (“Letter from the SEA Team")
     * 👋 SEA Townhall
 * **April 2025 (upcoming tech panel):**
