@@ -31,12 +31,12 @@ Specialized problems mean that the solution was neither obvious nor straightforw
 Possible approaches include:
 
 * Develop bespoke data solution to generate actionable insights with data science techniques for decision-making
-    * E.g. Different types of analysis on <removed specific example but whatever really>
+    * E.g. Custom hierarchical MGRM using `pymc` for ranking leadership performance using the annual survey results
 * Design and train specialized, performant and robust ML solutions, incorporating business or domain expertise
-    * E.g. PDNS pivoting (for APT tracking)
+    * E.g. PDNS pivoting on DomainTools for APT tracking
 * Build analytical capabilities and deploy tools, APIs, and / or systems that provide analytical or investigative
   capabilities for a wide audience
-    * E.g. apps on (removed golink hyperlink)
+    * E.g. apps on RAPID
     * Where required, work with MLEs to deploy scalable solutions. Systems should actually solve users' problems / help
       them to save time
 
@@ -206,9 +206,9 @@ Apply acquired knowledge to solve problems to demonstrate good understanding of 
 | Specialization (not exhaustive!)                                                                                                                 | Examples                                                                                                                                                                                                                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **In the area of Text:**<br>NLP, MT, LLMs, IR/RAG, summarization, etc.                                                                           | *   Sentiment analysis of geopolitical data (YouTube videos, social media posts & images, speeches, etc.) on specific topics of interest<br>*   Do something useful with LLM agents (note: this is not gonna remain L2 for long)<br>*   Finetune and deploy a translation tool for users |
-| **In the area of Audio:**<br>STT, speaker ID, noise removal, etc.                                                                                | *   Deploy, finetune, and benchmark Whisper, Kaldi, Sphinx, etc.; and determine what works best on the dataset<br>*   <removed>                                                                                                                                                          |
-| **In the area of Images / Video:**<br>OCR, CV, GANs/diffusion, face recognition, video analytics, deepfake detection, etc.                       | *   Apply CV/OCR techniques to analyze images to understand facebook profiles<br>*   Build an internal clearview clone (i.e. face ID) (e.g., maybe using face2vec with ann, and cross-encoders to improve precision)<br>*   <removed>                                                    |
-| **In the area of Structured Data / Quantitative:**<br>tabular, nested data structures, quantitative data, geospatial, timeseries, metadata, etc. | *   <removed><br>*   Apply research theories to analyze surveys to learn about traits of an interest group<br>*   <removed><br>*   Perform online advertisement data analysis at scale<br>*   Build a commodities price forecasting system (to track critical supplies)                  |
+| **In the area of Audio:**<br>STT, speaker ID, noise removal, etc.                                                                                | *   Deploy, finetune, and benchmark Whisper, Kaldi, Sphinx, etc.; and determine what works best on the dataset                                                                                                                                                                           |
+| **In the area of Images / Video:**<br>OCR, CV, GANs/diffusion, face recognition, video analytics, deepfake detection, etc.                       | *   Apply CV/OCR techniques to analyze images to understand facebook profiles<br>*   Build an internal clearview clone (i.e. face ID) (e.g., maybe using face2vec with ann, and cross-encoders to improve precision)                                                                     |
+| **In the area of Structured Data / Quantitative:**<br>tabular, nested data structures, quantitative data, geospatial, timeseries, metadata, etc. | *   *   Apply research theories to analyze surveys to learn about traits of an interest group<br>*   Perform online advertisement data analysis at scale<br>*   Build a commodities price forecasting system (to track critical supplies)                                                |
 | **In the area of Graph:**<br>SNA, KG, etc.                                                                                                       | *   Use graph search algorithms in concert with ML to automatically pivot on known (e.g., published in CTI reports) malicious infra domains to map out APT infra<br>*   Social network analysis to identify friends, acquaintances, etc                                                  |
 
 **L2: PL2 x 1 specialization**
