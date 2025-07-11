@@ -57,7 +57,7 @@ effort to limit the number of competencies to not more than eight (8).
 | 1 | Data Project Design                 | PL1    | PL2                 | PL3          | PL3          |
 | 2 | Exploratory Data Analysis           | PL1    | PL2                 | PL3          | PL3          |
 | 3 | Data Preparation                    | PL1    | PL2                 | PL3          | PL3          |
-| 4 | Visualisation and Data Storytelling | PL1    | PL2                 | PL2          | PL3          |
+| 4 | Visualisation and Data Storytelling | PL1    | PL2                 | PL2          | PL2          |
 | 5 | Statistical Analysis                | PL1    | PL2 / _PL1_         | PL3 / _PL1_  | PL3 / _PL2_  |
 | 6 | Machine Learning                    | PL1    | PL1 / _PL2_         | PL1 / _PL3_  | PL2 / _PL3_  |
 | 7 | Specialisation                      | NA     | PL2 x1              | PL3 + PL2    | PL4  + PL3   |
