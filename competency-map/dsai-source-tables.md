@@ -21,13 +21,13 @@ competency map.
 
 ## Proficiency Level Definitions
 
-| Proficiency Level | Meaning                                                                                                               |
-|:------------------|:----------------------------------------------------------------------------------------------------------------------|
-| **PL0**           | not observed                                                                                                          |
-| **PL1**           | <u>remember and apply basic skills</u> in order to <u>complete routine tasks</u>                                      |
-| **PL2**           | <u>understand and apply concepts</u> in order to <u>solve well-defined problems</u>                                   |
-| **PL3**           | <u>analyze assumptions and evaluate multiple approaches</u> in order to <u>diagnose and solve open-ended problems</u> |
-| **PL4**           | <u>create novel solutions</u> and <u>foresee and forestall problems</u>                                               |
+| Proficiency Level | Meaning                                                                                                                       |
+|:------------------|:------------------------------------------------------------------------------------------------------------------------------|
+| **PL0**           | not observed                                                                                                                  |
+| **PL1**           | <ins>remember and apply basic skills</ins> in order to <ins>complete routine tasks</ins>                                      |
+| **PL2**           | <ins>understand and apply concepts</ins> in order to <ins>solve well-defined problems</ins>                                   |
+| **PL3**           | <ins>analyze assumptions and evaluate multiple approaches</ins> in order to <ins>diagnose and solve open-ended problems</ins> |
+| **PL4**           | <ins>create novel solutions</ins> and <ins>foresee and forestall problems</ins>                                               |
 
 ## Community Building Definitions
 

@@ -237,19 +237,19 @@ panel anyway, so it doesn't really matter.
 
 * **PL1**
     * **Consultant:**
-    * <u>Remember</u> and <u>apply</u> basic skills
+    * <ins>Remember</ins> and <ins>apply</ins> basic skills
     * In order to complete routine tasks
 * **PL2**
     * **Consultant:**
-    * <u>Understand</u> and <u>apply</u> concepts
+    * <ins>Understand</ins> and <ins>apply</ins> concepts
     * In order to solve well-defined problems
 * **PL3**
     * **STS:**
-    * <u>Analyze</u> assumptions and <u>evaluate</u> multiple approaches
+    * <ins>Analyze</ins> assumptions and <ins>evaluate</ins> multiple approaches
     * In order to diagnose and solve open-ended problems
 * **PL4**
-    * <u>Create</u> novel solutions
-    * <u>Foresee and forestall</u> problems
+    * <ins>Create</ins> novel solutions
+    * <ins>Foresee and forestall</ins> problems
 
 ***
 *Slide Notes:*
@@ -356,18 +356,18 @@ And so just like them, we conspicuously have zero requirements for either those 
 ### PLs for leadership/community competencies
 
 * **PL2 (Consultant)**
-    * <u>Guide</u> new data scientists in your <u>team</u> (not a requirement for SEA)
+    * <ins>Guide</ins> new data scientists in your <ins>team</ins> (not a requirement for SEA)
     * Provide technical assistance, support, or consultation
-    * <u>Participate</u> in the wider tech community
+    * <ins>Participate</ins> in the wider tech community
 * **PL3 (STS)**
-    * <u>Coach, mentor, and facilitate</u> within your <u>section</u>
+    * <ins>Coach, mentor, and facilitate</ins> within your <ins>section</ins>
     * Make solid technical recommendations (that your group* adopts)
-    * <u>Actively contribute</u> to the wider tech community
+    * <ins>Actively contribute</ins> to the wider tech community
 * **PL4 (LTS)**
-    * Provide technical oversight within your <u>cluster/dte</u>
+    * Provide technical oversight within your <ins>cluster/dte</ins>
     * Provide trusted advice to senior management
-    * <u>Take up leadership roles</u> in the wider tech community
-    * <u>Leverage</u> academia or the industry for technical collaboration or talent outreach
+    * <ins>Take up leadership roles</ins> in the wider tech community
+    * <ins>Leverage</ins> academia or the industry for technical collaboration or talent outreach
 
 *\*SEA framework does not specify whether "group" refers to team or section*
 
@@ -452,16 +452,16 @@ Which in turn affects your namecards, but I'm pretty sure nobody here has any.
 
 * **Data Scientist (JR11)**
     * Work with well-defined requirements and constraints, with close guidance and regular oversight, and complete
-      routine <u>tasks</u>. Document your work to facilitate other data scientists.
+      routine <ins>tasks</ins>. Document your work to facilitate other data scientists.
 * **Consultant (JR11+)**
     * Diagnose and solve specialized operational problems. Execute projects end-to-end collaboratively, with minimal
-      guidance and oversight, to deliver project <u>outcomes</u>.
+      guidance and oversight, to deliver project <ins>outcomes</ins>.
 * **STS (JR10)**
     * Identify, diagnose, prioritize, and solve open-ended problems to meet organizational needs, and create
-      meaningful <u>impact</u>. Lead teams to deliver technical solutions.
+      meaningful <ins>impact</ins>. Lead teams to deliver technical solutions.
 * **LTS (JR9)**
     * Diagnose and prioritize organizational problems within your domain of expertise. Devise novel technical solutions
-      to complex/unpredictable problems. Drive organizational <u>initiatives</u>.
+      to complex/unpredictable problems. Drive organizational <ins>initiatives</ins>.
 
 ***
 *Slide Notes:*
