@@ -2,11 +2,11 @@
 
 The competency maps for each level are listed below.
 
-* DSAI L1
-* DSAI L2
-* DSAI L3
-* DSAI L4
-* Source Tables for DSAI Functional Competencies
+* [DSAI L1](./dsai-l1.md)
+* [DSAI L2](./dsai-l2.md)
+* [DSAI L3](./dsai-l3.md)
+* [DSAI L4](./dsai-l4.md)
+* [Source Tables for DSAI Functional Competencies](./dsai-source-tables.md)
 
 The wording in each competency map is drawn from the DSAI Functional Competency Source Tables.
 
@@ -27,6 +27,8 @@ effort to limit the number of competencies to not more than eight (8).
 
 * Retained the "Key Tasks and Performance Standards" to encompass other general competencies required for the job role.
 * Tech Panel will assess both the "Key Tasks and Performance Standards" and the "Key Competencies".
+
+[//]: # (todo: fix or remove this converted diagram)
 
 | Previous 2022 DA L2 Competency                                   |                           | 2025 DSAI Competency Map |         | Job Role Profile (PD/PSD)                                                                                                                                                                 |
 |:-----------------------------------------------------------------|:--------------------------|:-------------------------|:--------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
