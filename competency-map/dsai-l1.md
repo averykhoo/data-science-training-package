@@ -29,7 +29,8 @@ new officers and prevent loss of work.
 
 ## Competencies
 
-Result of the query:
+Result of the following query on 
+[`DSAI_MAP`](./dsai-source-tables.md#DSAI_MAP) and [`DSAI_PL`](./dsai-source-tables.md#DSAI_PL):
 
 ```sql
 SELECT DSAI_MAP.Competency,
