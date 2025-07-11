@@ -47,8 +47,8 @@ being on tech panel(s), developing training programs, and fostering an innovativ
 
 * Co-lead / Lead a community track of work e.g. chair tech panels / recruitment interview panels, lead RTS (raise,
   train, sustain) efforts for your community
-* Be an effective technical mentor for senior officers in the community e.g. build and lead high performing technical
-  teams
+* Be an effective technical mentor for senior data scientists in the community 
+  e.g. build and lead high performing technical teams
 * Leverage the industry for collaboration and talents outreach
 
 This requires good knowledge of the different community virtual groups, tech knowledge management (KM) sites and

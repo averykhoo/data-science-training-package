@@ -83,7 +83,7 @@ and our goals and start the scoping process anew. So, while each step follows th
 an opportunity to evaluate earlier steps.
 
 All throughout, ethics should be the center of our scoping process. Ethical issues should be considered in every phase
-of scoping and executing the project, rather than thought of as a discrete “step” in that process. Developing a clear
+of scoping and executing the project, rather than thought of as a discrete "step" in that process. Developing a clear
 and explicit understanding of your goals in this regard is fundamental to doing it well. Crucially, the integration of
 ethical considerations into the project should be neither an afterthought nor a burden, but rather a critical and
 continuous area of focus that involves all stakeholders, especially the people who will be impacted by this system.
@@ -136,8 +136,8 @@ help you achieve the goal you're aiming for.
 
 Most projects start with a very vague and abstract goal (say, improving education), get a little more concrete (increase
 the percentage of students who will graduate on time), and keep getting refined until the goal is concrete, unambiguous,
-and achieves the societal aims of the organization. For example,”improving education” is too abstract and vague to be
-the goal of a specific data science project while “ increasing the number of students who graduate high school on time”
+and achieves the societal aims of the organization. For example,"improving education" is too abstract and vague to be
+the goal of a specific data science project while " increasing the number of students who graduate high school on time"
 is a more appropriate goal. This step is often difficult because a lot of organizations haven't explicitly defined
 concrete, analytical goals for many of the problems they're tackling. Sometimes, these goals exist but are locked
 implicitly in the minds of people within the organization. Other times, there are several goals that different parts of
@@ -217,7 +217,7 @@ the hit rate (% of inspection resulting in violations).
 They deploy portable toilets across informal urban settlements and one of their largest costs is hiring people to empty
 the toilets by collecting waste from each of them. Since toilet usage varies, it is inefficient to empty every toilet
 every day, as it was done when the project started. In order for them to grow and keep costs down, they needed a more
-adaptive approach that can “optimize” the schedule for emptying toilets. The goal, in this case, is to make sure that
+adaptive approach that can "optimize" the schedule for emptying toilets. The goal, in this case, is to make sure that
 you don't over-empty the toilet when it's not full but you don't let it stay full either because then it's not usable.
 This translates to a formulation that **maximizes the number of times toilets get emptied when they're as close to 100%
 full as possible without getting to 100%**. A different formulation of the goal could be to **minimize the number of
@@ -398,7 +398,7 @@ descriptive analysis is the sole analysis component of a project.
 
 E.g.:
 
-* Exploring data around students that haven't graduated on time in the past, potentially revealing “types” of students
+* Exploring data around students that haven't graduated on time in the past, potentially revealing "types" of students
   that suffer from the adverse outcome when compared to others with respect to highly correlated factors.
 
 **Detection:** Less focused on the past and more focused on ongoing events. Detection tasks often involve detecting
@@ -455,8 +455,8 @@ the validation set up to reflect the deployment scenario (how a user would use t
 possible. Typically, for prediction tasks, we would create multiple train validation sets and choose a metric that
 accurately reflects how we use the model, and observe how our models perform over time. One critical thing we would need
 to think about is the baseline(s) to which we compare our models. If the organization is performing this task today in
-some way, a good baseline is the performance of the “existing system”. Additional good baselines include simple
-heuristics (based on expert knowledge or prior research). We want our new analysis to be “better enough” than existing
+some way, a good baseline is the performance of the "existing system". Additional good baselines include simple
+heuristics (based on expert knowledge or prior research). We want our new analysis to be "better enough" than existing
 or simpler approaches to make it worth deploying the more expensive-to-build-and-maintain data science system.
 
 1. _What are the ethical issues associated with the analysis?_
@@ -473,7 +473,7 @@ residence
 
 **Actions:** Proactive home inspections constrained by limited inspection resources.
 
-**Analysis:** We need to answer the key question: “Which homes should we prioritize for proactive inspections?” In other
+**Analysis:** We need to answer the key question: "Which homes should we prioritize for proactive inspections?" In other
 words, we want to identify the homes of kids who are at risk of lead poisoning in the future.
 
 Because we want to intervene before a child is exposed to lead, we would predict the likelihood of every kid under the
@@ -507,14 +507,14 @@ graduation rates across racial groups
    goal is to improve the average graduation rate with minimum effort, prioritizing students with a more middling risk
    score could prove to be more effective than prioritizing those who are very likely not to graduate on time. An
    optimization analysis could help identify the optimal set of students to be prioritized for intervention.
-3. Even if we select the “optimal” set of students for intervention, there could be multiple additional support types
+3. Even if we select the "optimal" set of students for intervention, there could be multiple additional support types
    available (e.g., after-school tutoring, counseling, help with transportation, financial help). Identifying the most
    effective intervention(s) for individual students could require a causal inference analysis.
 
 ## Ethical Issues:
 
 As a reminder, consideration of ethical issues should be embedded in every phase of the scoping and execution of a
-project, rather than thought of as a discrete “step” in that process. Often the initial conversation around ethics in
+project, rather than thought of as a discrete "step" in that process. Often the initial conversation around ethics in
 the scoping phase will focus on the ethical and societal values we want to embed in the system. Note that this
 conversation is not specific to applications of data science or AI, but rather about the values that broadly need to be
 embedded in the decision-making processes that affect people's lives. As such, these decisions cannot be made

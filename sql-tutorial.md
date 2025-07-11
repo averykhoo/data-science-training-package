@@ -11,7 +11,7 @@ By Zachary Thomas ([zthomas.nc@gmail.com](mailto:zthomas.nc@gmail.com), [Twitter
 > The first 70% of SQL is pretty straightforward but the remaining 30% can be pretty tricky.
 
 
-Between the fall of 2015 and the summer of 2019 I interviewed for data analyst and data scientists positions four separate times, getting to onsite interviews at over a dozen companies. After an interview in 2017 went poorly — mostly due to me floundering at the more difficult SQL questions they asked me — I started putting together a study guide of medium and hard SQL questions to better prepare and found it particularly useful during my 2019 interview cycle. Over the past year I have shared that guide with a couple of friends, and with the extra time on my hands due to the coronavirus pandemic, I have polished it up into this doc. 
+Between the fall of 2015 and the summer of 2019 I interviewed for data analyst and data scientists positions four separate times, getting to onsite interviews at over a dozen companies. After an interview in 2017 went poorly  --  mostly due to me floundering at the more difficult SQL questions they asked me  --  I started putting together a study guide of medium and hard SQL questions to better prepare and found it particularly useful during my 2019 interview cycle. Over the past year I have shared that guide with a couple of friends, and with the extra time on my hands due to the coronavirus pandemic, I have polished it up into this doc. 
 
 There are plenty of great beginner SQL guides out there. My favorites are Codecademy’s [interactive SQL courses](https://www.codecademy.com/learn/learn-sql) and Zi Chong Kao’s [Select Star SQL](https://selectstarsql.com/). However, like I told a friend, while the first 70% of SQL is pretty straightforward, the remaining 30% can be pretty tricky. Data analyst and data scientist interview questions at technology companies often pull from that 30%.  
 
@@ -40,9 +40,9 @@ This advice mirrors typical code interview advice ...
 
 1. Listen carefully to problem description, repeat back the crux of the problem to the interviewer
 2. Spell out an edge case to demonstrate you actually understand problem (i.e. a row that *wouldn’t* be included in the output of the SQL you are about to sketch out) 
-3. (If the problem involves a self-join) For your own benefit sketch out what the self-join will look like — this will typically be at least three columns: a column of interest from the main table, the column to join from the main table, and the column to join from the secondary table 
+3. (If the problem involves a self-join) For your own benefit sketch out what the self-join will look like  --  this will typically be at least three columns: a column of interest from the main table, the column to join from the main table, and the column to join from the secondary table 
     1. Or, as you get more used to self-join problems, you can explain this step verbally 
-4. Start writing SQL — err towards writing SQL versus trying to perfectly understand the problem. Verbalize your assumptions as you go so your interviewer can correct you if you go astray. 
+4. Start writing SQL  --  err towards writing SQL versus trying to perfectly understand the problem. Verbalize your assumptions as you go so your interviewer can correct you if you go astray. 
 
 ## Acknowledgments and Additional Resources 
 
@@ -135,7 +135,7 @@ node   parent
 5       NULL 
 ```
 
-**Task:** Write SQL such that we label each node as a “leaf”, “inner” or “Root” node, such that for the nodes above we get: 
+**Task:** Write SQL such that we label each node as a "leaf", "inner" or "Root" node, such that for the nodes above we get: 
 
 ```
 node    label  
@@ -232,7 +232,7 @@ SELECT
 
 ## #3: Retained Users Per Month (multi-part)
 
-**Acknowledgement:** this problem is adapted from SiSense’s [“Using Self Joins to Calculate Your Retention, Churn, and Reactivation Metrics”](https://www.sisense.com/blog/use-self-joins-to-calculate-your-retention-churn-and-reactivation-metrics/) blog post
+**Acknowledgement:** this problem is adapted from SiSense’s ["Using Self Joins to Calculate Your Retention, Churn, and Reactivation Metrics"](https://www.sisense.com/blog/use-self-joins-to-calculate-your-retention-churn-and-reactivation-metrics/) blog post
 
 ### Part 1: 
 
@@ -323,7 +323,7 @@ Note that there are solutions to this problem that can use `LEFT` or `RIGHT` joi
 
 ### Part 3:
 
-**Context:** You now want to see the number of active users this month *who have been reactivated* — in other words, users who have churned but this month they became active again. Keep in mind a user can reactivate after churning *before* the previous month. An example of this could be a user active in February (appears in `logins`), no activity in March and April, but then active again in May (appears in `logins`), so they count as a reactivated user for May . 
+**Context:** You now want to see the number of active users this month *who have been reactivated*  --  in other words, users who have churned but this month they became active again. Keep in mind a user can reactivate after churning *before* the previous month. An example of this could be a user active in February (appears in `logins`), no activity in March and April, but then active again in May (appears in `logins`), so they count as a reactivated user for May . 
 
 **Task:** Create a table that contains the number of reactivated users per month. 
 * * *
@@ -355,7 +355,7 @@ Note that there are solutions to this problem that can use `LEFT` or `RIGHT` joi
 
 ## #4: Cumulative Sums 
 
-**Acknowledgement:** This problem was inspired by Sisense’s[“Cash Flow modeling in SQL”](https://www.sisense.com/blog/cash-flow-modeling-in-sql/) blog post 
+**Acknowledgement:** This problem was inspired by Sisense’s["Cash Flow modeling in SQL"](https://www.sisense.com/blog/cash-flow-modeling-in-sql/) blog post 
 
 **Context:** Say we have a table `transactions` in the form:
 
@@ -412,7 +412,7 @@ ORDER BY
 
 ## #5: Rolling Averages 
 
-**Acknowledgement:** This problem is adapted from Sisense’s [“Rolling Averages in MySQL and SQL Server”](https://www.sisense.com/blog/rolling-average/) blog post 
+**Acknowledgement:** This problem is adapted from Sisense’s ["Rolling Averages in MySQL and SQL Server"](https://www.sisense.com/blog/rolling-average/) blog post 
 
 **Note:** there are different ways to compute rolling/moving averages. Here we'll use a preceding average which means that the metric for the 7th day of the month would be the average of the preceding 6 days and that day itself. 
 
@@ -448,7 +448,7 @@ GROUP BY
 
 ## #6: Multiple Join Conditions 
 
-**Acknowledgement:** This problem was inspired by Sisense’s [“Analyzing Your Email with SQL”](https://www.sisense.com/blog/analyzing-your-email-with-sql/) blog post 
+**Acknowledgement:** This problem was inspired by Sisense’s ["Analyzing Your Email with SQL"](https://www.sisense.com/blog/analyzing-your-email-with-sql/) blog post 
 
 **Context:** Say we have a table `emails` that includes emails sent to and from [`zach@g.com`](mailto:zach@g.com):
 
@@ -660,7 +660,7 @@ SELECT
 | 450-455 | 1     |
 ```
 
-Get complete credit for the proper string labels (“5-10”, etc.) but near complete credit for something that is communicable as the bin. 
+Get complete credit for the proper string labels ("5-10", etc.) but near complete credit for something that is communicable as the bin. 
 * * *
 ***Solution:***
 

@@ -25,7 +25,7 @@ This section is a hands-on practical that requires practitioners to build their 
 ### Tutorials
 *   [Kaldi: Kaldi for Dummies tutorial](http://kaldi-asr.org/doc/kaldi_for_dummies.html)
 *   [Kaldi Tutorial by Eleanor Chodroff](https://eleanorchodroff.com/tutorial/kaldi/index.html)
-*   [Speech Recognition — Kaldi (also see other pages on the blog for other ASR topics)](https://jonathan-hui.medium.com/speech-recognition-kaldi-35fec0320496)
+*   [Speech Recognition  --  Kaldi (also see other pages on the blog for other ASR topics)](https://jonathan-hui.medium.com/speech-recognition-kaldi-35fec0320496)
 
 ### Documentation
 *   [Kaldi: Data preparation](http://kaldi-asr.org/doc/data_prep.html)

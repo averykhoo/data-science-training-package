@@ -28,7 +28,7 @@ We'll also read your hidden slides.*
 | **R&D**                                   |                                                                                                                            | • Explored some stuff <br> • Some random project                                                                                                                                     |
 | **Engineering**                           | • Designed some ML system                                                                                                  | • Deployed some other inference thing                                                                                                                                                |
 | **Tech evaluation /<br>horizon scanning** | • Evaluated some thing or other <br> • POC on some stuff                                                                   | • Some evaluations don't end up in prod, and that's fine                                                                                                                             |
-| **Onboarding,<br>mentorship, & support**  | • Intern—some project <br> • Intern—some other project                                                                     | • Onboard new officer <br> • Mentor to 2 officers                                                                                                                                    |
+| **Onboarding,<br>mentorship, & support**  | • Intern -- some project <br> • Intern -- some other project                                                                     | • Onboard new data scientist<br> • Mentor to 2 interns                                                                                                                               |
 | **Community Contrib**                     | • Innohack comm                                                                                                            | • Devcom stuff                                                                                                                                                                       |
 | **Other**                                 | • Outreach to students <br> • External / overseas engagement things <br> • You can delete rows that don't have any content | • If the categories don't fit, feel free to add your own or just create an "Other" to dump everything else <br> • Can also dump in PM work if you don't want a row dedicated to that |
 
@@ -206,7 +206,7 @@ graph LR
 
 ### Other tips – General
 
-* Don't feel limited by this template—you can cover future work, deployment, user testing (maybe skip the endless ops
+* Don't feel limited by this template -- you can cover future work, deployment, user testing (maybe skip the endless ops
   trials with no conclusions), and whatever else you feel like that's reasonably pertinent
 * Your tech stack (if any) need not look like a stack, but you can refer to the SEA slides for inspiration if you want
   it that way

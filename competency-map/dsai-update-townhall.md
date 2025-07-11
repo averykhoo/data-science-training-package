@@ -19,8 +19,8 @@ DSAI pronounced as 4 letters: D-S-A-I
 * **Merge:**
     * Single career progression track for DA and DS
 * **Rename:**
-    * Job title: "Data Analyst” → “Data Scientist”
-    * Job family: "Data Analytics” → “Data Science and Artificial Intelligence"
+    * Job title: "Data Analyst" → "Data Scientist"
+    * Job family: "Data Analytics" → "Data Science and Artificial Intelligence"
 
 ***
 *Slide Notes:*
@@ -32,9 +32,9 @@ In short, what's new is:
 
 1. There's a new competency-based assessment for tech panel
 2. This is a unified framework across both DA and DS
-3. DAs and DS-es are now all “Data Scientists”—and it's not just the same name, it's the same job progression track (and
+3. DAs and DS-es are now all "Data Scientists" -- and it's not just the same name, it's the same job progression track (and
    it uses the same unified competency-based assessment)
-4. The “Data Analytics" job family is now called “Data Science and Artificial Intelligence"
+4. The "Data Analytics" job family is now called "Data Science and Artificial Intelligence"
 
 ---
 
@@ -93,22 +93,22 @@ https://kiwix.rapid.internal/wikipedia_en_all_maxi_2023-05/A/Rubric_(academic)
 ***
 *Slide Notes:*
 
-The old (existing) assessment is based on the “Design, Build, Run" framework we inherited from SE.
+The old (existing) assessment is based on the "Design, Build, Run" framework we inherited from SE.
 (To be fair, it makes sense for the Software Engineer folks, whose job usually consists of designing, building, and
 running systems.)
 
 The new one is designed to match the lifecycle of a data project, and makes more intuitive sense in how it matches our
 work.
 
-1. "Data Project Design” covers requirements gathering, user research, problem formulation, project scoping, and
+1. "Data Project Design" covers requirements gathering, user research, problem formulation, project scoping, and
    managing the project throughout its lifecycle.
-2. “EDA” covers everything you do to understand the data, including running common benchmark tests.
-3. "Data Prep” covers ETL, cleaning, labelling, featurization, augmentation, and fusing multiple datasets.
-4. "Visualizations & Storytelling” covers how well you communicate, be it visual or verbal.
-5. "Statistical Analysis” covers using statistical methods.
-6. “ML” covers using machine learning methods. (Note: statistical (“traditional") machine learning is still machine
+2. "EDA" covers everything you do to understand the data, including running common benchmark tests.
+3. "Data Prep" covers ETL, cleaning, labelling, featurization, augmentation, and fusing multiple datasets.
+4. "Visualizations & Storytelling" covers how well you communicate, be it visual or verbal.
+5. "Statistical Analysis" covers using statistical methods.
+6. "ML" covers using machine learning methods. (Note: statistical ("traditional") machine learning is still machine
    learning; it doesn't count towards both competencies.)
-7. “Specialization” covers technical depth in a specialized domain.
+7. "Specialization" covers technical depth in a specialized domain.
 
 **FAQ:**
 
@@ -130,7 +130,7 @@ work.
 ***
 *Slide Notes:*
 
-(In the last slide you may have noticed that “specializations" sounds a bit general; this was intentional.)
+(In the last slide you may have noticed that "specializations" sounds a bit general; this was intentional.)
 You can pick any specialization you like, as long as it's relevant to your work.
 You can pick more than one, and as many as you like.
 You can swap or pick up a new one at any time.
@@ -138,9 +138,9 @@ What you pick does not limit the projects you can take up, does not limit where 
 how far you can progress.
 
 **Extra:**
-Note the granularity at which they're defined—they're not super narrowly scoped, but neither are they very broadly
+Note the granularity at which they're defined -- they're not super narrowly scoped, but neither are they very broadly
 scoped.
-The segregation by domains is primarily for visual clarity, but also provides a “safe” delineation of what would clearly
+The segregation by domains is primarily for visual clarity, but also provides a "safe" delineation of what would clearly
 be separate competencies.
 OCR + face identification doesn't feel very different (both kinda under CV tbh), but OCR + diffusion models could indeed
 count as 2 specializations.
@@ -151,7 +151,7 @@ count as 2 specializations.
 
 ---
 
-### Before: "more complex” and “more products"
+### Before: "more complex" and "more products"
 
 |            | JR11+                                                                                                                              | JR10                                                                                                                                | JR9                                                                                                                                                          |
 |:-----------|:-----------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -210,19 +210,19 @@ So we pivoted from levels of complexity to levels of proficiency.
 (Aside from making more sense, it's also what PSD now recommends for the entire civil service.)
 
 On this slide you'll see PLs 1 and 2.
-We've also defined higher levels of PLs—internally, up to PL4 for the competencies where it makes sense.
+We've also defined higher levels of PLs -- internally, up to PL4 for the competencies where it makes sense.
 (The higher PLs just didn't fit in this slide.)
 
 These statements are not intended to be a checklist; the listed tasks are neither necessary nor sufficient for
 assessment.
-Instead they're merely descriptors—a list of behavioral indicators that describe what a person at that specified level
+Instead they're merely descriptors -- a list of behavioral indicators that describe what a person at that specified level
 of proficiency should be able to do day to day.
 So while this serves as a guide, you shouldn't try to memorize how the PLs are described; instead, you should try to
 understand what the PLs mean.
 
 **Extra:**
-The sharp-eyed (and fast readers) among you may have noticed there's no PL1 definition specifically for “Data
-Storytelling”. That's because at the PL1 level, storytelling is largely performative (i.e., superficial exhibited
+The sharp-eyed (and fast readers) among you may have noticed there's no PL1 definition specifically for "Data
+Storytelling". That's because at the PL1 level, storytelling is largely performative (i.e., superficial exhibited
 behavior), making it hard to quantifiably measure in a candidate. But PL1 for this competency is never measured at tech
 panel anyway, so it doesn't really matter.
 
@@ -340,23 +340,23 @@ Conversely, those of you whose work focuses on machine learning will need PL1 in
 *Slide Notes:*
 
 We inherit both our leadership competencies from our parent SEA family.
-This includes “technical leadership”, which covers how well you give technical direction, plus what you do to grow
+This includes "technical leadership", which covers how well you give technical direction, plus what you do to grow
 organizational culture.
-And also includes “community contribution”, which covers facilitation, coaching, mentoring, and working on tech
+And also includes "community contribution", which covers facilitation, coaching, mentoring, and working on tech
 initiatives.
 
 **Extra:**
 (This bit skipped for SEA townhall to avoid antagonizing any SE folks who may be present.)
 We also chose to inherit our requirements for code quality and writing documentation from the Software Engineering
 track;
-And so just like them, we conspicuously have zero requirements for either those things—yolo.
+And so just like them, we conspicuously have zero requirements for either those things -- yolo.
 
 ---
 
 ### PLs for leadership/community competencies
 
 * **PL2 (Consultant)**
-    * <u>Guide</u> new officers in your <u>team</u> (not a requirement for SEA)
+    * <u>Guide</u> new data scientists in your <u>team</u> (not a requirement for SEA)
     * Provide technical assistance, support, or consultation
     * <u>Participate</u> in the wider tech community
 * **PL3 (STS)**
@@ -426,8 +426,8 @@ Same job, new title
 
 ### Job Titles
 
-* “Data Analyst" → “Data Scientist"
-* “Data Scientist” → “Data Scientist” (no change)
+* "Data Analyst" → "Data Scientist"
+* "Data Scientist" → "Data Scientist" (no change)
 
 **External titles:**
 
@@ -452,7 +452,7 @@ Which in turn affects your namecards, but I'm pretty sure nobody here has any.
 
 * **Data Scientist (JR11)**
     * Work with well-defined requirements and constraints, with close guidance and regular oversight, and complete
-      routine <u>tasks</u>. Document your work to facilitate other officers.
+      routine <u>tasks</u>. Document your work to facilitate other data scientists.
 * **Consultant (JR11+)**
     * Diagnose and solve specialized operational problems. Execute projects end-to-end collaboratively, with minimal
       guidance and oversight, to deliver project <u>outcomes</u>.
@@ -480,7 +480,7 @@ What most people (regardless of skill level) would consider a problem suitable f
 * Newbie: a Jira task
 * Consultant: stuff that's niche, non-routine, and (often) tedious
 * STS: a working solution isn't hard to imagine, but it has a lot of stakeholders, moving parts, and/or inherent
-  complexity, and is too much work for a single (normal) person to complete—so it's usually a team project
+  complexity, and is too much work for a single (normal) person to complete -- so it's usually a team project
 * LTS: most people aren't sure how to approach the problem, much less solve it; even if it was solved, it's hard to
   guess the impact
 
@@ -493,7 +493,7 @@ A reasonable analytic continuation from the current definitions could be to requ
 
 ### Job Family
 
-* “Data Analytics” → “Data Science and Artificial Intelligence”
+* "Data Analytics" → "Data Science and Artificial Intelligence"
 * Now we're all one big data science family
 * And in keeping with current industry trends, we included ✨ AI ✨
 
@@ -522,10 +522,10 @@ correct names should be to optimize our recruitment and hiring
 * **Now:**
     * ✅ New competency framework approved
     * ✅ Published to HR site
-    * ✅ Email announcement (“Letter from the SEA Team")
+    * ✅ Email announcement ("Letter from the SEA Team")
     * 👋 SEA Townhall
 * **April 2025 (upcoming tech panel):**
-    * Choose old “Design, Build, Run” or new competency-based assessment
+    * Choose old "Design, Build, Run" or new competency-based assessment
 * **October 2025 (the following tech panel, and onwards):**
     * New competency-based assessment only
 
@@ -565,11 +565,15 @@ Please ask questions, or raise concerns that something might go wrong, or ask ab
 ***
 *Slide Notes:*
 
-There's also going to be an updated slide template
+There's also going to be an [updated slide template](./dsai-slide-template.md)
 
 ---
 
 ### What's the difference between stats and ML?
+
+Stats (especially bayesian methods) are more like models with expert knowledge and use less data,
+while ML is more about data and less (or no) expert knowledge.
+This isn't a strict rule, and there are overlaps (like LDA). 
 
 |                          | **Statistical Analysis**                                                  | **Machine Learning**                                                                                 |
 |:-------------------------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
@@ -587,13 +591,13 @@ There's also going to be an updated slide template
 * Yes
 * Demonstrating your proficiency in a specialization does not limit your career path in any way, feel free to learn as
   many specializations as you the time and capacity for
-* Your assigned projects will also not be limited to your specialization—but if your specialization is rare, then you
+* Your assigned projects will also not be limited to your specialization -- but if your specialization is rare, then you
   can expect that you will be given all the relevant projects that nobody else knows how to do
 
 ***
 *Slide Notes:*
 
-"Dropping” your proficiency in a specialization implies unlearning, i.e., “forgetting how to ride a bike”—you *can*,
+"Dropping" your proficiency in a specialization implies unlearning, i.e., "forgetting how to ride a bike" -- you *can*,
 with a lot of trying (or a car accident).
 But even if you can, why would you want to? ¯\\\_(ツ)\_/¯
 
@@ -601,16 +605,8 @@ But even if you can, why would you want to? ¯\\\_(ツ)\_/¯
 
 ### How do you track community contribution?
 
-* There will be a slide in the template for you to write this all down
-* But the ~~DA~~ DSAI community is small, so we'll sometimes just know
-
-***
-*Slide Notes:*
-
-Ask Jianzhi for slide template
-
-**Afternote:**
-OOPS lol I used “DA” again, fixed
+* There will be a slide in the [template](./dsai-slide-template.md) for you to write this all down
+* But the DSAI community is small (for now), so we'll usually just know
 
 ---
 
@@ -624,11 +620,11 @@ OOPS lol I used “DA” again, fixed
 ***
 *Slide Notes:*
 
-But also *kind of* yes—if you meet all the PLs, you're probably safe
+But also *kind of* yes -- if you meet all the PLs, you're probably safe
 
 ---
 
-### Is JR11 the same as “Citizen Data Scientist”?
+### Is JR11 the same as "Citizen Data Scientist"?
 
 * **No, CDS-es are (generally) non-tech:**
     * Not required to hold relevant qualifications
@@ -641,20 +637,7 @@ But also *kind of* yes—if you meet all the PLs, you're probably safe
 ### Are there requirements for JR11?
 
 * Yes, but it (probably) doesn't affect you
-
-[//]: # (todo: fix table it got extracted wrongly)
-
-|                                         | JR11 | JR11+     | JR10      | JR9       |
-|:----------------------------------------|:-----|:----------|:----------|:----------|
-| **Data Project Design, EDA, Data Prep** |      | PL2       | PL3       | PL3       |
-| **Visualization & Data Storytelling**   | PL1  | PL2       | PL2       | PL2       |
-| **Statistical Analysis**                |      | PL2 + PL1 | PL3 + PL1 | PL3 + PL2 |
-| **Machine Learning**                    |      | PL2 + PL1 | PL3 + PL2 | PL4 + PL3 |
-| **Specialization**                      | NA   | PL2       | PL3 + PL2 | PL4 + PL3 |
-| **Technical Leadership**                | NA   | NA        | PL3       | PL4       |
-| **Community Contribution**              |      | PL2       |           |           |
-
-*Affects new hires*
+* See [DSAI Proficiency Level Requirements](./dsai-intro.md#dsai-proficiency-level-requirements)
 
 ---
 
@@ -664,11 +647,11 @@ But also *kind of* yes—if you meet all the PLs, you're probably safe
 * In general we *should be* moving away from CEP and time norms
 * But as you may expect, there's always a statistical distribution
     * Person joins: 0 YIS
-    * Confirmation: 1 YIS
-    * Consultant: 3 YIS
-    * STS: 6 YIS
-    * LTS: 10+ YIS (lots of variance)
-    * PTS: insufficient data
+    * L1 / Confirmation after BSEAC: 1 YIS
+    * L2 / Consultant: 3 YIS
+    * L3 / STS: 6 YIS
+    * L4 / LTS: 10+ YIS (lots of variance)
+    * L5 / PTS: insufficient data
 
 ***
 *Slide Notes:*
@@ -684,7 +667,7 @@ After someone joins, in their first year they have:
 Please take the numbers with a grain of salt: I don't have access to actual career progression stats, I'm basing this on
 anecdotes
 
-The fastest (maybe the 99th percentile) fresh grad → consultant could be about 2 YIS—expect this to happen very rarely
+The fastest (maybe the 99th percentile) fresh grad → consultant could be about 2 YIS -- expect this to happen very rarely
 Similarly, the 99th percentile fresh grad → STS could be around 4-5 YIS
 
 You can think of the timeline as approximately matching big tech levels in this way:
@@ -693,7 +676,7 @@ You can think of the timeline as approximately matching big tech levels in this 
 * Consultant = L4
 * STS = L5
 * LTS = L6 (usually 10-20 YIS)
-* PTS = probably L8 (usually 15-20+ YIS, but the variance is huge)
+* PTS = probably L7/8 (usually 15-20+ YIS, but the variance is huge)
 
 ---
 

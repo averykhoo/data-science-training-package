@@ -9,12 +9,12 @@
 "Well-defined problems" are those where the problem statement has been defined, the algorithms/methodologies/techniques
 have been identified, and the data is available.
 
-Officer is expected to independently complete routine tasks which are achievable by following established solutions,
+L1s are expected to independently complete routine tasks which are achievable by following established solutions,
 guides, playbook and/or best practices in this org, academia, or industry, using enterprise and/or common platforms and
 internal tools (e.g., RAPID, JupyterHub).
 
 Adopt good documentation and coding practices for knowledge management (KM) which can help to facilitate on-boarding of
-new officers and prevent loss of work.
+new data scientists and prevent loss of work.
 
 * Document the analytical process and findings on KM (Confluence) spaces for knowledge sharing
 * Version control scripts and notebooks, consider reusability, no hard-coding password, etc.
