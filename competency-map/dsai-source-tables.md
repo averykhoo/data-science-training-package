@@ -71,7 +71,7 @@ competency map.
 | Specialization (not exhaustive!)                                                                                                                 | Examples                                                                                                                                                                                                                                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **In the area of Text:**<br>NLP, MT, LLMs, IR/RAG, summarization, etc.                                                                           | <ul><li>Sentiment analysis of geopolitical data (YouTube videos, social media posts & images, speeches, etc.) on specific topics of interest</li><li>Do something useful with LLM agents (note: this is not gonna remain L2 for long)</li><li>Finetune and deploy a translation tool for users</li></ul> |
-| **In the area of Audio:**<br>STT, speaker ID, noise removal, etc.                                                                                | <ul><li>Deploy, finetune, and benchmark Whisper, Kaldi, Sphinx, etc.; and determine what works best on the dataset</li></ul>                                                                                                                                                                             |
+| **In the area of Audio:**<br>TTS, ASR, diarization, noise removal, etc.                                                                          | <ul><li>Deploy, finetune, and benchmark Whisper, Kaldi, Sphinx, etc.; and determine what works best on the dataset</li></ul>                                                                                                                                                                             |
 | **In the area of Images / Video:**<br>OCR, CV, GANs/diffusion, face recognition, video analytics, deepfake detection, etc.                       | <ul><li>Apply CV/OCR techniques to analyze images to understand facebook profiles</li><li>Build an internal clearview clone (i.e. face ID) (e.g., maybe using face2vec with ann, and cross-encoders to improve precision)</li></ul>                                                                      |
 | **In the area of Structured Data / Quantitative:**<br>tabular, nested data structures, quantitative data, geospatial, timeseries, metadata, etc. | <ul><li>Apply research theories to analyze surveys to learn about traits of an interest group</li><li>Perform online advertisement data analysis at scale</li><li>Build a commodities price forecasting system (to track critical supplies)</li></ul>                                                    |
 | **In the area of Graph:**<br>SNA, KG, etc.                                                                                                       | <ul><li>Use graph search algorithms in concert with ML to automatically pivot on known (e.g., published in CTI reports) malicious infra domains to map out APT infra</li><li>Social network analysis to identify friends, acquaintances, etc</li></ul>                                                   |
@@ -80,13 +80,13 @@ competency map.
 
 ## Map of DSAI Tier Levels to Competencies and Proficiency Levels
 
+> For this mapping to work, the following must be observed:
+>
+> 1. Do not merge any cells in this table
+> 2. For any conditional requirements, indicate the highest PL requirement and then elaborate the condition within the
+     PL write-up (table: [DSAI_PL](#dsai_pl))
+
 ##### `DSAI_MAP`
-
-For this mapping to work, the following must be observed:
-
-1. Do not merge any cells in this table
-2. For any conditional requirements, indicate the highest PL requirement and then elaborate the condition within the PL
-   write-up (table: DSAI_PL)
 
 |   | Competency                          | L1  | L2  | L3  | L4  |
 |:--|:------------------------------------|:----|:----|:----|:----|

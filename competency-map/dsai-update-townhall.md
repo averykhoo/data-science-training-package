@@ -32,7 +32,7 @@ In short, what's new is:
 
 1. There's a new competency-based assessment for tech panel
 2. This is a unified framework across both DA and DS
-3. DAs and DS-es are now all "Data Scientists" -- and it's not just the same name, it's the same job progression track (and
+3. DAs and DS-es are now all "Data Scientists" - and it's not just the same name, it's the same job progression track (and
    it uses the same unified competency-based assessment)
 4. The "Data Analytics" job family is now called "Data Science and Artificial Intelligence"
 
@@ -47,7 +47,7 @@ We have rubrics now
 
 **Extra:**
 Why?
-Well there's a long backstory: <link to my personal confluence page removed>
+Well there's a long backstory: <link to a rant on my personal confluence page removed>
 But the short version is that we got lucky, and PSD mandated a change to a better career framework.
 
 What is a rubric?
@@ -138,7 +138,7 @@ What you pick does not limit the projects you can take up, does not limit where 
 how far you can progress.
 
 **Extra:**
-Note the granularity at which they're defined -- they're not super narrowly scoped, but neither are they very broadly
+Note the granularity at which they're defined - they're not super narrowly scoped, but neither are they very broadly
 scoped.
 The segregation by domains is primarily for visual clarity, but also provides a "safe" delineation of what would clearly
 be separate competencies.
@@ -210,12 +210,12 @@ So we pivoted from levels of complexity to levels of proficiency.
 (Aside from making more sense, it's also what PSD now recommends for the entire civil service.)
 
 On this slide you'll see PLs 1 and 2.
-We've also defined higher levels of PLs -- internally, up to PL4 for the competencies where it makes sense.
+We've also defined higher levels of PLs - internally, up to PL4 for the competencies where it makes sense.
 (The higher PLs just didn't fit in this slide.)
 
 These statements are not intended to be a checklist; the listed tasks are neither necessary nor sufficient for
 assessment.
-Instead they're merely descriptors -- a list of behavioral indicators that describe what a person at that specified level
+Instead they're merely descriptors - a list of behavioral indicators that describe what a person at that specified level
 of proficiency should be able to do day to day.
 So while this serves as a guide, you shouldn't try to memorize how the PLs are described; instead, you should try to
 understand what the PLs mean.
@@ -349,7 +349,7 @@ initiatives.
 (This bit skipped for SEA townhall to avoid antagonizing any SE folks who may be present.)
 We also chose to inherit our requirements for code quality and writing documentation from the Software Engineering
 track;
-And so just like them, we conspicuously have zero requirements for either those things -- yolo.
+And so just like them, we conspicuously have zero requirements for either those things - yolo.
 
 ---
 
@@ -480,7 +480,7 @@ What most people (regardless of skill level) would consider a problem suitable f
 * Newbie: a Jira task
 * Consultant: stuff that's niche, non-routine, and (often) tedious
 * STS: a working solution isn't hard to imagine, but it has a lot of stakeholders, moving parts, and/or inherent
-  complexity, and is too much work for a single (normal) person to complete -- so it's usually a team project
+  complexity, and is too much work for a single (normal) person to complete - so it's usually a team project
 * LTS: most people aren't sure how to approach the problem, much less solve it; even if it was solved, it's hard to
   guess the impact
 
@@ -591,13 +591,13 @@ This isn't a strict rule, and there are overlaps (like LDA).
 * Yes
 * Demonstrating your proficiency in a specialization does not limit your career path in any way, feel free to learn as
   many specializations as you the time and capacity for
-* Your assigned projects will also not be limited to your specialization -- but if your specialization is rare, then you
+* Your assigned projects will also not be limited to your specialization - but if your specialization is rare, then you
   can expect that you will be given all the relevant projects that nobody else knows how to do
 
 ***
 *Slide Notes:*
 
-"Dropping" your proficiency in a specialization implies unlearning, i.e., "forgetting how to ride a bike" -- you *can*,
+"Dropping" your proficiency in a specialization implies unlearning, i.e., "forgetting how to ride a bike" - you *can*,
 with a lot of trying (or a car accident).
 But even if you can, why would you want to? ¯\\\_(ツ)\_/¯
 
@@ -620,7 +620,7 @@ But even if you can, why would you want to? ¯\\\_(ツ)\_/¯
 ***
 *Slide Notes:*
 
-But also *kind of* yes -- if you meet all the PLs, you're probably safe
+But also *kind of* yes - if you meet all the PLs, you're probably safe
 
 ---
 
@@ -667,7 +667,7 @@ After someone joins, in their first year they have:
 Please take the numbers with a grain of salt: I don't have access to actual career progression stats, I'm basing this on
 anecdotes
 
-The fastest (maybe the 99th percentile) fresh grad → consultant could be about 2 YIS -- expect this to happen very rarely
+The fastest (maybe the 99th percentile) fresh grad → consultant could be about 2 YIS - expect this to happen very rarely
 Similarly, the 99th percentile fresh grad → STS could be around 4-5 YIS
 
 You can think of the timeline as approximately matching big tech levels in this way:

@@ -1,14 +1,18 @@
 # DSAI Appointment Packet
 
+[//]: # (this was converted from ppt, excuse the strange formatting)
+
 **{first_name} {last_name}**
+
 {department}/{cluster}/{section}
+
 Application for {JR11+}
 
 ---
 > ***Taken as read***
 >
->*Slides with this tag will be read by the tech panel before the presentation day, so you can skip it on the day itself.
-We'll also read your hidden slides.*
+> *Slides with this tag will be read by the tech panel before the presentation day, 
+  so you can skip it on the day itself. We'll also read your hidden slides.*
 
 ## Self-introduction
 
@@ -19,7 +23,7 @@ We'll also read your hidden slides.*
 ---
 > ***Taken as read***
 >
->*You can have multiple slides with this tag, but don't overdo it.*
+> *You can have multiple slides with this tag, but don't overdo it.*
 
 ## Experience within the organization
 
@@ -28,7 +32,7 @@ We'll also read your hidden slides.*
 | **R&D**                                   |                                                                                                                            | • Explored some stuff <br> • Some random project                                                                                                                                     |
 | **Engineering**                           | • Designed some ML system                                                                                                  | • Deployed some other inference thing                                                                                                                                                |
 | **Tech evaluation /<br>horizon scanning** | • Evaluated some thing or other <br> • POC on some stuff                                                                   | • Some evaluations don't end up in prod, and that's fine                                                                                                                             |
-| **Onboarding,<br>mentorship, & support**  | • Intern -- some project <br> • Intern -- some other project                                                                     | • Onboard new data scientist<br> • Mentor to 2 interns                                                                                                                               |
+| **Onboarding,<br>mentorship, & support**  | • Intern - some project <br> • Intern - some other project                                                                 | • Onboard new data scientist<br> • Mentor to 2 interns                                                                                                                               |
 | **Community Contrib**                     | • Innohack comm                                                                                                            | • Devcom stuff                                                                                                                                                                       |
 | **Other**                                 | • Outreach to students <br> • External / overseas engagement things <br> • You can delete rows that don't have any content | • If the categories don't fit, feel free to add your own or just create an "Other" to dump everything else <br> • Can also dump in PM work if you don't want a row dedicated to that |
 
@@ -56,8 +60,8 @@ We'll also read your hidden slides.*
     * **Data Retrieval** – Help the audience appreciate the data you are working with. Give statistics of volume/variety
       from EDA if possible.
     * **Data Manipulation** – Filtering, Processing. All the stuff you did to the data.
-    * **Data Modelling** - Statistical Analysis/Machine Learning
-    * **Data Visualization** – How do you interpret output/results?
+    * **Data Modelling** - Statistical Analysis / Machine Learning
+    * **Data Visualization** – How do you interpret output / results?
 * It may be useful to have a flowchart to visualize the overall methodology (see next slide), and then elaborate on
   specific portions
 
@@ -95,10 +99,9 @@ may differ in representation.
 
 ```mermaid
 graph LR
-    %% Title: Sample Methodology Overview
-    %% DISCLAIMER: This is just an example of how to provide an overview of your project methodology.
-    %% Your actual project may differ in representation.
-
+%% Title: Sample Methodology Overview
+%% DISCLAIMER: This is just an example of how to provide an overview of your project methodology.
+%% Your actual project may differ in representation.
     subgraph Retrieval
         DS1["Data Source 1<br/>(details)"]
         DS2["Data Source 2<br/>(details)"]
@@ -110,7 +113,6 @@ graph LR
         CLEANING["Cleaning / Munging<br/>- Clean / dedupe...<br/>- Impute / drop / fix...<br/>- Augment...<br/>- Label / Annotate..."]
         FE["Feature Engineering<br/>- Created new columns xxx<br/><i>(this could also be parked under 'Modelling')</i>"]
         STATS["Statistical Analysis"]
-        
         ETL --> CLEANING
         CLEANING --> FE
         FE --> STATS
@@ -120,7 +122,6 @@ graph LR
         TEXT_PRE["Text<br/>Pre-processing<br/>- Predict labels xxx"]
         TUNE["Tune Hyperparams<br/><i>Optional</i>"]
         CLASSIFY["Classification<br/>- Remove stopword<br/>- Stemming<br/>- ..."]
-    
         TEXT_PRE --> TUNE
         TUNE --> CLASSIFY
         FE --> TEXT_PRE
@@ -131,11 +132,10 @@ graph LR
         CHART["Graph or chart<br/>or something"]
     end
 
-    %% Connections
+%% Connections
     DS1 --> ETL
     DS2 --> ETL
     DS3 --> ETL
-
     STATS --> CHART
     CLASSIFY --> DASH
 ```
@@ -195,8 +195,7 @@ graph LR
   worked on
 * You need to go through a similar process as project 1 (Slide 4-10). However, some of the things (retrospective, things
   you learned) can be done for just one project to save the extra time for questions
-
-*ml-workflow.md*
+* See also the [ml workflow](../README.md#ml-workflow)
 
 ---
 
@@ -206,12 +205,12 @@ graph LR
 
 ### Other tips – General
 
-* Don't feel limited by this template -- you can cover future work, deployment, user testing (maybe skip the endless ops
+* Don't feel limited by this template - you can cover future work, deployment, user testing (maybe skip the endless ops
   trials with no conclusions), and whatever else you feel like that's reasonably pertinent
 * Your tech stack (if any) need not look like a stack, but you can refer to the SEA slides for inspiration if you want
   it that way
-* Do remember you need to show in this presentation that you have demonstrated the competencies in the **DSAI competency
-  framework** (hyperlink removed)
+* Do remember you need to show in this presentation that you have demonstrated the competencies in the 
+  [**DSAI competency framework**](./dsai-intro.md)
 
 ---
 
