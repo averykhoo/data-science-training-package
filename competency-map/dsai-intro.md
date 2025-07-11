@@ -28,13 +28,7 @@ effort to limit the number of competencies to not more than eight (8).
 * Retained the "Key Tasks and Performance Standards" to encompass other general competencies required for the job role.
 * Tech Panel will assess both the "Key Tasks and Performance Standards" and the "Key Competencies".
 
-[//]: # (todo: fix or remove this converted diagram)
-
-| Previous 2022 DA L2 Competency                                   |                           | 2025 DSAI Competency Map |         | Job Role Profile (PD/PSD)                                                                                                                                                                 |
-|:-----------------------------------------------------------------|:--------------------------|:-------------------------|:--------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Expected Tasks**                                               | **Performance Statement** | **Competency Criteria**  | becomes | **Key Tasks and Performance Standards**<br>Replaces "Expected Tasks" and "Performance Statement"<br>Defines expected scope of work<br>Defines expected standards of performance           | matches | **Key Roles and Responsibilities**<br>Not the same purpose as competency map.<br><br>**Key Competencies**<br>Common language for professional development |
-| 1. Design ML systems<br>2. Build ML systems<br>3. Run ML systems |                           | **Knowledge Skills**     |         | **Key Competencies**<br>Replaces "Competency Criteria", "Knowledge", and "Skills"<br>Aligned to PD's competency (Job Role Profile) to use<br>common language for professional development | | Functional Competency Proficiency Level<br>Functional Competency Proficiency Level<br>Functional Competency Proficiency Level |
-|                                                                  |                           |                          |         | Functional Competency Proficiency Level<br>Functional Competency Proficiency Level<br>Functional Competency Proficiency Level                                                             | | |
+![dsai framework lineage](dsai-framework-lineage.png)
 
 ## What are the selected functional competencies for DSAI
 
