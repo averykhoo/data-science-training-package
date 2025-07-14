@@ -23,7 +23,7 @@ Yes, absolutely. The models vary, but the best tech and consulting firms treat t
   statistical methods before they are allowed to touch production systems.
 
 The common thread is that they all blend **formal curriculum**, **on-the-job application**, and **mentorship/peer review
-** into a cohesive system tied directly to career progression—exactly what you are building.
+** into a cohesive system tied directly to career progression - exactly what you are building.
 
 ### 2. Pedagogy for OJT and Self-Directed Learning
 
