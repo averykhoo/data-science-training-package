@@ -5,7 +5,7 @@ and project management.
 
 * **Business & Impact Analysis:** The ability to perform requirements **elicitation** to diagnose the root cause of a
   business problem, understand stakeholder needs, and evaluate the potential impact of a solution. At its highest
-  level (PL4), this manifests as **"research taste"**—an expert intuition for distinguishing a merely interesting
+  level (PL4), this manifests as **"research taste"** - an expert intuition for distinguishing a merely interesting
   problem from a truly important one. [competency-map/future-content-problem-formulation-competency.md]
 * **Problem Formulation & Scoping:** The skill of translating a vague business goal into a tractable, well-defined data
   science problem with measurable objectives, clear requirements, and identified
@@ -75,7 +75,7 @@ through rigorous inference.
 * **Model Validation & Comparison:** Measuring statistical significance and power, and interpreting both frequentist *
   *Confidence Intervals** and Bayesian **Credible Intervals** to communicate uncertainty. For Bayesian models, this
   involves interpreting results from techniques like LOO-CV and LOOIC. [competency-map/dsai-l2.md]
-* **Inference & Interpretation:** The critical final step of interpreting findings from the model—understanding the
+* **Inference & Interpretation:** The critical final step of interpreting findings from the model - understanding the
   significance of results and explaining them with an understanding of the underlying
   mathematics. [competency-map/dsai-l2.md]
 
