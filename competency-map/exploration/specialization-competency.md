@@ -12,6 +12,16 @@ therefore defined by the intersection of a **technical domain** and a **methodol
 symbolic, or classical algorithmic work, while valuable, does not fulfill the requirements of this competency unless it
 is directly used to build or validate a statistical or machine learning model.
 
+**A Note on the "Specialization" Competency**
+
+The `Specialization` competency is a key requirement for roles at L2 and above, reflecting the need for deep expertise
+to solve complex problems. A specialization must be a well-defined area of technical depth that is relevant to the
+organization's business needs. The choice of a specialization should be a deliberate discussion between a data scientist
+and their manager, ensuring alignment with both career aspirations and team goals. While a candidate presents their
+specialization, the tech panel's role is to validate the *exhibited level of proficiency (PL)* within that domain. The
+panel will assess the candidate's ability to apply specialized techniques with the rigor and depth appropriate for the
+target PL, as defined in this framework.
+
 ---
 
 ### Proficiency Levels in Specialization

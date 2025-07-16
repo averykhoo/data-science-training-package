@@ -139,3 +139,24 @@ You absolutely can, and should, use a unified PL definition. It is the more robu
 a single, fair, and consistent "ruler" to measure all forms of professional growth, reinforcing the idea that
 advancement comes from a deeper level of thinking and a broader scope of impact, regardless of the specific competency
 being demonstrated. This makes the entire framework simpler to understand, communicate, and apply.
+
+---
+
+### Guiding Principles for Assessment
+
+The proficiency levels and competency descriptors form the "what" of our assessment. The following principles guide
+*how* we assess, ensuring a fair, rigorous, and holistic evaluation.
+
+1. **Assess the Thinking, Not Just the Artifact:** A project's outcome is important, but the candidate's *process and
+   reasoning* are paramount. Probe for the "why" behind their decisions. Why this model? Why this metric? What did you
+   consider but reject? The quality of their justification reveals their true proficiency level.
+
+2. **Evaluate Against Problem Complexity, Not Solution Complexity:** Seniority is demonstrated by the ability to solve
+   complex, ambiguous, and ill-defined *problems*. A simple, elegant solution to a very hard problem is evidence of
+   mastery. Conversely, a needlessly complex solution to a simple problem is evidence of immaturity. The panel's focus
+   should be on understanding the inherent difficulty of the business problem the candidate chose to tackle.
+
+3. **Seek Integrated Skills, Not Isolated Tasks:** A candidate's presentation should be viewed as an integrated whole.
+   While we must ensure evidence is presented for each required competency, our goal is not to tick boxes. The ideal
+   candidate demonstrates how skills are interwoven—how project design informed data preparation, how EDA led to feature
+   engineering, and how storytelling brought the results to life.
