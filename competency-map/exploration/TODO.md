@@ -1,3 +1,17 @@
+code ~~fluency~~ craftsmanship competency
+
+contrapositive definitions for pls so it's not taken as a checklist - maybe codify red flags?
+
+clarify tech leadership as tech standards and strategy
+
+add user empathy and elicitation to dpd pl2
+
+
+
+---
+---
+
+
 Here is the comprehensive summary of the recommended changes to the Data Science Training Package and Competency Framework.
 
 This synthesis integrates the **Theoretical Underpinnings** (Breiman, Dreyfus, Legal Theory), the **Motivating Factors** (current assessment failures), and the **Execution Details** required to modernize the framework.
@@ -155,3 +169,79 @@ Here are three scalable strategies, ranked from "Low Effort" to "High Impact."
 ### Recommendation
 Adopt **Strategy B (The Code Walk)** immediately.
 It fits perfectly into your "15+45" time split (put it in the Engineering Zone time block). It terrifies candidates into actually learning their codebase, and it exposes "Polished Turds" instantly because they can't defend code they didn't really write.
+
+
+---
+---
+
+You are looking for a way to define **Necessary Conditions** rather than **Sufficient Conditions**.
+
+A checklist implies sufficiency: *"If I tick all these boxes, I am L2."*
+A waterline implies necessity (the contrapositive): *"If I **cannot** comfortably do these things, I am **not** L2."*
+
+Here is how to phrase this "Contrapositive Assessment" to kill the checklist mentality, along with a concrete way to add it to your documentation.
+
+### 1. The Core Philosophy: "The Struggle Test"
+
+The difference between a "Checklist Item" and a "Behavioral Indicator" is **Ease**.
+*   **Checklist:** "I did it once (maybe with a lot of help)."
+*   **Indicator:** "I can do it on a bad day, with a headache, without asking for help."
+
+**The Contrapositive Definition:**
+> *"The descriptors below represent the **baseline reliability** expected at this level. You are not at this level because you have **performed** these tasks; you are at this level because you **no longer struggle** with them."*
+
+### 2. The Contrapositive Phrasing for each Level
+
+You can add these "Litmus Tests" to the top of each level definition (`dsai-l2.md`, etc.) to frame the mindset before they read the bullets.
+
+#### **For L1 (The Novice)**
+*   **The Positive:** "Executes routine tasks."
+*   **The Contrapositive (Litmus Test):**
+    > "If you are blocked by standard syntax errors, library installation issues, or basic data cleaning steps, and require a senior to unblock you on these 'mechanics', you are not yet fully L1."
+
+#### **For L2 (The Consultant / Kung Fu)**
+*   **The Positive:** "Solves standard problems independently."
+*   **The Contrapositive (Litmus Test):**
+    > "If you encounter a messy dataset, a vague requirement, or a model error and your first instinct is to **stop and ask 'What should I do?'** rather than proposing a solution, you are not L2."
+    >
+    > *"L2 is the absence of dependency on L3 for standard execution."*
+
+#### **For L3 (The Senior / Wisdom)**
+*   **The Positive:** "Navigates ambiguity and complex systems."
+*   **The Contrapositive (Litmus Test):**
+    > "If you solve a technical problem but create a downstream organizational headache (e.g., technical debt, stakeholder confusion, maintenance nightmare) because you didn't look at the bigger picture, you are not L3."
+    >
+    > *"L3 is the absence of tunnel vision."*
+
+### 3. How to write this in the Intro Doc
+
+You should update `dsai-intro.md` to explicitly kill the checklist. Here is a blurb you can copy/paste:
+
+---
+
+### **How to Read the Competency Maps**
+
+**These are NOT Checklists.**
+Completing a task listed in PL2 once does not make you PL2.
+These descriptors are **Waterline Indicators**. They represent the level of work that should feel **routine** to you.
+
+**The "Reliability" Rule:**
+Assessment is based on **Reliability**, not **Peak Performance**.
+*   **PL1:** You can reliably execute the task if given a guide.
+*   **PL2:** You can reliably execute the task if given a problem.
+*   **PL3:** You can reliably define the task if given a goal.
+
+**The Contrapositive Test:**
+When assessing yourself, ask: *"If I were given this task today, under time pressure, would I need guidance to finish it?"*
+*   If the answer is **Yes**, you have not yet mastered this Proficiency Level, even if you have "done it before."
+
+---
+
+### 4. Why this helps the Panel
+
+This phrasing arms your panelists (especially the PhDs) with a powerful argument against the "Polished" candidate.
+
+*   **Candidate:** "But I showed you the slide where I calculated the VIF! That's on the L2 checklist!"
+*   **Panelist:** "Yes, you did it. But when I asked *what* VIF measures, you struggled. This indicates you cannot do it **reliably** without a guide. Therefore, you fail the Contrapositive test."
+
+It shifts the conversation from **"Did you do it?"** to **"Do you own it?"**
