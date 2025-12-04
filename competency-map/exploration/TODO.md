@@ -85,3 +85,70 @@ The learning materials must align with the new rigour of the Competency Map.
 
 
 
+
+---
+---
+
+Here is the enumeration of the items from your Todo list, contextualized with the details from the text block (which appears to be drawn from Wise and Amazon's SDE career maps).
+
+### 1. The Todo List (Enumerated)
+
+1.  **Split out any MLE stuff:** Ensure a clear distinction between Data Science competencies and Machine Learning Engineering competencies (e.g., deployment infrastructure vs. model development).
+2.  **Mandatory Mentorship for Consultants:** An L2 (Consultant) requirement is added: they must have started mentoring or onboarding new officers.
+    *   *Context:* This aligns with the "Lead Role" and "Coach and Mentor" definitions provided. The team must be "stronger because of your presence."
+3.  **Data Hygiene Requirement:** "You gotta train on clean data." This reinforces the EDA/Data Prep competency.
+4.  **Dataset Size Requirement:** Candidates must work on a sizeable dataset.
+    *   *Context:* This targets the specific "Da (Data Analyst/Scientist) must work with large data" point. It acts as a filter against "toy problems."
+5.  **The "Lowest Full Match" Principle:** "If you make PL1 mistakes, you are a PL1."
+    *   *Context:* This is a critical assessment heuristic. High-level performance in one area does not cancel out fundamental incompetence in another. (e.g., A brilliant model trained on leaked data is still an L1 failure).
+6.  **Principles of Design Thinking:** Explicitly incorporate design thinking into the DPD competency (empathy with users, iterative prototyping).
+7.  **Whiteboarding:** Introduce a whiteboarding component (likely for system design or logic flow) to the assessment.
+8.  **Engineering Career Map Benchmarking:** Review and align with the `wise.jobs` engineering career map.
+    *   *Context:* Focus on "Dealing with Ambiguity," "Autonomy," and "Addressing Systemic Issues."
+9.  **Red Flag Checks:** Explicit checks for disqualifying errors, such as "training on a broken golden set."
+10. **Simplification:** Reduce the competency list to 5–10 core items to ensure the framework is memorable and usable.
+11. **Code Craftsmanship:** Elevate code quality from "it works" to "it is maintainable."
+    *   *Context:* Aligns with "Maintainability" (building foundations for the future) and "Demonstrating engineering best practices."
+12. **Curriculum Resources:** Review the "MLE books on Telegram" for inclusion in the syllabus or reading lists.
+13. **Clarify Data Project Design (DPD):** Address the ambiguity regarding experiment design and conduct.
+    *   *Note:* We addressed this in the previous turn by moving "Validation Strategy" into DPD.
+14. **Language Policy:** Python is mandatory; R is a permitted addition but not a substitute.
+
+---
+
+### 2. Solving the "Scalable Code Review"
+
+You raised a critical constraint: **How do you review code integrity without burning out your 3 panelists or relying on a conflicted Sponsor?**
+
+If you cannot afford a full asynchronous code audit by a neutral party, you must integrate the review into the **Panel Process itself** or use **Automated Gates**.
+
+Here are three scalable strategies, ranked from "Low Effort" to "High Impact."
+
+#### Strategy A: The Automated Gate (The "Hygiene" Check)
+*   **The Mechanism:** Require candidates to submit their repo link 48 hours before the panel. Run a standard linter/static analyzer (e.g., `flake8`, `pylint`, or a cyclomatic complexity checker) and a notebook scanner (e.g., checking for out-of-order execution).
+*   **The Rule:** If the code scores below a threshold (e.g., Score < 7/10), the panel is **automatically cancelled**.
+*   **Why it works:** It forces the candidate to police themselves. You don't waste human time reviewing code that is syntactically messy.
+*   **Scalability:** Infinite. It’s a script.
+
+#### Strategy B: The "Code Walk" (The "Spot Check")
+*   **The Mechanism:** Dedicate 5–10 minutes of the Q&A specifically to a live code inspection.
+*   **The Tactic:** Do not let them choose what to show. The "Engineering" Panelist (Zone C) chooses a file at random from their repo during the call.
+    *   *"Please open `preprocessing.py`. Walk me through lines 40 to 60. Why did you implement the null imputation this way?"*
+*   **The Signal:**
+    *   **L1:** Struggles to explain their own code (implies copy-paste or lack of understanding).
+    *   **L2:** Explains the logic clearly.
+    *   **L3:** "Oh, that part is actually ugly because I had to work around a legacy data format..." (Honesty/Context).
+*   **Scalability:** High. Zero prep time required for panelists.
+
+#### Strategy C: The "Readability" Heuristic (The 5-Minute Scan)
+*   **The Mechanism:** The "Engineering" Panelist spends exactly 5 minutes scanning the repo *before* the panel (during the pre-huddle). They aren't looking for bugs; they are looking for **Empathy**.
+*   **The Question:** "If I fell into a coma and woke up tomorrow, could I run this code based solely on the README and the variable names?"
+*   **The Heuristic:**
+    *   No `requirements.txt`? $\to$ **Fail.**
+    *   Hardcoded paths (`/Users/steve/desktop/data.csv`)? $\to$ **Fail.**
+    *   Functions named `func1`, `do_stuff`? $\to$ **Fail.**
+*   **Why it works:** You aren't judging the *algorithm* (you do that in Q&A). You are judging the **Professionalism** (Code Craftsmanship).
+
+### Recommendation
+Adopt **Strategy B (The Code Walk)** immediately.
+It fits perfectly into your "15+45" time split (put it in the Engineering Zone time block). It terrifies candidates into actually learning their codebase, and it exposes "Polished Turds" instantly because they can't defend code they didn't really write.
