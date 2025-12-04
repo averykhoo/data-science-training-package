@@ -91,6 +91,9 @@ The learning materials must align with the new rigour of the Competency Map.
 
 Here is the enumeration of the items from your Todo list, contextualized with the details from the text block (which appears to be drawn from Wise and Amazon's SDE career maps).
 
+
+note that this list was originally created 23 Nov 2023
+
 ### 1. The Todo List (Enumerated)
 
 1.  **Split out any MLE stuff:** Ensure a clear distinction between Data Science competencies and Machine Learning Engineering competencies (e.g., deployment infrastructure vs. model development).
