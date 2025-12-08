@@ -6,6 +6,10 @@ clarify tech leadership as tech standards and strategy
 
 add user empathy and elicitation to dpd pl2
 
+explicitly say it's the complexity of the problem, not the solution 
+
+L4 nlp without ml could be like a phd in computational linguistics 
+
 
 
 ---
