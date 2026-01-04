@@ -13,6 +13,8 @@ L4 nlp without ml could be like a phd in computational linguistics
 is feature hashing in there?
 also look into the mle books sent in telegram
 
+https://youtu.be/v9iflUfYRTc?t=222
+
 ---
 ---
 
