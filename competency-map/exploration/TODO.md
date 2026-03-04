@@ -16,6 +16,16 @@ also look into the mle books sent in telegram
 https://youtu.be/v9iflUfYRTc?t=202
 
 ---
+
+note down the origin of the competency map and the basis
+> "whence the competency map"
+* naming and levels come from market research
+* since mac tech is a salary component intended to match the market
+* responsibilities at each job grade can be found at levels.fyi
+* competencies are tied to the "levels of thought" at each job grade
+* tbh it wasn't 100% data driven, there was also a lot of feeling / subjective assessment and estimation
+* the knowledge levels were tied to the expected capability at each job grade
+
 ---
 
 
