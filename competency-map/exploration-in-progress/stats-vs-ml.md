@@ -1,3 +1,14 @@
+See also: 
+
+```
+https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full
+"Statistical Modeling: The Two Cultures (with comments and a rejoinder by the author)."
+Statist. Sci. 16 (3) 199 - 231, August 2001.
+https://doi.org/10.1214/ss/1009213726
+```
+
+---
+
 ### Implications for Assessment
 
 This framing provides clear guidance for tech panel assessors. The questions they ask should differ based on which

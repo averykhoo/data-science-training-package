@@ -1,5 +1,7 @@
 # DSAI Competency Framework
 
+> This is converted to markdown from [ppt](./SEA%20DSAI%20Update%20on%20competency%20maps%20(Final).pptx) 
+
 **SEA Townhall**
 **4th Feb 2025**
 
