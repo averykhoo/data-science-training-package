@@ -38,6 +38,18 @@ competency a project is demonstrating.
 
 This table breaks down how each methodological lens approaches the key phases of a data-driven project.
 
+Todo: add examples for spam detection, over tfidf features
+* (none) rules - whitelisted and blacklisted words or phrases
+* (frequentist) logistic regression
+* (bayesian) naive Bayes
+* (ml) svm
+* (dl) rnn/lstm/bert
+
+stats is about finding causal links while ml is about predictive power
+more vs fewer assumptions
+parsimonious models and goodness of fit on all data, vs performance on a held out test set
+measuring uncertainty vs measuring accuracy?
+
 |                              | Frequentist Statistics                                                                                                                                                                                                         | Bayesian Statistics                                                                                                                                                                                                          | Traditional Machine Learning                                                                                                                                                                                       | Deep Learning / Foundation Models                                                                                                                                                                              |
 |:-----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Core Philosophy & Goal**   | To make inferences about a population from a sample, based on long-run frequencies. The goal is often **hypothesis testing and estimation.**                                                                                   | To update our beliefs about a model's parameters in light of new evidence. The goal is **inference and uncertainty quantification.**                                                                                         | To learn a function that maps inputs to outputs with high predictive accuracy on unseen data. The goal is **generalization and prediction.**                                                                       | To learn hierarchical representations and complex, non-linear patterns from vast amounts of data. The goal is **state-of-the-art performance.**                                                                |

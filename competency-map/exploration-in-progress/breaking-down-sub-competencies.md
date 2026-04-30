@@ -7,7 +7,7 @@ and project management.
   business problem, understand stakeholder needs, and evaluate the potential impact of a solution. At its highest
   level (PL4), this manifests as **"research taste"** - an expert intuition for distinguishing a merely interesting
   problem from a truly important one.
-    * [problem-formulation-competency.md](./problem-formulation-competency.md)
+    * [problem-formulation-competency.md](problem-formulation-competency.md)
 * **Problem Formulation & Scoping:** The skill of translating a vague business goal into a tractable, well-defined data
   science problem with measurable objectives, clear requirements, and identified
   constraints.
