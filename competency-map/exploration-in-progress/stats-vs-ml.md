@@ -1,4 +1,4 @@
-See also: 
+See also ["The Two Cultures"](./two-cultures.pdf)
 
 ```
 https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full

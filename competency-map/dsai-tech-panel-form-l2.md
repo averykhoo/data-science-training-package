@@ -1,6 +1,6 @@
 **CONFIDENTIAL**
 
-[//]: # (todo: change this to something like `management-in-confidence`)
+[//]: # (todo: change this to something like `management-in-confidence`?)
 
 ### JR11+ Appointment Evaluation Form for Data Science and Artificial Intelligence
 
