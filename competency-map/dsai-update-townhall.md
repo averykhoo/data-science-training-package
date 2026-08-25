@@ -366,7 +366,7 @@ And so just like them, we conspicuously have zero requirements for either those 
     * Make solid technical recommendations (that your group* adopts)
     * <ins>Actively contribute</ins> to the wider tech community
 * **PL4 (LTS)**
-    * Provide technical oversight within your <ins>cluster/dte</ins>
+    * Provide technical oversight within your <ins>cluster/dept</ins>
     * Provide trusted advice to senior management
     * <ins>Take up leadership roles</ins> in the wider tech community
     * <ins>Leverage</ins> academia or the industry for technical collaboration or talent outreach
@@ -381,7 +381,7 @@ This time, I've underlined the words that indicate the scope of your leadership 
 * There's no PL1, because that just doesn't make sense.
 * PL2 applies to consultants, and is generally scoped to your team (plus participation in the wider community).
 * PL3 applies to STS-es, and is generally scoped to your section (plus being an active contributor).
-* PL4 applies to LTS-es, is generally scoped at the cluster or directorate level, and also starts to touch on external
+* PL4 applies to LTS-es, is generally scoped at the cluster or department level, and also starts to touch on external
   engagement (plus leading internal initiatives).
 
 (If you're wondering; yes, it was slightly force-fit into the PL framework.)

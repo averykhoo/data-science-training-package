@@ -42,11 +42,11 @@ culture. This may include:
 
 ### (Community Contribution) Grow the technical competency of the DSAI community
 
-Influence beyond area of command and serve a wider community to help grow the technical competency of the community by
+Influence beyond your cluster and serve a wider community to help grow the technical competency of the community by
 being on tech panel(s), developing training programs, and fostering an innovative and learning culture. This includes:
 
-* Co-lead / Lead a community track of work e.g. chair tech panels / recruitment interview panels, lead RTS (raise,
-  train, sustain) efforts for your community
+* Co-lead / Lead a community track of work e.g. chair tech panels / recruitment interview panels, lead recruitment, 
+  training, and mentorship efforts for your community
 * Be an effective technical mentor for senior data scientists in the community 
   e.g. build and lead high performing technical teams
 * Leverage the industry for collaboration and talents outreach

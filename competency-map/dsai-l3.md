@@ -50,7 +50,7 @@ to adopt the right strategies, solution, methodologies, practices, technologies 
 
 ### (Community Contribution) Being an active and effective contributor in the community
 
-Influence beyond area of command and serve a wider community to help grow the technical competency of the community by
+Influence beyond your section and serve a wider community to help grow the technical competency of the community by
 being an active and effective contributor in the community, for example:
 
 * Being a significant contributor to at least one track of work

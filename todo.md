@@ -56,7 +56,7 @@
     probably think are unicode characters
   * see also [`wcswidth`](https://github.com/jquast/wcwidth), which gives you the length of a string, double-counting CJK
     characters since those are double-wide
-* see also 'words of estimative probability' for an example of how categories may be only semi-ordinal
+* likert scales (e.g., never, rarely, sometimes, often, always) are an example of semi-ordinal categories
 
 ## data viz gallery
 
