@@ -51,7 +51,7 @@ Possible approaches include:
 
 ### (Community Contribution) Active participation in community-wide initiatives
 
-Influence beyond area of command and serve a wider community to help grow the technical competency of the community by
+Influence beyond your team and serve a wider community to help grow the technical competency of the community by
 participating in community-wide initiatives, for example:
 
 * Conduct sharing session
